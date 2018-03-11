@@ -1,0 +1,10 @@
+mnist_nnet_index0-67-22-63.txt 97.03%
+mnist_nnet_index1-59-94-56-45.txt 97.65%
+mnist_nnet_index2-72-61-70-77.txt 97.50%
+mnist_nnet_index3-65-99-87-23-31.txt 97.38%
+mnist_nnet_index4-49-61-90-21-48.txt 97.34%
+mnist_nnet_index5-97-83-32.txt 97.45%
+mnist_nnet_index6-33-95-67-43-76.txt 97.03%
+mnist_nnet_index7-78-62-73-47.txt 97.37%
+mnist_nnet_index8-87-33-62.txt 97.26%
+mnist_nnet_index9-76-55-74-98-75.txt 97.49%

@@ -1,0 +1,10 @@
+mnist_nnet_index0-67-22-63.txt, neuron coverage by 25 inputs: 0.996828752643 
+mnist_nnet_index1-59-94-56-45.txt, neuron coverage by 25 inputs: 0.990458015267 
+mnist_nnet_index2-72-61-70-77.txt, neuron coverage by 25 inputs: 0.990689013035 
+mnist_nnet_index3-65-99-87-23-31.txt, neuron coverage by 25 inputs: 0.987261146497 
+mnist_nnet_index4-49-61-90-21-48.txt, neuron coverage by 25 inputs: 0.990592662277 
+mnist_nnet_index5-97-83-32.txt, neuron coverage by 25 inputs: 0.994035785288 
+mnist_nnet_index6-33-95-67-43-76.txt, neuron coverage by 25 inputs: 0.996389891697 
+mnist_nnet_index7-78-62-73-47.txt, neuron coverage by 25 inputs: 0.995256166983 
+mnist_nnet_index8-87-33-62.txt, neuron coverage by 25 inputs: 0.991803278689 
+mnist_nnet_index9-76-55-74-98-75.txt, neuron coverage by 25 inputs: 0.982081911263 

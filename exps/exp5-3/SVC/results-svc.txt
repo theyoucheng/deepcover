@@ -1,0 +1,9 @@
+mnist_nnet_index1-59-94-56-45.txt: svc-coverage: 0.99992743106, nade=509, covered=13779, not-covered=1, CEX=509
+mnist_nnet_index2-72-61-70-77.txt: svc-coverage: 0.999865065443, nade=548, covered=14820, not-covered=2, CEX=548
+mnist_nnet_index3-65-99-87-23-31.txt: svc-coverage: 0.997565294378, nade=669, covered=18028, not-covered=44, CEX=669
+mnist_nnet_index4-49-61-90-21-48.txt: svc-coverage: 0.993505945855, nade=578, covered=11780, not-covered=77, CEX=578
+mnist_nnet_index5-97-83-32.txt: svc-coverage: 1.0, nade=412, covered=11027, not-covered=0, CEX=412
+mnist_nnet_index6-33-95-67-43-76.txt: svc-coverage: 0.991833749771, nade=625, covered=16275, not-covered=134, CEX=625
+mnist_nnet_index7-78-62-73-47.txt: svc-coverage: 1.0, nade=530, covered=13263, not-covered=0, CEX=530
+mnist_nnet_index8-87-33-62.txt: svc-coverage: 1.0, nade=292, covered=5537, not-covered=0, CEX=292
+mnist_nnet_index9-76-55-74-98-75.txt: svc-coverage: 0.983094652996, nade=577, covered=23203, not-covered=399, CEX=577
