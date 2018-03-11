@@ -1,0 +1,10 @@
+mnist_nnet_index0-67-22-63.txt: ssc-coverage: 0.998947368421, CEX\%=0.176842105263, #CEX=168, tot_pairs=950, covered=949, not-covered=1
+mnist_nnet_index1-59-94-56-45.txt: ssc-coverage: 0.993658536585, CEX\%=0.0751219512195, #CEX=154, tot_pairs=2050, covered=2037, not-covered=13
+mnist_nnet_index2-72-61-70-77.txt: ssc-coverage: 0.995412844037, CEX\%=0.0802752293578, #CEX=175, tot_pairs=2180, covered=2170, not-covered=10
+mnist_nnet_index3-65-99-87-23-31.txt: ssc-coverage: 0.9636, CEX\%=0.0652, #CEX=163, tot_pairs=2500, covered=2409, not-covered=91
+mnist_nnet_index4-49-61-90-21-48.txt: ssc-coverage: 0.921739130435, CEX\%=0.0839130434783, #CEX=193, tot_pairs=2300, covered=2120, not-covered=180
+mnist_nnet_index5-97-83-32.txt: ssc-coverage: 1.0, CEX\%=0.064, #CEX=80, tot_pairs=1250, covered=1250, not-covered=0
+mnist_nnet_index6-33-95-67-43-76.txt: ssc-coverage: 0.891065292096, CEX\%=0.0718213058419, #CEX=209, tot_pairs=2910, covered=2593, not-covered=317
+mnist_nnet_index7-78-62-73-47.txt: ssc-coverage: 0.9984375, CEX\%=0.0885416666667, #CEX=170, tot_pairs=1920, covered=1917, not-covered=3
+mnist_nnet_index8-87-33-62.txt: ssc-coverage: 1.0, CEX\%=0.127619047619, #CEX=134, tot_pairs=1050, covered=1050, not-covered=0
+mnist_nnet_index9-76-55-74-98-75.txt: ssc-coverage: 0.899358974359, CEX\%=0.0641025641026, #CEX=200, tot_pairs=3120, covered=2806, not-covered=314
