@@ -9,3 +9,5 @@ More details can be found in the paper [Testing Deep Neural Networks](https://ar
 
 ## To run the tool, the following software or Python package is required:
   theano, numpy, matplotlib, IBM CPLEX
+
+Currently, DeepCover is under development to support TensorFlow.
