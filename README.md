@@ -1,7 +1,5 @@
 # DeepCover
-Uncover the truth behind AI
-
-[![DeepCover Video](images/deepcover.gif)](https://www.youtube.com/watch?v=vTyfOBAGm_o)
+![Uncover the truth behind AI](images/deepcover.gif) 
 
 DeepCover is a tool for [testing](https://dl.acm.org/doi/abs/10.1145/3358233) and 
 [debugging](https://arxiv.org/abs/1908.02374) Deep Neural Network (DNNs).
