@@ -107,6 +107,17 @@ def to_rank(sbfl_element, metric='zoltar'):
         spectrum_flags[iindex[0]][iindex[1]][j]=True
         spectrum[iindex[0]][iindex[1]][j]=tot
 
+  # to smooth
+  smooth = np.ones(spectrum.shape)
+  sI = spectrum.shape[0]
+  sJ = spectrum.shape[1]
+  sd = (int)(sI*(10. / 224))
+  for si in range(0, spectrum.shape[0]):
+      for sj in range(0, spectrum.shape[1]):
+          for sk in range(0, spectrum.shape[2]): 
+              smooth[si][sj][sk] = np.mean(spectrum[np.max([0, si-sd]):np.min([sI, si+sd]), np.max([0,sj-sd]):np.min([sJ, sj+sd]), sk])
+  spectrum = smooth
+
   ind=np.argsort(spectrum, axis=None)
 
-  return ind
+  return ind, spectrum

@@ -6,7 +6,6 @@ from keras.applications import inception_v3, mobilenet, xception
 from keras.models import load_model
 import matplotlib.pyplot as plt
 
-
 import argparse
 import os
 import numpy as np
@@ -27,6 +26,7 @@ def main():
   parser.add_argument("--measure", dest="measure", default="None",
                     help="the measure", metavar="zoltar, tarantula ...")
   parser.add_argument("--mnist-dataset", dest="mnist", help="MNIST dataset", action="store_true")
+  parser.add_argument("--normalized-input", dest="normalized", help="To normalize the input", action="store_true")
   parser.add_argument("--cifar10-dataset", dest="cifar10", help="CIFAR-10 dataset", action="store_true")
   parser.add_argument("--grayscale", dest="grayscale", help="MNIST dataset", action="store_true")
   parser.add_argument("--vgg16-model", dest='vgg16', help="vgg16 model", action="store_true")
@@ -85,6 +85,7 @@ def main():
     raise Exception ('A DNN model needs to be provided...')
 
   ## to load the input data
+  fnames=[]
   xs=[]
   if args.inputs!='-1':
     for path, subdirs, files in os.walk(args.inputs):
@@ -98,6 +99,7 @@ def main():
               x=image.load_img(fname, target_size=(img_rows, img_cols))
             x=np.expand_dims(x,axis=0)
             xs.append(x)
+            fnames.append(fname)
   else:
     raise Exception ('What do you want me to do?')
   xs=np.vstack(xs)
@@ -121,6 +123,8 @@ def main():
   eobj.mobilenet=args.mobilenet
   eobj.attack=args.attack
   eobj.text_only=args.text_only
+  eobj.normalized=args.normalized
+  eobj.fnames=fnames
   measures = []
   if not args.measure=='None':
       measures.append(args.measure)

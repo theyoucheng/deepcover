@@ -20,7 +20,9 @@ def to_explain(eobj):
     x=eobj.inputs[i]
     res=model.predict(sbfl_preprocess(eobj, np.array([x])))
     y=np.argsort(res)[0][-eobj.top_classes:]
-    print (y, np.sort(res)[0][-eobj.top_classes:])
+
+    print (eobj.fnames[i], '>>>>>>>>>>>>', 'Label:', y, 'Output:', res)
+
     ite=0
     reasonable_advs=False
     while ite<eobj.testgen_iter:
@@ -66,10 +68,25 @@ def to_explain(eobj):
     dii=dii.replace(':', '-')
     os.system('mkdir -p {0}'.format(dii))
     for measure in eobj.measures:
-      ranking_i=to_rank(selement, measure)
+      ranking_i, spectrum=to_rank(selement, measure)
       selement.y = y
       diii=dii+'/{0}'.format(measure)
       os.system('mkdir -p {0}'.format(diii))
       np.savetxt(diii+'/ranking.txt', ranking_i, fmt='%s')
+
+      # to plot the heatmap
+      spectrum = np.array((spectrum/spectrum.max())*255)
+      gray_img = np.array(spectrum[:,:,0],dtype='uint8')
+      #print (gray_img)
+      heatmap_img = cv2.applyColorMap(gray_img, cv2.COLORMAP_JET)
+      if x.shape[2]==1:
+          x3d = np.repeat(x[:, :, 0][:, :, np.newaxis], 3, axis=2)
+      else: x3d = x
+      fin = cv2.addWeighted(heatmap_img, 0.7, x3d, 0.3, 0)
+      plt.rcParams["axes.grid"] = False
+      plt.imshow(cv2.cvtColor(fin, cv2.COLOR_BGR2RGB))
+      plt.savefig(diii+'/heatmap_{0}.png'.format(measure))
+
+      # to plot the top ranked pixels
       if not eobj.text_only:
         top_plot(selement, ranking_i, diii, measure, eobj)

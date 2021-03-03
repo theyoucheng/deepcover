@@ -33,6 +33,8 @@ class explain_objectt:
     self.attack=None
     self.text_only=None
     self.measures=None
+    self.normalized=None
+    self.fnames=[]
 
 
 class sbfl_elementt:
@@ -68,6 +70,8 @@ def sbfl_preprocess(eobj, chunk):
     x=xception.preprocess_input(x)
   elif eobj.mobilenet is True:
     x=mobilenet.preprocess_input(x)
+  elif eobj.normalized is True:
+    x=x/255.
   elif eobj.mnist is True or eobj.cifar10 is True:
     x=x/255.
   return x
