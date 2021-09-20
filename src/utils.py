@@ -86,7 +86,7 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
   sp=origin_data.shape
 
   try:
-    print ('mkdir -p {0}'.format(di))
+    #print ('mkdir -p {0}'.format(di))
     os.system('mkdir -p {0}'.format(di))
   except: pass
 

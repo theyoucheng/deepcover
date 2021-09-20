@@ -6,32 +6,29 @@ from datetime import datetime
 from mask import *
 
 def to_explain(eobj):
-  print ('to explain...')
+  print ('\n[To explain: SFL (Software Fault Localization) is used]')
+  print ('  ### [Measures: {0}]'.format(eobj.measures))
   model=eobj.model
   ## to create output DI
+  #print ('\n[Create output folder: {0}]'.format(eobj.outputs))
   di=eobj.outputs
   try:
     os.system('mkdir -p {0}'.format(di))
-    print ('mkdir -p {0}'.format(di))
   except: pass
 
   for i in range(0, len(eobj.inputs)):
-    print ('## Input ', i)
     x=eobj.inputs[i]
     res=model.predict(sbfl_preprocess(eobj, np.array([x])))
     y=np.argsort(res)[0][-eobj.top_classes:]
 
-    print (eobj.fnames[i], '>>>>>>>>>>>>', 'Label:', y, 'Output:', res)
+    print ('\n[Input {2}: {0} / Output Label (to Explain): {1}]'.format(eobj.fnames[i], y, i))
 
     ite=0
     reasonable_advs=False
     while ite<eobj.testgen_iter:
-      print ('#### spectra gen: iteration', ite)
+      print ('  #### [Start generating SFL spectra...]')
       ite+=1
 
-      #mask=find_mask(x)
-      #eobj.adv_value=mask
-      #eobj.adv_value=234
       passing, failing=spectra_sym_gen(eobj, x, y[-1:], adv_value=eobj.adv_value, testgen_factor=eobj.testgen_factor, testgen_size=eobj.testgen_size)
       spectra=[]
       num_advs=len(failing)
@@ -46,20 +43,21 @@ def to_explain(eobj):
       tot=len(adv_xs)
 
       adv_part=num_advs*1./tot
-      print ('###### adv_percentage:', adv_part, num_advs, tot)
+      #print ('###### adv_percentage:', adv_part, num_advs, tot)
+      print ('  #### [SFL spectra generation DONE: passing {0} / failing {1}, total {2}]'.format(1-adv_part, adv_part, tot))
 
       if adv_part<=eobj.adv_lb:
-        print ('###### too few advs')
+        print ('  #### [too few failing tests: SFL explanation aborts]') 
         continue
       elif adv_part>=eobj.adv_ub:
-        print ('###### too many advs')
+        print ('  #### [too few many tests: SFL explanation aborts]') 
         continue
       else: 
         reasonable_advs=True
         break
 
     if not reasonable_advs:
-      print ('###### failed to explain')
+      #print ('###### failed to explain')
       continue
 
     ## to obtain the ranking for Input i
@@ -68,9 +66,11 @@ def to_explain(eobj):
     dii=dii.replace(':', '-')
     os.system('mkdir -p {0}'.format(dii))
     for measure in eobj.measures:
+      print ('  #### [Measuring: {0} is used]'.format(measure))
       ranking_i, spectrum=to_rank(selement, measure)
       selement.y = y
       diii=dii+'/{0}'.format(measure)
+      print ('  #### [Saving: {0}]'.format(diii))
       os.system('mkdir -p {0}'.format(diii))
       np.savetxt(diii+'/ranking.txt', ranking_i, fmt='%s')
 

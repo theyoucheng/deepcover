@@ -106,7 +106,7 @@ def main():
     raise Exception ('What do you want me to do?')
   xs=np.vstack(xs)
   xs = xs.reshape(xs.shape[0], img_rows, img_cols, img_channels)
-  print ('Total data loaded:', len(xs))
+  print ('\n[Total data loaded: {0}]'.format(len(xs)))
 
   eobj=explain_objectt(dnn, xs)
   eobj.outputs=args.outputs
