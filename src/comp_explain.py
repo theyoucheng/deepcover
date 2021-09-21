@@ -29,7 +29,7 @@ class nodet:
     self.outp=outp
     self.totScore=totScore
     self.mask_value=mask_value
-    self.fragSize_lb= 3 #3 #225//10 #10
+    self.fragSize_lb= 10 #3 
     self.depth = depth
 
 def nCr(n,r):
@@ -111,13 +111,8 @@ def compositional_causal_explain(node, eobj):
             row.append(False)
             mutant[boxes[index].x1:boxes[index].x2, boxes[index].y1:boxes[index].y2, :]=mask_value
           else: row.append(True)
-        ##
-        #save_an_image(mutant, '{5}-{0}-{1}-{2}-{3}-i{4}'.format(x1,x2,y1,y2,r, tmp), './jpgs') 
-        ##
         res=eobj.model.predict(sbfl_preprocess(eobj, np.array([mutant])))
-        #y_mutant=np.argsort(res)[0][-eobj.top_classes:]
         y_mutant=np.argsort(res)[0][-1:]
-        #if y_mutant!=outp:
         if not (y_mutant[0] in outp):
           row.append(False)
         else:
@@ -141,11 +136,9 @@ def compositional_causal_explain(node, eobj):
     std=np.std(scores)
     ave=np.mean(scores)
     max_=np.max(scores)
-    #print (s, '/', step, std, var_factor)
     if std>var_factor:
       var_factor=std
       ave_factor=ave
-      #area_factor=std_area
       final_boxes=boxes
       final_scores=scores
       final_res_rows=res_rows
@@ -155,83 +148,55 @@ def compositional_causal_explain(node, eobj):
     if norm_sum>0:
       final_scores=(final_scores/norm_sum)*node.totScore
     else:
-        regionSize=heatMap[x1:x2,y1:y2,:].size #(x2-x1)*(y2-y1)*3
+        regionSize=heatMap[x1:x2,y1:y2,:].size 
         heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
-        #print ('1>>> ', heatMap[x1:x2,y1:y2,:].sum(), node.totScore)
         return heatMap
-  #print ('@@@', node.depth, node.totScore, x1, x2, y1, y2, heatMap[x1:x2+1,y1:y2+1,:].sum(),'\n', final_scores)
 
-  if final_scores is None: # or np.std(final_scores)==0: # or node.depth > 5: #length<node.fragSize_lb or height<node.fragSize_lb: ## end point
-      regionSize=heatMap[x1:x2,y1:y2,:].size #(x2-x1)*(y2-y1)*3
+  if final_scores is None: 
+      regionSize=heatMap[x1:x2,y1:y2,:].size 
       heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
-      #print ('2>>> ', heatMap[x1:x2,y1:y2,:].sum(), node.totScore)
       return heatMap
-      #for i in range(0, len(final_boxes)):
-      #    box=final_boxes[i]
-      #    uIndex=np.unravel_index(i, (2,2))
-      #    regionSize=(box.x2-box.x1)*(box.y2-box.y1)
-      #    heatMap[box.x1:box.x2,box.y1:box.y2,:]=final_scores[uIndex]/regionSize
   else:
-      #print ('Step ', node.depth, ': ', final_scores.sum(), node.totScore)
       for i in range(0, len(final_boxes)):
           box=final_boxes[i]
-          #print ('{{{{', i, box.x1, box.x2, box.y1, box.y2)
           uIndex=np.unravel_index(i, (2,2))
           if final_scores[uIndex]<=0.0001:
             heatMap[box.x1:box.x2,box.y1:box.y2,:]=0
             continue
-          ### else
           child_inp=inp.copy()
-          #for j in range(0, len(final_boxes)):
-          #  if i == j: continue
-          #  box_j=final_boxes[j]
-          #  uIndex_j=np.unravel_index(j, (2,2))
-          #  if final_scores[uIndex_j]<=0.0001:
-          #      child_inp[box_j.x1:box_j.x2,box_j.y1:box_j.y2,:]=mask_value #255
               
-          #for j in range(0, len(final_res_rows[i])):
-          #    print ('###', i, j, final_res_rows[i][j])
-          #    if not final_res_rows[i][j]:
-          #      boxJ=final_boxes[j]
-          #      child_inp[boxJ.x1:boxJ.x2,boxJ.y1:boxJ.y2,:]=mask_value
-          #save_an_image(child_inp, '{0}-{1}-{2}-{3}-i{4}'.format(x1,x2,y1,y2,i), './jpgs') 
-          ##
           child_node=nodet(heatMap, frags, box.x1, box.x2, box.y1, box.y2, child_inp, node.outp, final_scores[uIndex], node.mask_value, node.depth+1)
           child_heatMap=compositional_causal_explain(child_node, eobj)
           heatMap[box.x1:box.x2,box.y1:box.y2,:]=child_heatMap[box.x1:box.x2,box.y1:box.y2,:]
-          #print (node.depth, '(', i, ')#####', [box.x1,box.x2,box.y1,box.y2], final_scores[uIndex], heatMap.sum())
                 
 
   return heatMap
 
 
 def comp_explain(eobj):
+  print ('\n[To explain: Causal Explanation is used]')
   model=eobj.model # this is the model to explain
   ## to create output DI
   di=eobj.outputs # output dir
   try:
     os.system('mkdir -p {0}'.format(di))
-    print ('mkdir -p {0}'.format(di))
+    #print ('mkdir -p {0}'.format(di))
   except: pass
 
   landmark = False
   for index in range(0, len(eobj.inputs)):
-    #if index < 99: continue # landmark
-    name=eobj.names[index]
-    #if name == '374.JPEG':
-    #    landmark = True
-    #    continue
-    #if not landmark: continue
-    print ('## Input:', index, name)
+    name=eobj.fnames[index]
     x=eobj.inputs[index]
     res=model.predict(sbfl_preprocess(eobj, np.array([x])))
     y=np.argsort(res)[0][-eobj.top_classes:]
-    print ('## Output:', y, np.sort(res)[0][-eobj.top_classes:])
-    print ('## Output:', np.argsort(res)[0][-5:])
+    #print ('## Input:', index, name)
+    print ('\n[Input {2}: {0} / Output Label (to Explain): {1}]'.format(eobj.fnames[index], y, index))
+    #print ('## Output:', y, np.sort(res)[0][-eobj.top_classes:])
+    #print ('## Output:', np.argsort(res)[0][-5:])
     #print (x.shape)
     #continue
 
-    dii=di+'/{1}-{0}'.format(str(datetime.now()).replace(' ', '-'), "comp")
+    dii=di+'/{1}-{0}'.format(str(datetime.now()).replace(' ', '-'), "causal")
     dii=dii.replace(':', '-')
     os.system('mkdir -p {0}'.format(dii))
     hmaps = []
@@ -240,6 +205,7 @@ def comp_explain(eobj):
     exp_min = 1
     intersection_min = 1
     for i in range(0,eobj.testgen_iter):
+        print ('  #### [Iter {0}: Start Causal Refinement...]'.format(i))
         heatMap=np.zeros(x.shape) # initialise an all-zero heatmap
         frags=2 #3 ## 3x3 is the limit an exhuastive search can handle
         x1, x2, y1, y2=0, int(x.shape[0]), 0, int(x.shape[1])
@@ -265,44 +231,25 @@ def comp_explain(eobj):
         res_heatMap = smooth
 
 
-        ## to plot the heat map
-        # the initial totScore should be now distributed across the heatmap
-        print ('Final heatMap', res_heatMap.sum())
-        #print (res_heatMap.shape)
         res_heatMap = np.array((res_heatMap/res_heatMap.max())*255)
         gray_img = np.array(res_heatMap[:,:,0],dtype='uint8')
-        #print (gray_img)
         heatmap_img = cv2.applyColorMap(gray_img, cv2.COLORMAP_JET)
         fin = cv2.addWeighted(heatmap_img, 0.7, x, 0.3, 0)
         plt.rcParams["axes.grid"] = False
         plt.imshow(cv2.cvtColor(fin, cv2.COLOR_BGR2RGB))
-        #plt.show()
 
-        plt.savefig(dii+'/heatmap_{0}.png'.format(i))
+        hmap_name = (dii+'/heatmap_iter{0}.png'.format(i))
+        plt.savefig(hmap_name)
+        print ('  #### [Causal Refinement Done... Saved Heatmap: {0}]'.format(hmap_name))
         if not eobj.text_only:
           #heatMap_plot(res_heatMap, (x,y), dii, 'causal')
           selement=sbfl_elementt(x, 0, None, None, model)
           selement.y = y
           ind=np.argsort(res_heatMap, axis=None)
           
-          #exp, intersection, iou = compute_iou(selement, ind, dii+'/{0}'.format(i), "causal", eobj)
-          #if exp < exp_min:
-          #  print ('exp change iter <{0}>'.format(i))
-          #  print ('       exp', exp, exp_min)
-          #  print ('itersection',  intersection, intersection_min)
-          #  print ('       iou', iou, iou_min)
-          #  exp_min = exp
-          top_plot(selement, ind, dii+'/{0}'.format(i), "causal", eobj)
-          #if intersection < intersection_min:
-          #  #print ('intersection change iter <{0}>'.format(i))
-          #  #print ('       exp', exp, exp_min)
-          #  print ('(update)itersection',  intersection, intersection_min)
-          #  #print ('       iou', iou, iou_min)
-          #  intersection_min = intersection
-          #if iou < iou_min:
-          #  iou_min = iou
+          outs_dir = dii+'/iter{0}'.format(i)
+          print ('  #### [Saving into {0}]'.format(outs_dir))
+          top_plot(selement, ind, outs_dir, "causal", eobj)
+          print ('  #### [Done]')
 
-    #f = open(di+"/comp-results.txt", "a")
-    #f.write('{0} {1} {2} {3} {4}\n'.format(name, exp_min, intersection_min, iou_min, y))
-    #f.close()
 
