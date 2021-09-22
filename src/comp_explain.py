@@ -78,7 +78,7 @@ def compositional_causal_explain(node, eobj):
   ave_factor=-1
   area_factor=10000
 
-  if length<node.fragSize_lb or height<node.fragSize_lb: ## end point
+  if node.depth>2 or node.totScore<=10 or length<node.fragSize_lb or height<node.fragSize_lb: ## end point
       regionSize=heatMap[x1:x2,y1:y2,:].size #(x2-x1)*(y2-y1)*3
       heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
       return heatMap
@@ -104,13 +104,18 @@ def compositional_causal_explain(node, eobj):
       comb_list = list(combinations(indices, r))
       rows_r=[]
       for comb in comb_list:
+        early_stop = 0
         row=[]
         mutant=inp.copy()
         for index in indices:
           if index in comb:
             row.append(False)
             mutant[boxes[index].x1:boxes[index].x2, boxes[index].y1:boxes[index].y2, :]=mask_value
+            early_stop = early_stop + 1
           else: row.append(True)
+        
+        #if early_stop<=2: continue
+
         res=eobj.model.predict(sbfl_preprocess(eobj, np.array([mutant])))
         y_mutant=np.argsort(res)[0][-1:]
         if not (y_mutant[0] in outp):
@@ -160,7 +165,7 @@ def compositional_causal_explain(node, eobj):
       for i in range(0, len(final_boxes)):
           box=final_boxes[i]
           uIndex=np.unravel_index(i, (2,2))
-          if final_scores[uIndex]<=0.0001:
+          if final_scores[uIndex]<0.0001:
             heatMap[box.x1:box.x2,box.y1:box.y2,:]=0
             continue
           child_inp=inp.copy()
