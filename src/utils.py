@@ -36,15 +36,17 @@ class explain_objectt:
     self.normalized=None
     self.x_verbosity=None
     self.fnames=[]
+    self.boxes=None
 
 
 class sbfl_elementt:
-  def __init__(self, x, y, xs, ys, model, adv_part=None):
+  def __init__(self, x, y, xs, ys, model, fname=None, adv_part=None):
     self.x=x
     self.y=y
     self.xs=xs
     self.ys=ys
     self.model=model
+    self.fname=fname
     self.adv_part=adv_part
 
 # Yield successive n-sized 
@@ -93,6 +95,8 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
 
   save_an_image(origin_data, 'origin-{0}'.format(sbfl_element.y), di)
 
+  ret=None
+
   im_flag=np.zeros(sp, dtype=bool)
   im_o=np.multiply(np.ones(sp), bg)
   count=0
@@ -114,6 +118,18 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
         if y==sbfl_element.y and not found_exp: 
           save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
           found_exp = True
-          if eobj.x_verbosity>0: return
+          if not eobj.boxes is None: # wsol calculation
+              vect=eobj.boxes[sbfl_element.fname.split('/')[-1]]
+              ref_flag=np.zeros(sp, dtype=bool)
+              ref_flag[vect[0]:vect[2], vect[1]:vect[3], :]=True
+
+              union=np.logical_or(im_flag, ref_flag)
+              inter=np.logical_and(im_flag, ref_flag)
+              iou=np.count_nonzero(inter)*1./np.count_nonzero(union)
+              ret=iou
+
+          if eobj.x_verbosity>0: return ret
+
     pos-=1
+  return ret
 

@@ -64,7 +64,7 @@ def to_explain(eobj):
       continue
 
     ## to obtain the ranking for Input i
-    selement=sbfl_elementt(x, 0, adv_xs, adv_ys, model)
+    selement=sbfl_elementt(x, 0, adv_xs, adv_ys, model, eobj.fnames[i])
     dii=di+'/{0}'.format(str(datetime.now()).replace(' ', '-'))
     dii=dii.replace(':', '-')
     os.system('mkdir -p {0}'.format(dii))
@@ -92,4 +92,9 @@ def to_explain(eobj):
 
       # to plot the top ranked pixels
       if not eobj.text_only:
-        top_plot(selement, ranking_i, diii, measure, eobj)
+          ret=top_plot(selement, ranking_i, diii, measure, eobj)
+          if not eobj.boxes is None:
+              f = open(di+"/wsol-results.txt", "a")
+              f.write('{0} {1} {2}\n'.format(eobj.fnames[i], measure, ret))
+              f.close()
+

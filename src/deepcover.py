@@ -5,6 +5,7 @@ from keras.applications.vgg16 import VGG16
 from keras.applications import inception_v3, mobilenet, xception
 from keras.models import load_model
 import matplotlib.pyplot as plt
+import csv
 
 import argparse
 import os
@@ -59,6 +60,7 @@ def main():
   parser.add_argument("--testgen-iterations", dest="testgen_iter", default="1",
                     help="to control the testgen iteration", metavar="INT")
   parser.add_argument("--causal", dest='causal', help="causal explanation", action="store_true")
+  parser.add_argument("--wsol", dest='wsol_file', help="weakly supervised object localization", metavar="FILE")
 
   args=parser.parse_args()
 
@@ -135,6 +137,16 @@ def main():
       measures.append(args.measure)
   else: measures = args.measures
   eobj.measures=measures
+
+  if not args.wsol_file is None:
+      print (args.wsol_file)
+      boxes={}
+      with open(args.wsol_file, 'r') as csvfile:
+        res=csv.reader(csvfile, delimiter=' ')
+        for row in res:
+          boxes[row[0]]=[int(row[1]), int(row[2]), int(row[3]), int(row[4])]
+      eobj.boxes=boxes
+
 
   if args.causal:
       comp_explain(eobj)
