@@ -23,9 +23,9 @@ def main():
   parser.add_argument("--outputs", dest="outputs", default="outs",
                     help="the outputput test data directory", metavar="DIR")
   parser.add_argument("--measures", dest="measures", default=['tarantula', 'zoltar', 'ochiai', 'wong-ii'],
-                    help="the measures", metavar="zoltar, tarantula ...", nargs='+')
+                    help="the SFL measures (tarantula, zoltar, ochiai, wong-ii)", metavar="" , nargs='+')
   parser.add_argument("--measure", dest="measure", default="None",
-                    help="the measure", metavar="zoltar, tarantula ...")
+                    help="the SFL measure", metavar="MEASURE")
   parser.add_argument("--mnist-dataset", dest="mnist", help="MNIST dataset", action="store_true")
   parser.add_argument("--normalized-input", dest="normalized", help="To normalize the input", action="store_true")
   parser.add_argument("--cifar10-dataset", dest="cifar10", help="CIFAR-10 dataset", action="store_true")
@@ -42,6 +42,8 @@ def main():
                     help="input cols", metavar="INT")
   parser.add_argument("--input-channels", dest="img_channels", default="3",
                     help="input channels", metavar="INT")
+  parser.add_argument("--x-verbosity", dest="x_verbosity", default="0",
+                    help="the verbosity level of explanation output", metavar="INT")
   parser.add_argument("--top-classes", dest="top_classes", default="1",
                     help="check the top-xx classifications", metavar="INT")
   parser.add_argument("--adversarial-ub", dest="adv_ub", default="1.",
@@ -126,6 +128,7 @@ def main():
   eobj.attack=args.attack
   eobj.text_only=args.text_only
   eobj.normalized=args.normalized
+  eobj.x_verbosity=int(args.x_verbosity)
   eobj.fnames=fnames
   measures = []
   if not args.measure=='None':

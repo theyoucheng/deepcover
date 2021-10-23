@@ -34,6 +34,7 @@ class explain_objectt:
     self.text_only=None
     self.measures=None
     self.normalized=None
+    self.x_verbosity=None
     self.fnames=[]
 
 
@@ -113,5 +114,6 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
         if y==sbfl_element.y and not found_exp: 
           save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
           found_exp = True
+          if eobj.x_verbosity>0: return
     pos-=1
 

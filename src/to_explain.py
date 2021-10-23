@@ -1,3 +1,4 @@
+import time
 import numpy as np
 from spectra_gen import *
 from to_rank import *
@@ -27,6 +28,7 @@ def to_explain(eobj):
     reasonable_advs=False
     while ite<eobj.testgen_iter:
       print ('  #### [Start generating SFL spectra...]')
+      start=time.time()
       ite+=1
 
       passing, failing=spectra_sym_gen(eobj, x, y[-1:], adv_value=eobj.adv_value, testgen_factor=eobj.testgen_factor, testgen_size=eobj.testgen_size)
@@ -44,7 +46,8 @@ def to_explain(eobj):
 
       adv_part=num_advs*1./tot
       #print ('###### adv_percentage:', adv_part, num_advs, tot)
-      print ('  #### [SFL spectra generation DONE: passing {0} / failing {1}, total {2}]'.format(1-adv_part, adv_part, tot))
+      end=time.time()
+      print ('  #### [SFL spectra generation DONE: passing {0:.2f} / failing {1:.2f}, total {2}; time: {3:.2f} seconds]'.format(1-adv_part, adv_part, tot, end-start))
 
       if adv_part<=eobj.adv_lb:
         print ('  #### [too few failing tests: SFL explanation aborts]') 
