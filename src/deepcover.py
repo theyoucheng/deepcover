@@ -51,8 +51,8 @@ def main():
                     help="upper bound on the adversarial percentage (0, 1]", metavar="FLOAT")
   parser.add_argument("--adversarial-lb", dest="adv_lb", default="0.",
                     help="lower bound on the adversarial percentage (0, 1]", metavar="FLOAT")
-  parser.add_argument("--adversarial-value", dest="adv_value", default="234",
-                    help="adversarial value", metavar="FLOAT")
+  parser.add_argument("--masking-value", dest="adv_value", default="234",
+                    help="masking value for input mutation", metavar="INT")
   parser.add_argument("--testgen-factor", dest="testgen_factor", default="0.2",
                     help="test generation factor (0, 1]", metavar="FLOAT")
   parser.add_argument("--testgen-size", dest="testgen_size", default="2000",

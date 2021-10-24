@@ -218,6 +218,7 @@ def comp_explain(eobj):
         #heatMap=np.ones(x.shape) * (totScore / heatMap.size)
         node=nodet(heatMap, frags, x1, x2, y1, y2, x, y, totScore, mask_value=eobj.adv_value, depth=0)
         # to call the recursive 'explain' method
+        start = time.time()
         res_heatMap=compositional_causal_explain(node, eobj)
         hmaps.append(res_heatMap)
         hmap = hmap + res_heatMap
@@ -245,7 +246,8 @@ def comp_explain(eobj):
 
         hmap_name = (dii+'/heatmap_iter{0}.png'.format(i))
         plt.savefig(hmap_name)
-        print ('  #### [Causal Refinement Done... Saved Heatmap: {0}]'.format(hmap_name))
+        end = time.time()
+        print ('  #### [Causal Refinement Done... Saved Heatmap: {0}; Time: {1:.0f} seconds]'.format(hmap_name, end-start))
         if not eobj.text_only:
           #heatMap_plot(res_heatMap, (x,y), dii, 'causal')
           selement=sbfl_elementt(x, 0, None, None, model)
