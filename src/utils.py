@@ -37,6 +37,7 @@ class explain_objectt:
     self.x_verbosity=None
     self.fnames=[]
     self.boxes=None
+    self.min_exp=1.1
 
 
 class sbfl_elementt:

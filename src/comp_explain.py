@@ -29,7 +29,7 @@ class nodet:
     self.outp=outp
     self.totScore=totScore
     self.mask_value=mask_value
-    self.fragSize_lb= 10 #3 
+    self.fragSize_lb= 3 
     self.depth = depth
 
 def nCr(n,r):
@@ -78,7 +78,8 @@ def compositional_causal_explain(node, eobj):
   ave_factor=-1
   area_factor=10000
 
-  if node.depth>2 or node.totScore<=10 or length<node.fragSize_lb or height<node.fragSize_lb: ## end point
+  #if node.depth>2 or node.totScore<=10 or length<node.fragSize_lb or height<node.fragSize_lb: ## end point
+  if length<node.fragSize_lb or height<node.fragSize_lb: ## end point
       regionSize=heatMap[x1:x2,y1:y2,:].size #(x2-x1)*(y2-y1)*3
       heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
       return heatMap
@@ -220,14 +221,18 @@ def comp_explain(eobj):
         # to call the recursive 'explain' method
         start = time.time()
         res_heatMap=compositional_causal_explain(node, eobj)
+        end = time.time()
+        print ('  #### [Causal Refinement Done... Time: {0:.0f} seconds]'.format(end-start))
+
         hmaps.append(res_heatMap)
         hmap = hmap + res_heatMap
-        res_heatMap = hmap/len(hmaps)
 
+        ## update res_heatMap
+        res_heatMap = hmap/len(hmaps)
         smooth = np.ones(res_heatMap.shape)
         sI = res_heatMap.shape[0]
         sJ = res_heatMap.shape[1]
-        sd = 5 #2
+        sd = 3 #5 2
         for si in range(0, res_heatMap.shape[0]):
             for sj in range(0, res_heatMap.shape[1]):
                 for sk in range(0, 3):
@@ -235,9 +240,8 @@ def comp_explain(eobj):
 
 
         res_heatMap = smooth
-
-
         res_heatMap = np.array((res_heatMap/res_heatMap.max())*255)
+
         gray_img = np.array(res_heatMap[:,:,0],dtype='uint8')
         heatmap_img = cv2.applyColorMap(gray_img, cv2.COLORMAP_JET)
         fin = cv2.addWeighted(heatmap_img, 0.7, x, 0.3, 0)
@@ -245,11 +249,11 @@ def comp_explain(eobj):
         plt.imshow(cv2.cvtColor(fin, cv2.COLOR_BGR2RGB))
 
         hmap_name = (dii+'/heatmap_iter{0}.png'.format(i))
-        plt.savefig(hmap_name)
-        end = time.time()
-        print ('  #### [Causal Refinement Done... Saved Heatmap: {0}; Time: {1:.0f} seconds]'.format(hmap_name, end-start))
+        plt.axis('off')
+        plt.savefig(hmap_name, bbox_inches='tight', pad_inches=0)
+        print ('  #### [Saved Heatmap: {0}]'.format(hmap_name))
+
         if not eobj.text_only:
-          #heatMap_plot(res_heatMap, (x,y), dii, 'causal')
           selement=sbfl_elementt(x, 0, None, None, model)
           selement.y = y
           ind=np.argsort(res_heatMap, axis=None)
@@ -257,6 +261,7 @@ def comp_explain(eobj):
           outs_dir = dii+'/iter{0}'.format(i)
           print ('  #### [Saving into {0}]'.format(outs_dir))
           top_plot(selement, ind, outs_dir, "causal", eobj)
+
           print ('  #### [Done]')
 
 
