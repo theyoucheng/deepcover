@@ -1,0 +1,2060 @@
+0.JPEG 38(38) 67(23) 106(106) 101(164) 480 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, ellipse
+1.JPEG 0(0) 101(13) 222(223) 151(215) 491 chain saw, chainsaw, ellipse
+2.JPEG 45(45) 101(30) 195(195) 149(223) 376 proboscis monkey, Nasalis larvatus, rectangle
+3.JPEG 68(68) 68(64) 76(76) 70(75) 920 traffic light, traffic signal, stoplight, rectangle
+4.JPEG 175(175) 99(80) 223(223) 117(156) 607 jack-o'-lantern, box
+5.JPEG 61(61) 80(40) 141(142) 116(191) 747 punching bag, punch bag, punching ball, punchball, ellipse
+6.JPEG 93(93) 108(57) 221(222) 138(181) 374 langur, box
+7.JPEG 4(4) 111(14) 144(145) 151(174) 375 colobus, colobus monkey, rectangle
+8.JPEG 4(4) 144(54) 222(223) 186(222) 612 jinrikisha, ricksha, rickshaw, rectangle
+9.JPEG 64(64) 94(52) 142(142) 114(138) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+10.JPEG 189(189) 141(94) 223(223) 173(223) 789 shoji, rectangle
+11.JPEG 111(111) 53(0) 219(219) 81(112) 443 bib, rectangle
+12.JPEG 10(10) 35(0) 222(223) 89(222) 510 container ship, containership, container vessel, rectangle
+13.JPEG 15(15) 80(32) 205(206) 120(197) 275 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus, ellipse
+14.JPEG 93(93) 56(38) 141(141) 72(103) 971 bubble, ellipse
+15.JPEG 33(33) 83(43) 187(187) 111(157) 324 cabbage butterfly, ellipse
+16.JPEG 83(83) 72(14) 213(213) 112(180) 384 indri, indris, Indri indri, Indri brevicaudatus, disk
+17.JPEG 9(9) 138(31) 219(219) 184(215) 835 sundial, ellipse
+18.JPEG 20(20) 91(69) 162(163) 113(163) 140 red-backed sandpiper, dunlin, Erolia alpina, rectangle
+19.JPEG 85(85) 137(128) 121(121) 141(146) 593 harmonica, mouth organ, harp, mouth harp, box
+20.JPEG 163(163) 94(22) 223(223) 140(211) 462 broom, ellipse
+21.JPEG 52(52) 142(52) 182(182) 178(201) 116 chiton, coat-of-mail shell, sea cradle, polyplacophore, ellipse
+22.JPEG 43(43) 24(0) 223(223) 62(152) 770 running shoe, rectangle
+23.JPEG 40(40) 107(4) 166(167) 149(173) 938 cauliflower, rectangle
+24.JPEG 122(122) 149(139) 206(206) 157(178) 12 house finch, linnet, Carpodacus mexicanus, ellipse
+25.JPEG 48(48) 33(0) 222(223) 79(191) 484 catamaran, box
+26.JPEG 44(44) 113(10) 202(203) 161(202) 846 table lamp, rectangle
+27.JPEG 31(31) 122(1) 205(206) 176(222) 220 Sussex spaniel, rectangle
+28.JPEG 106(106) 95(37) 198(199) 135(200) 615 knee pad, box
+29.JPEG 0(0) 113(90) 222(223) 125(145) 888 viaduct, rectangle
+30.JPEG 0(0) 119(98) 222(223) 149(223) 435 bathtub, bathing tub, bath, tub, rectangle
+31.JPEG 1(1) 79(13) 207(207) 129(217) 161 basset, basset hound, rectangle
+32.JPEG 0(0) 138(1) 120(120) 192(223) 625 lifeboat, ellipse
+33.JPEG 1(1) 81(0) 223(223) 135(222) 721 pillow, rectangle
+34.JPEG 124(124) 77(1) 222(223) 125(193) 879 umbrella, ellipse
+35.JPEG 8(8) 82(0) 212(212) 128(191) 933 cheeseburger, rectangle
+36.JPEG 32(32) 40(0) 222(223) 94(223) 122 American lobster, Northern lobster, Maine lobster, Homarus americanus, rectangle
+37.JPEG 101(101) 53(16) 167(167) 71(90) 643 mask, ellipse
+38.JPEG 0(0) 141(32) 222(222) 187(221) 176 Saluki, gazelle hound, rectangle
+39.JPEG 83(83) 193(181) 131(132) 199(205) 822 steel drum, ellipse
+40.JPEG 29(29) 53(26) 175(175) 99(211) 392 rock beauty, Holocanthus tricolor, box
+41.JPEG 1(1) 78(0) 221(222) 120(174) 648 medicine chest, medicine cabinet, ellipse
+42.JPEG 129(129) 154(151) 197(198) 156(163) 472 canoe, box
+43.JPEG 105(105) 135(76) 221(222) 161(184) 298 mongoose, disk
+44.JPEG 155(155) 62(13) 223(223) 82(94) 976 promontory, headland, head, foreland, rectangle
+45.JPEG 8(8) 105(6) 106(106) 157(218) 572 goblet, rectangle
+46.JPEG 8(8) 91(15) 210(210) 139(207) 849 teapot, box
+47.JPEG 3(3) 106(63) 221(222) 142(211) 453 bookcase, rectangle
+48.JPEG 116(116) 23(0) 222(223) 53(126) 537 dogsled, dog sled, dog sleigh, disk
+49.JPEG 0(0) 87(0) 222(223) 141(223) 533 dishrag, dishcloth, rectangle
+50.JPEG 48(48) 50(19) 222(223) 98(216) 357 mink, rectangle
+51.JPEG 105(105) 126(100) 211(212) 146(186) 573 go-kart, ellipse
+52.JPEG 123(123) 129(110) 203(203) 149(194) 466 bullet train, bullet, ellipse
+53.JPEG 23(23) 100(0) 205(206) 148(196) 780 schooner, rectangle
+54.JPEG 16(16) 110(1) 220(220) 164(222) 96 toucan, box
+55.JPEG 16(16) 109(13) 204(204) 157(210) 906 Windsor tie, rectangle
+56.JPEG 27(27) 21(0) 85(85) 39(76) 898 water bottle, disk
+57.JPEG 15(15) 75(22) 101(101) 99(121) 344 hippopotamus, hippo, river horse, Hippopotamus amphibius, ellipse
+58.JPEG 92(92) 129(87) 196(197) 155(191) 325 sulphur butterfly, sulfur butterfly, ellipse
+59.JPEG 1(1) 67(7) 75(75) 121(223) 293 cheetah, chetah, Acinonyx jubatus, disk
+60.JPEG 0(0) 94(2) 178(179) 136(175) 779 school bus, ellipse
+61.JPEG 0(0) 128(112) 150(150) 150(205) 392 rock beauty, Holocanthus tricolor, disk
+62.JPEG 0(0) 127(19) 222(222) 177(223) 850 teddy, teddy bear, rectangle
+63.JPEG 7(7) 66(25) 169(169) 114(219) 271 red wolf, maned wolf, Canis rufus, Canis niger, ellipse
+64.JPEG 46(46) 130(69) 186(187) 168(223) 268 Mexican hairless, rectangle
+65.JPEG 93(93) 121(106) 147(148) 127(133) 15 robin, American robin, Turdus migratorius, ellipse
+66.JPEG 109(109) 111(104) 125(125) 115(123) 305 dung beetle, box
+67.JPEG 12(12) 126(106) 208(209) 150(208) 700 paper towel, rectangle
+68.JPEG 23(23) 28(7) 167(167) 64(154) 613 joystick, box
+69.JPEG 47(47) 56(9) 175(176) 108(222) 707 pay-phone, pay-station, ellipse
+70.JPEG 84(84) 102(88) 206(207) 120(163) 852 tennis ball, box
+71.JPEG 3(3) 86(9) 111(112) 136(215) 615 knee pad, box
+72.JPEG 145(145) 100(25) 211(212) 136(174) 796 ski mask, box
+73.JPEG 96(96) 136(4) 218(218) 190(220) 615 knee pad, rectangle
+74.JPEG 82(82) 178(148) 136(136) 196(223) 898 water bottle, ellipse
+75.JPEG 112(112) 134(88) 168(168) 152(164) 952 fig, rectangle
+76.JPEG 0(0) 54(0) 138(139) 76(95) 979 valley, vale, box
+77.JPEG 64(64) 79(11) 186(187) 121(183) 701 parachute, chute, rectangle
+78.JPEG 0(0) 159(87) 110(111) 189(210) 164 bluetick, rectangle
+79.JPEG 94(94) 64(15) 220(221) 116(223) 375 colobus, colobus monkey, disk
+80.JPEG 12(12) 119(104) 52(53) 127(141) 956 custard apple, box
+81.JPEG 17(17) 66(8) 207(207) 118(217) 759 reflex camera, rectangle
+82.JPEG 0(0) 124(0) 220(221) 178(223) 219 cocker spaniel, English cocker spaniel, cocker, rectangle
+83.JPEG 29(29) 81(18) 205(205) 131(222) 368 gibbon, Hylobates lar, box
+84.JPEG 27(27) 133(2) 223(223) 187(221) 794 shower curtain, rectangle
+85.JPEG 34(34) 97(35) 222(223) 139(205) 162 beagle, ellipse
+86.JPEG 9(9) 163(88) 61(62) 195(223) 236 Doberman, Doberman pinscher, ellipse
+87.JPEG 107(107) 148(135) 189(190) 170(223) 737 pop bottle, soda bottle, ellipse
+88.JPEG 53(53) 38(2) 223(223) 56(74) 534 dishwasher, dish washer, dishwashing machine, rectangle
+89.JPEG 3(3) 93(12) 223(223) 143(217) 763 revolver, six-gun, six-shooter, rectangle
+90.JPEG 34(34) 98(18) 150(150) 142(200) 11 goldfinch, Carduelis carduelis, rectangle
+91.JPEG 61(61) 74(35) 147(148) 104(155) 82 ruffed grouse, partridge, Bonasa umbellus, rectangle
+92.JPEG 81(81) 57(4) 207(207) 97(167) 87 African grey, African gray, Psittacus erithacus, ellipse
+93.JPEG 58(58) 22(8) 112(113) 32(52) 890 volleyball, disk
+94.JPEG 14(14) 78(0) 222(223) 122(177) 918 crossword puzzle, crossword, box
+95.JPEG 56(56) 149(64) 222(222) 183(205) 985 daisy, ellipse
+96.JPEG 23(23) 122(59) 195(196) 152(179) 539 doormat, welcome mat, ellipse
+97.JPEG 76(76) 104(68) 138(139) 142(223) 906 Windsor tie, box
+98.JPEG 92(92) 104(57) 172(172) 132(172) 796 ski mask, ellipse
+99.JPEG 87(87) 112(90) 183(183) 132(177) 346 water buffalo, water ox, Asiatic buffalo, Bubalus bubalis, box
+100.JPEG 95(95) 81(10) 203(203) 117(159) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+101.JPEG 44(44) 96(25) 190(191) 132(176) 140 red-backed sandpiper, dunlin, Erolia alpina, box
+102.JPEG 0(0) 150(32) 222(223) 196(222) 118 Dungeness crab, Cancer magister, rectangle
+103.JPEG 64(64) 145(21) 150(151) 195(223) 355 llama, ellipse
+104.JPEG 125(125) 60(51) 197(197) 72(102) 140 red-backed sandpiper, dunlin, Erolia alpina, ellipse
+105.JPEG 40(40) 142(132) 218(218) 156(189) 902 whistle, rectangle
+106.JPEG 0(0) 39(0) 222(223) 93(223) 911 wool, woolen, woollen, box
+107.JPEG 116(116) 122(21) 204(204) 164(196) 502 clog, geta, patten, sabot, box
+108.JPEG 37(37) 70(39) 199(200) 104(178) 154 Pekinese, Pekingese, Peke, rectangle
+109.JPEG 6(6) 95(6) 192(193) 147(215) 613 joystick, rectangle
+110.JPEG 12(12) 40(7) 172(172) 90(214) 91 coucal, ellipse
+111.JPEG 131(131) 103(62) 189(190) 127(161) 616 knot, box
+112.JPEG 0(0) 85(0) 222(223) 139(223) 610 jersey, T-shirt, tee shirt, box
+113.JPEG 121(121) 106(99) 221(221) 112(130) 403 aircraft carrier, carrier, flattop, attack aircraft carrier, rectangle
+114.JPEG 17(17) 43(2) 113(113) 95(212) 641 maraca, disk
+115.JPEG 69(69) 149(140) 99(99) 161(195) 775 sarong, box
+116.JPEG 0(0) 119(71) 176(177) 143(167) 718 pier, box
+117.JPEG 12(12) 136(24) 130(131) 184(223) 372 baboon, box
+118.JPEG 10(10) 126(45) 156(156) 170(223) 261 keeshond, rectangle
+119.JPEG 41(41) 78(40) 89(90) 96(118) 920 traffic light, traffic signal, stoplight, box
+120.JPEG 80(80) 63(20) 184(185) 103(181) 859 toaster, ellipse
+121.JPEG 25(25) 33(9) 163(163) 67(149) 691 oxygen mask, ellipse
+122.JPEG 107(107) 66(47) 149(150) 80(105) 801 snorkel, rectangle
+123.JPEG 97(97) 103(34) 143(144) 131(146) 145 king penguin, Aptenodytes patagonica, rectangle
+124.JPEG 43(43) 128(71) 123(124) 152(167) 254 pug, pug-dog, rectangle
+125.JPEG 102(102) 167(81) 132(133) 201(223) 523 crutch, ellipse
+126.JPEG 0(0) 114(16) 222(223) 160(204) 475 car mirror, ellipse
+127.JPEG 78(78) 78(33) 156(157) 100(126) 96 toucan, ellipse
+128.JPEG 8(8) 57(19) 214(214) 103(206) 230 Shetland sheepdog, Shetland sheep dog, Shetland, rectangle
+129.JPEG 104(104) 180(139) 222(223) 200(223) 956 custard apple, rectangle
+130.JPEG 30(30) 38(28) 56(57) 54(94) 613 joystick, box
+131.JPEG 132(132) 159(76) 218(219) 195(222) 375 colobus, colobus monkey, disk
+132.JPEG 20(20) 103(4) 178(179) 155(212) 192 cairn, cairn terrier, rectangle
+133.JPEG 0(0) 147(84) 222(223) 179(215) 111 nematode, nematode worm, roundworm, rectangle
+134.JPEG 52(52) 76(38) 222(223) 122(223) 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus, rectangle
+135.JPEG 38(38) 163(142) 172(172) 173(184) 65 sea snake, ellipse
+136.JPEG 40(40) 141(50) 192(192) 183(222) 19 chickadee, box
+137.JPEG 0(0) 54(32) 212(212) 78(132) 111 nematode, nematode worm, roundworm, rectangle
+138.JPEG 43(43) 97(16) 189(189) 147(223) 637 mailbox, letter, box, rectangle
+139.JPEG 9(9) 104(30) 223(223) 140(178) 123 spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish, rectangle
+140.JPEG 16(16) 134(14) 196(197) 184(221) 271 red wolf, maned wolf, Canis rufus, Canis niger, rectangle
+141.JPEG 31(31) 107(88) 219(219) 121(150) 422 barbell, rectangle
+142.JPEG 0(0) 33(5) 202(202) 81(203) 668 mosque, rectangle
+143.JPEG 23(23) 79(29) 209(210) 125(216) 389 barracouta, snoek, ellipse
+144.JPEG 14(14) 89(41) 210(211) 123(182) 703 park bench, rectangle
+145.JPEG 0(0) 150(87) 218(219) 182(221) 641 maraca, ellipse
+146.JPEG 12(12) 126(33) 168(168) 170(215) 699 panpipe, pandean pipe, syrinx, ellipse
+147.JPEG 177(177) 10(5) 205(206) 20(47) 818 spotlight, spot, disk
+148.JPEG 47(47) 117(33) 179(180) 153(183) 361 skunk, polecat, wood pussy, rectangle
+149.JPEG 96(96) 159(98) 184(184) 183(197) 361 skunk, polecat, wood pussy, rectangle
+150.JPEG 12(12) 50(8) 212(212) 102(216) 492 chest, ellipse
+151.JPEG 0(0) 132(26) 188(189) 180(223) 108 sea anemone, anemone, rectangle
+152.JPEG 18(18) 131(90) 80(80) 153(181) 351 hartebeest, disk
+153.JPEG 26(26) 100(35) 182(183) 136(179) 701 parachute, chute, ellipse
+154.JPEG 2(2) 93(45) 214(215) 135(219) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, ellipse
+155.JPEG 0(0) 87(0) 222(223) 141(223) 161 basset, basset hound, box
+156.JPEG 0(0) 66(25) 222(223) 100(166) 450 bobsled, bobsleigh, bob, rectangle
+157.JPEG 135(135) 97(59) 205(206) 113(129) 791 shopping cart, box
+158.JPEG 27(27) 95(12) 207(208) 145(214) 255 Leonberg, ellipse
+159.JPEG 26(26) 113(81) 134(134) 133(162) 270 white wolf, Arctic wolf, Canis lupus tundrarum, rectangle
+160.JPEG 29(29) 147(35) 209(209) 193(223) 293 cheetah, chetah, Acinonyx jubatus, box
+161.JPEG 77(77) 131(100) 131(132) 149(177) 998 ear, spike, capitulum, box
+162.JPEG 44(44) 70(26) 190(190) 118(223) 177 Scottish deerhound, deerhound, rectangle
+163.JPEG 73(73) 36(27) 99(100) 40(47) 715 pickelhaube, disk
+164.JPEG 10(10) 98(0) 222(222) 142(176) 289 snow leopard, ounce, Panthera uncia, rectangle
+165.JPEG 30(30) 75(0) 208(208) 129(221) 685 odometer, hodometer, mileometer, milometer, rectangle
+166.JPEG 76(76) 88(17) 170(171) 132(197) 945 bell pepper, ellipse
+167.JPEG 0(0) 78(35) 214(215) 124(223) 365 orangutan, orang, orangutang, Pongo pygmaeus, rectangle
+168.JPEG 88(88) 82(16) 184(185) 120(169) 195 Boston bull, Boston terrier, box
+169.JPEG 50(50) 163(86) 174(174) 195(220) 470 candle, taper, wax light, rectangle
+170.JPEG 73(73) 128(108) 163(164) 154(215) 423 barber chair, disk
+171.JPEG 128(128) 126(110) 142(143) 132(137) 730 plow, plough, ellipse
+172.JPEG 93(93) 121(107) 141(142) 129(142) 988 acorn, disk
+173.JPEG 72(72) 113(107) 76(76) 115(117) 574 golf ball, rectangle
+174.JPEG 14(14) 144(67) 212(213) 182(220) 573 go-kart, rectangle
+175.JPEG 34(34) 144(57) 136(137) 184(223) 205 flat-coated retriever, rectangle
+176.JPEG 46(46) 53(5) 222(223) 107(223) 294 brown bear, bruin, Ursus arctos, rectangle
+177.JPEG 1(1) 80(0) 223(223) 134(223) 771 safe, box
+178.JPEG 6(6) 54(6) 98(98) 106(216) 487 cellular telephone, cellular phone, cellphone, cell, mobile phone, box
+179.JPEG 79(79) 106(32) 155(156) 140(170) 592 hard disc, hard, disk, fixed, disk, disk
+180.JPEG 119(119) 104(85) 145(145) 118(142) 914 yawl, ellipse
+181.JPEG 66(66) 111(53) 102(103) 141(178) 604 hourglass, box
+182.JPEG 85(85) 62(0) 223(223) 116(223) 432 bassoon, ellipse
+183.JPEG 0(0) 142(11) 164(164) 194(223) 286 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor, ellipse
+184.JPEG 0(0) 52(0) 184(185) 94(172) 344 hippopotamus, hippo, river horse, Hippopotamus amphibius, rectangle
+185.JPEG 87(87) 134(133) 89(90) 134(137) 746 puck, hockey puck, ellipse
+186.JPEG 16(16) 100(9) 210(211) 152(221) 894 wardrobe, closet, press, ellipse
+187.JPEG 6(6) 71(40) 216(216) 105(183) 398 abacus, rectangle
+188.JPEG 21(21) 57(40) 203(204) 89(172) 956 custard apple, rectangle
+189.JPEG 1(1) 108(1) 223(223) 162(221) 405 airship, dirigible, ellipse
+190.JPEG 0(0) 120(0) 78(79) 174(223) 953 pineapple, ananas, ellipse
+191.JPEG 128(128) 162(139) 184(184) 180(214) 116 chiton, coat-of-mail shell, sea cradle, polyplacophore, ellipse
+192.JPEG 9(9) 136(14) 221(222) 188(223) 87 African grey, African gray, Psittacus erithacus, box
+193.JPEG 140(140) 161(134) 210(210) 175(192) 137 American coot, marsh hen, mud hen, water hen, Fulica americana, disk
+194.JPEG 94(94) 69(1) 194(195) 111(171) 258 Samoyed, Samoyede, rectangle
+195.JPEG 38(38) 108(27) 206(207) 142(167) 569 garbage truck, dustcart, ellipse
+196.JPEG 150(150) 132(123) 166(167) 136(140) 346 water buffalo, water ox, Asiatic buffalo, Bubalus bubalis, box
+197.JPEG 138(138) 130(110) 178(179) 142(162) 728 plastic bag, rectangle
+198.JPEG 31(31) 152(49) 187(187) 192(215) 71 scorpion, ellipse
+199.JPEG 12(12) 61(0) 210(211) 115(216) 228 komondor, box
+200.JPEG 3(3) 85(12) 207(207) 137(222) 452 bonnet, poke bonnet, rectangle
+201.JPEG 153(153) 133(118) 211(212) 141(150) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, rectangle
+202.JPEG 73(73) 24(0) 197(198) 68(180) 286 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor, disk
+203.JPEG 81(81) 36(21) 199(199) 60(123) 102 echidna, spiny anteater, anteater, rectangle
+204.JPEG 58(58) 31(7) 222(223) 73(176) 329 sea cucumber, holothurian, rectangle
+205.JPEG 2(2) 120(0) 218(218) 174(221) 518 crash helmet, rectangle
+206.JPEG 1(1) 137(38) 201(201) 183(223) 161 basset, basset hound, rectangle
+207.JPEG 87(87) 131(60) 221(222) 171(223) 954 banana, box
+208.JPEG 62(62) 41(0) 164(164) 95(223) 451 bolo tie, bolo, bola tie, bola, rectangle
+209.JPEG 39(39) 51(6) 195(195) 95(188) 780 schooner, rectangle
+210.JPEG 35(35) 134(120) 129(129) 154(200) 350 ibex, Capra ibex, ellipse
+211.JPEG 84(84) 74(49) 124(125) 98(152) 376 proboscis monkey, Nasalis larvatus, ellipse
+212.JPEG 97(97) 33(9) 211(212) 81(203) 194 Dandie Dinmont, Dandie Dinmont terrier, rectangle
+213.JPEG 49(49) 135(114) 151(151) 161(223) 34 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea, rectangle
+214.JPEG 66(66) 99(0) 142(143) 149(202) 496 Christmas stocking, rectangle
+215.JPEG 87(87) 88(9) 223(223) 140(223) 988 acorn, ellipse
+216.JPEG 12(12) 98(31) 174(175) 142(207) 475 car mirror, box
+217.JPEG 58(58) 134(94) 160(161) 164(219) 796 ski mask, rectangle
+218.JPEG 0(0) 101(41) 222(223) 135(182) 41 whiptail, whiptail lizard, rectangle
+219.JPEG 25(25) 108(8) 221(222) 160(223) 355 llama, ellipse
+220.JPEG 3(3) 33(0) 223(223) 85(213) 244 Tibetan mastiff, rectangle
+221.JPEG 76(76) 105(61) 178(178) 123(137) 989 hip, rose hip, rosehip, ellipse
+222.JPEG 55(55) 91(45) 127(128) 121(172) 325 sulphur butterfly, sulfur butterfly, rectangle
+223.JPEG 101(101) 84(35) 185(185) 110(140) 630 Loafer, ellipse
+224.JPEG 0(0) 140(0) 222(223) 194(223) 517 crane, rectangle
+225.JPEG 79(79) 114(81) 167(168) 142(196) 11 goldfinch, Carduelis carduelis, ellipse
+226.JPEG 84(84) 110(100) 136(137) 114(121) 873 triumphal arch, disk
+227.JPEG 33(33) 132(8) 211(212) 184(220) 252 affenpinscher, monkey pinscher, monkey dog, ellipse
+228.JPEG 96(96) 83(75) 178(179) 93(122) 802 snowmobile, rectangle
+229.JPEG 0(0) 138(50) 192(193) 180(223) 292 tiger, Panthera tigris, rectangle
+230.JPEG 33(33) 140(125) 205(205) 148(160) 537 dogsled, dog sled, dog sleigh, ellipse
+231.JPEG 10(10) 57(8) 210(210) 109(218) 493 chiffonier, commode, ellipse
+232.JPEG 6(6) 114(6) 102(103) 168(223) 88 macaw, box
+233.JPEG 8(8) 102(78) 76(77) 124(171) 949 strawberry, ellipse
+234.JPEG 16(16) 74(2) 222(222) 128(223) 253 basenji, ellipse
+235.JPEG 81(81) 127(45) 211(212) 171(223) 375 colobus, colobus monkey, ellipse
+236.JPEG 10(10) 126(45) 212(212) 158(178) 549 envelope, box
+237.JPEG 21(21) 129(0) 151(151) 183(223) 564 four-poster, ellipse
+238.JPEG 33(33) 86(44) 207(208) 122(194) 190 Sealyham terrier, Sealyham, ellipse
+239.JPEG 148(148) 146(97) 214(215) 166(178) 372 baboon, disk
+240.JPEG 106(106) 81(22) 176(176) 107(132) 701 parachute, chute, ellipse
+241.JPEG 53(53) 109(40) 183(183) 143(176) 270 white wolf, Arctic wolf, Canis lupus tundrarum, ellipse
+242.JPEG 82(82) 70(15) 176(176) 94(115) 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus, rectangle
+243.JPEG 152(152) 96(60) 204(204) 116(143) 127 white stork, Ciconia ciconia, rectangle
+244.JPEG 5(5) 97(45) 179(180) 141(223) 378 capuchin, ringtail, Cebus capucinus, ellipse
+245.JPEG 4(4) 111(4) 172(173) 165(221) 641 maraca, ellipse
+246.JPEG 15(15) 97(64) 149(150) 111(124) 558 flute, transverse flute, rectangle
+247.JPEG 96(96) 99(0) 222(223) 153(223) 799 sliding door, box
+248.JPEG 0(0) 133(55) 222(222) 169(200) 912 worm fence, snake fence, snake-rail fence, Virginia fence, box
+249.JPEG 36(36) 100(0) 164(164) 154(220) 253 basenji, rectangle
+250.JPEG 14(14) 79(37) 136(137) 107(154) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+251.JPEG 38(38) 96(42) 188(189) 130(183) 569 garbage truck, dustcart, rectangle
+252.JPEG 62(62) 135(46) 184(184) 177(217) 295 American black bear, black bear, Ursus americanus, Euarctos americanus, ellipse
+253.JPEG 80(80) 53(13) 186(187) 77(112) 324 cabbage butterfly, rectangle
+254.JPEG 4(4) 41(0) 160(161) 89(198) 288 leopard, Panthera pardus, ellipse
+255.JPEG 84(84) 49(25) 170(170) 93(204) 19 chickadee, ellipse
+256.JPEG 57(57) 120(51) 163(163) 148(168) 146 albatross, mollymawk, rectangle
+257.JPEG 14(14) 102(53) 222(223) 142(218) 191 Airedale, Airedale terrier, rectangle
+258.JPEG 20(20) 104(51) 144(144) 138(191) 29 axolotl, mud puppy, Ambystoma mexicanum, rectangle
+259.JPEG 41(41) 135(88) 195(196) 161(198) 870 tricycle, trike, velocipede, rectangle
+260.JPEG 67(67) 74(0) 181(181) 114(161) 914 yawl, rectangle
+261.JPEG 81(81) 58(23) 211(211) 98(184) 952 fig, rectangle
+262.JPEG 0(0) 63(9) 180(181) 115(223) 216 clumber, clumber spaniel, ellipse
+263.JPEG 23(23) 127(21) 187(187) 177(222) 427 barrel, cask, rectangle
+264.JPEG 14(14) 71(37) 222(223) 105(179) 162 beagle, box
+265.JPEG 28(28) 41(7) 206(206) 93(215) 364 three-toed sloth, ai, Bradypus tridactylus, rectangle
+266.JPEG 26(26) 72(45) 204(205) 100(162) 384 indri, indris, Indri indri, Indri brevicaudatus, ellipse
+267.JPEG 101(101) 67(18) 117(118) 105(170) 557 flagpole, flagstaff, rectangle
+268.JPEG 139(139) 56(31) 187(188) 100(210) 571 gas pump, gasoline pump, petrol pump, island dispenser, rectangle
+269.JPEG 94(94) 70(65) 142(143) 72(79) 896 washbasin, handbasin, washbowl, lavabo, wash-hand basin, box
+270.JPEG 12(12) 65(31) 192(193) 109(207) 78 tick, box
+271.JPEG 0(0) 142(24) 220(220) 190(217) 831 studio couch, day bed, ellipse
+272.JPEG 49(49) 156(64) 217(218) 192(212) 379 howler monkey, howler, rectangle
+273.JPEG 195(195) 129(124) 219(219) 131(137) 977 sandbar, sand bar, disk
+274.JPEG 17(17) 46(28) 221(222) 74(146) 515 cowboy hat, ten-gallon hat, rectangle
+275.JPEG 117(117) 154(80) 217(217) 188(222) 945 bell pepper, disk
+276.JPEG 57(57) 115(49) 221(222) 151(197) 291 lion, king of beasts, Panthera leo, ellipse
+277.JPEG 27(27) 36(1) 223(223) 90(223) 918 crossword puzzle, crossword, box
+278.JPEG 115(115) 81(59) 165(166) 113(191) 365 orangutan, orang, orangutang, Pongo pygmaeus, rectangle
+279.JPEG 20(20) 48(5) 194(195) 102(222) 259 Pomeranian, rectangle
+280.JPEG 110(110) 18(0) 222(223) 46(115) 659 mixing bowl, ellipse
+281.JPEG 26(26) 86(22) 222(223) 136(223) 912 worm fence, snake fence, snake-rail fence, Virginia fence, box
+282.JPEG 79(79) 68(3) 185(185) 120(215) 206 curly-coated retriever, ellipse
+283.JPEG 19(19) 74(69) 93(93) 82(103) 970 alp, rectangle
+284.JPEG 20(20) 126(26) 180(181) 174(223) 218 Welsh springer spaniel, ellipse
+285.JPEG 10(10) 137(109) 220(220) 151(172) 398 abacus, rectangle
+286.JPEG 64(64) 57(25) 212(212) 93(170) 142 dowitcher, ellipse
+287.JPEG 19(19) 68(47) 153(153) 98(170) 276 hyena, hyaena, ellipse
+288.JPEG 47(47) 68(33) 147(148) 106(192) 53 ringneck snake, ring-necked snake, ring snake, rectangle
+289.JPEG 75(75) 165(137) 127(127) 181(202) 554 fireboat, box
+290.JPEG 11(11) 81(25) 113(114) 125(203) 641 maraca, box
+291.JPEG 76(76) 71(0) 222(223) 125(223) 87 African grey, African gray, Psittacus erithacus, ellipse
+292.JPEG 0(0) 113(1) 222(223) 167(222) 685 odometer, hodometer, mileometer, milometer, ellipse
+293.JPEG 0(0) 94(9) 214(214) 146(222) 29 axolotl, mud puppy, Ambystoma mexicanum, rectangle
+294.JPEG 50(50) 105(45) 180(180) 141(196) 257 Great Pyrenees, rectangle
+295.JPEG 56(56) 105(13) 192(192) 157(223) 704 parking meter, box
+296.JPEG 64(64) 121(103) 116(116) 129(142) 392 rock beauty, Holocanthus tricolor, box
+297.JPEG 0(0) 99(1) 222(223) 153(223) 975 lakeside, lakeshore, rectangle
+298.JPEG 109(109) 86(54) 167(168) 110(151) 724 pirate, pirate ship, rectangle
+299.JPEG 31(31) 151(143) 197(198) 165(204) 83 prairie chicken, prairie grouse, prairie fowl, box
+300.JPEG 48(48) 135(14) 220(221) 185(217) 375 colobus, colobus monkey, ellipse
+301.JPEG 42(42) 140(94) 98(99) 162(187) 86 partridge, ellipse
+302.JPEG 113(113) 102(72) 211(212) 130(186) 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus, box
+303.JPEG 100(100) 126(82) 132(132) 158(210) 799 sliding door, ellipse
+304.JPEG 64(64) 147(25) 222(223) 195(223) 380 titi, titi monkey, box
+305.JPEG 51(51) 138(41) 171(171) 182(223) 90 lorikeet, box
+306.JPEG 24(24) 64(15) 186(187) 104(182) 216 clumber, clumber spaniel, rectangle
+307.JPEG 5(5) 120(0) 215(215) 174(223) 721 pillow, box
+308.JPEG 0(0) 192(145) 68(69) 210(221) 989 hip, rose hip, rosehip, ellipse
+309.JPEG 49(49) 117(83) 157(158) 151(222) 791 shopping cart, rectangle
+310.JPEG 33(33) 85(18) 125(125) 117(149) 293 cheetah, chetah, Acinonyx jubatus, rectangle
+311.JPEG 4(4) 147(107) 114(114) 175(222) 377 marmoset, rectangle
+312.JPEG 75(75) 113(90) 141(142) 123(131) 694 paddlewheel, paddle wheel, rectangle
+313.JPEG 99(99) 94(83) 143(143) 116(173) 264 Cardigan, Cardigan Welsh corgi, rectangle
+314.JPEG 22(22) 152(100) 184(184) 182(223) 950 orange, box
+315.JPEG 180(180) 119(104) 210(211) 131(154) 649 megalith, megalithic structure, rectangle
+316.JPEG 11(11) 75(17) 191(192) 123(216) 90 lorikeet, ellipse
+317.JPEG 105(105) 113(26) 177(178) 153(186) 801 snorkel, ellipse
+318.JPEG 72(72) 127(22) 178(179) 173(207) 146 albatross, mollymawk, box
+319.JPEG 58(58) 112(80) 174(174) 128(147) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, ellipse
+320.JPEG 19(19) 74(10) 177(177) 122(207) 540 drilling platform, offshore rig, rectangle
+321.JPEG 0(0) 121(1) 222(223) 175(222) 8 hen, rectangle
+322.JPEG 21(21) 109(13) 203(203) 159(213) 797 sleeping bag, ellipse
+323.JPEG 13(13) 66(39) 211(212) 106(201) 163 bloodhound, sleuthhound, ellipse
+324.JPEG 0(0) 132(0) 192(193) 186(223) 517 crane, box
+325.JPEG 4(4) 119(77) 222(222) 147(190) 359 black-footed ferret, ferret, Mustela nigripes, box
+326.JPEG 96(96) 62(40) 118(119) 76(97) 918 crossword puzzle, crossword, ellipse
+327.JPEG 0(0) 71(0) 144(145) 125(223) 149 dugong, Dugong dugon, ellipse
+328.JPEG 21(21) 130(10) 85(85) 182(223) 484 catamaran, rectangle
+329.JPEG 23(23) 86(18) 175(176) 136(220) 281 tabby, tabby cat, box
+330.JPEG 31(31) 136(27) 221(222) 182(213) 229 Old English sheepdog, bobtail, ellipse
+331.JPEG 97(97) 97(10) 129(130) 147(216) 683 oboe, hautboy, hautbois, box
+332.JPEG 88(88) 59(46) 134(134) 67(78) 574 golf ball, ellipse
+333.JPEG 0(0) 130(15) 222(223) 178(207) 454 bookshop, bookstore, bookstall, ellipse
+334.JPEG 21(21) 125(81) 93(94) 151(186) 83 prairie chicken, prairie grouse, prairie fowl, rectangle
+335.JPEG 77(77) 162(92) 149(150) 194(222) 699 panpipe, pandean pipe, syrinx, rectangle
+336.JPEG 2(2) 121(106) 78(78) 129(143) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, disk
+337.JPEG 42(42) 140(27) 212(213) 188(221) 91 coucal, ellipse
+338.JPEG 133(133) 121(107) 211(211) 135(169) 529 diaper, nappy, napkin, rectangle
+339.JPEG 84(84) 102(49) 150(150) 126(150) 649 megalith, megalithic structure, rectangle
+340.JPEG 3(3) 73(40) 219(219) 99(149) 405 airship, dirigible, rectangle
+341.JPEG 7(7) 129(17) 165(165) 177(213) 719 piggy bank, penny bank, box
+342.JPEG 0(0) 46(0) 124(125) 72(106) 720 pill bottle, ellipse
+343.JPEG 15(15) 103(22) 175(176) 145(193) 392 rock beauty, Holocanthus tricolor, ellipse
+344.JPEG 30(30) 81(17) 210(210) 131(223) 90 lorikeet, rectangle
+345.JPEG 64(64) 69(12) 164(164) 119(219) 615 knee pad, rectangle
+346.JPEG 88(88) 156(121) 154(154) 172(185) 542 drumstick, rectangle
+347.JPEG 165(165) 99(86) 223(223) 117(165) 943 cucumber, cuke, ellipse
+348.JPEG 80(80) 52(23) 128(129) 80(142) 832 stupa, tope, ellipse
+349.JPEG 75(75) 98(80) 113(113) 110(134) 801 snorkel, ellipse
+350.JPEG 40(40) 90(47) 128(128) 130(210) 86 partridge, rectangle
+351.JPEG 46(46) 170(151) 84(84) 178(185) 842 swimming trunks, bathing trunks, rectangle
+352.JPEG 9(9) 81(69) 209(210) 99(147) 344 hippopotamus, hippo, river horse, Hippopotamus amphibius, ellipse
+353.JPEG 36(36) 184(126) 114(114) 206(220) 589 hand blower, blow dryer, blow drier, hair dryer, hair drier, ellipse
+354.JPEG 98(98) 57(37) 182(182) 75(110) 129 spoonbill, ellipse
+355.JPEG 54(54) 61(1) 202(203) 109(200) 633 loupe, jeweler's loupe, rectangle
+356.JPEG 56(56) 61(21) 136(136) 93(154) 920 traffic light, traffic signal, stoplight, box
+357.JPEG 161(161) 62(13) 207(208) 110(212) 737 pop bottle, soda bottle, ellipse
+358.JPEG 7(7) 63(1) 221(221) 115(214) 545 electric fan, blower, ellipse
+359.JPEG 32(32) 53(38) 196(197) 73(119) 457 bow tie, bow-tie, bowtie, ellipse
+360.JPEG 55(55) 158(112) 209(209) 184(218) 279 Arctic fox, white fox, Alopex lagopus, ellipse
+361.JPEG 17(17) 125(40) 187(187) 163(197) 230 Shetland sheepdog, Shetland sheep dog, Shetland, rectangle
+362.JPEG 0(0) 23(1) 196(196) 63(162) 342 wild boar, boar, Sus scrofa, rectangle
+363.JPEG 35(35) 164(116) 103(103) 182(194) 317 leafhopper, box
+364.JPEG 25(25) 54(3) 119(119) 78(105) 83 prairie chicken, prairie grouse, prairie fowl, disk
+365.JPEG 42(42) 67(22) 188(188) 109(191) 398 abacus, rectangle
+366.JPEG 59(59) 71(43) 193(194) 101(166) 829 streetcar, tram, tramcar, trolley, trolley car, rectangle
+367.JPEG 44(44) 83(43) 168(168) 121(201) 615 knee pad, box
+368.JPEG 107(107) 124(0) 223(223) 176(210) 891 waffle iron, rectangle
+369.JPEG 94(94) 37(1) 222(223) 83(192) 791 shopping cart, ellipse
+370.JPEG 24(24) 13(1) 222(222) 35(95) 506 coil, spiral, volute, whorl, helix, rectangle
+371.JPEG 124(124) 127(23) 216(216) 173(210) 680 nipple, ellipse
+372.JPEG 0(0) 82(0) 222(223) 136(223) 533 dishrag, dishcloth, rectangle
+373.JPEG 85(85) 98(96) 133(133) 100(109) 685 odometer, hodometer, mileometer, milometer, disk
+374.JPEG 161(161) 63(52) 205(206) 79(118) 767 rubber eraser, rubber, pencil eraser, ellipse
+375.JPEG 14(14) 47(18) 208(209) 93(208) 427 barrel, cask, box
+376.JPEG 130(130) 80(68) 158(158) 90(109) 433 bathing cap, swimming cap, disk
+377.JPEG 37(37) 118(34) 223(223) 164(222) 214 Gordon setter, box
+378.JPEG 78(78) 51(16) 188(189) 101(223) 227 kelpie, ellipse
+379.JPEG 8(8) 50(20) 188(189) 96(211) 366 gorilla, Gorilla gorilla, rectangle
+380.JPEG 182(182) 89(78) 214(214) 107(150) 673 mouse, computer mouse, box
+381.JPEG 70(70) 39(5) 218(219) 89(207) 952 fig, ellipse
+382.JPEG 0(0) 67(27) 120(121) 97(152) 411 apron, ellipse
+383.JPEG 29(29) 167(131) 93(93) 185(205) 703 park bench, box
+384.JPEG 41(41) 68(31) 185(186) 110(200) 169 borzoi, Russian wolfhound, ellipse
+385.JPEG 0(0) 139(26) 104(105) 185(211) 432 bassoon, disk
+386.JPEG 23(23) 160(138) 49(50) 170(185) 984 rapeseed, ellipse
+387.JPEG 87(87) 129(94) 139(140) 149(179) 102 echidna, spiny anteater, anteater, rectangle
+388.JPEG 9(9) 82(28) 173(174) 122(194) 379 howler monkey, howler, rectangle
+389.JPEG 74(74) 139(123) 158(159) 153(186) 739 potter's wheel, rectangle
+390.JPEG 144(144) 146(84) 190(190) 176(210) 159 Rhodesian ridgeback, ellipse
+391.JPEG 0(0) 65(0) 222(222) 119(223) 627 limousine, limo, ellipse
+392.JPEG 55(55) 34(0) 195(196) 86(215) 540 drilling platform, offshore rig, box
+393.JPEG 50(50) 173(161) 116(117) 181(197) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, rectangle
+394.JPEG 176(176) 95(80) 202(202) 103(114) 680 nipple, ellipse
+395.JPEG 56(56) 132(115) 100(100) 150(189) 880 unicycle, monocycle, rectangle
+396.JPEG 0(0) 114(86) 154(155) 148(223) 163 bloodhound, sleuthhound, ellipse
+397.JPEG 75(75) 113(90) 173(173) 131(168) 576 gondola, rectangle
+398.JPEG 88(88) 67(59) 134(135) 79(112) 305 dung beetle, disk
+399.JPEG 2(2) 67(21) 184(184) 117(221) 839 suspension bridge, rectangle
+400.JPEG 0(0) 96(0) 222(223) 150(223) 860 tobacco shop, tobacconist shop, tobacconist, ellipse
+401.JPEG 76(76) 151(142) 92(92) 155(159) 958 hay, box
+402.JPEG 0(0) 89(24) 206(207) 133(207) 288 leopard, Panthera pardus, ellipse
+403.JPEG 103(103) 90(23) 221(221) 138(220) 615 knee pad, box
+404.JPEG 0(0) 145(62) 210(210) 185(223) 739 potter's wheel, ellipse
+405.JPEG 0(0) 140(43) 212(213) 180(208) 712 Petri dish, rectangle
+406.JPEG 54(54) 169(143) 116(117) 179(187) 822 steel drum, rectangle
+407.JPEG 26(26) 103(47) 196(196) 147(223) 268 Mexican hairless, ellipse
+408.JPEG 0(0) 79(55) 174(175) 119(216) 983 scuba diver, rectangle
+409.JPEG 62(62) 126(57) 150(151) 162(207) 298 mongoose, rectangle
+410.JPEG 67(67) 124(43) 163(164) 164(210) 11 goldfinch, Carduelis carduelis, box
+411.JPEG 0(0) 173(119) 222(223) 199(223) 716 picket fence, paling, box
+412.JPEG 68(68) 122(86) 128(129) 142(166) 107 jellyfish, rectangle
+413.JPEG 24(24) 57(0) 216(216) 79(94) 884 vault, box
+414.JPEG 19(19) 75(32) 175(175) 121(223) 221 Irish water spaniel, ellipse
+415.JPEG 37(37) 129(68) 203(204) 165(218) 776 sax, saxophone, ellipse
+416.JPEG 51(51) 177(125) 169(170) 201(223) 842 swimming trunks, bathing trunks, rectangle
+417.JPEG 44(44) 76(46) 170(171) 100(147) 577 gong, tam-tam, disk
+418.JPEG 187(187) 125(94) 223(223) 145(175) 613 joystick, box
+419.JPEG 108(108) 137(25) 192(192) 185(223) 387 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens, box
+420.JPEG 16(16) 113(22) 182(183) 161(217) 512 corkscrew, bottle screw, rectangle
+421.JPEG 90(90) 91(67) 144(144) 101(109) 651 microwave, microwave oven, ellipse
+422.JPEG 3(3) 99(40) 147(147) 141(210) 392 rock beauty, Holocanthus tricolor, rectangle
+423.JPEG 22(22) 44(18) 204(204) 92(210) 281 tabby, tabby cat, rectangle
+424.JPEG 24(24) 69(37) 68(68) 93(137) 188 wire-haired fox terrier, rectangle
+425.JPEG 10(10) 81(0) 222(223) 135(223) 475 car mirror, rectangle
+426.JPEG 0(0) 110(48) 188(189) 152(223) 466 bullet train, bullet, rectangle
+427.JPEG 24(24) 103(49) 222(223) 145(220) 690 oxcart, ellipse
+428.JPEG 51(51) 90(64) 163(164) 114(165) 612 jinrikisha, ricksha, rickshaw, rectangle
+429.JPEG 8(8) 136(43) 138(138) 174(200) 272 coyote, prairie wolf, brush wolf, Canis latrans, rectangle
+430.JPEG 137(137) 84(34) 215(215) 120(180) 69 trilobite, rectangle
+431.JPEG 40(40) 113(11) 188(189) 165(220) 886 vending machine, rectangle
+432.JPEG 69(69) 156(81) 141(142) 190(222) 887 vestment, disk
+433.JPEG 127(127) 166(86) 169(170) 200(223) 880 unicycle, monocycle, rectangle
+434.JPEG 109(109) 20(0) 223(223) 40(80) 549 envelope, ellipse
+435.JPEG 95(95) 142(128) 177(178) 158(197) 142 dowitcher, box
+436.JPEG 125(125) 130(77) 191(191) 156(187) 806 sock, box
+437.JPEG 42(42) 141(115) 98(98) 167(223) 880 unicycle, monocycle, rectangle
+438.JPEG 1(1) 40(11) 219(220) 90(215) 532 dining table, board, box
+439.JPEG 47(47) 172(159) 205(206) 186(222) 739 potter's wheel, rectangle
+440.JPEG 8(8) 123(92) 80(80) 153(218) 351 hartebeest, ellipse
+441.JPEG 200(200) 211(207) 212(213) 211(214) 746 puck, hockey puck, rectangle
+442.JPEG 43(43) 136(113) 155(156) 156(200) 630 Loafer, box
+443.JPEG 91(91) 124(123) 97(98) 126(132) 890 volleyball, box
+444.JPEG 56(56) 136(111) 120(121) 152(179) 641 maraca, ellipse
+445.JPEG 26(26) 53(27) 166(167) 101(223) 900 water tower, box
+446.JPEG 38(38) 125(103) 100(100) 153(215) 19 chickadee, ellipse
+447.JPEG 71(71) 101(0) 181(182) 155(223) 496 Christmas stocking, box
+448.JPEG 192(192) 67(62) 204(205) 69(77) 410 apiary, bee house, ellipse
+449.JPEG 151(151) 149(78) 223(223) 179(199) 807 solar dish, solar collector, solar furnace, disk
+450.JPEG 17(17) 62(12) 199(199) 112(212) 262 Brabancon griffon, ellipse
+451.JPEG 26(26) 132(0) 222(223) 186(222) 533 dishrag, dishcloth, rectangle
+452.JPEG 49(49) 46(15) 191(192) 96(219) 228 komondor, ellipse
+453.JPEG 137(137) 141(99) 179(180) 159(176) 9 ostrich, Struthio camelus, ellipse
+454.JPEG 0(0) 88(56) 136(136) 128(223) 363 armadillo, rectangle
+455.JPEG 7(7) 134(0) 191(192) 188(223) 707 pay-phone, pay-station, rectangle
+456.JPEG 60(60) 133(46) 104(105) 169(192) 9 ostrich, Struthio camelus, disk
+457.JPEG 50(50) 88(63) 184(184) 120(191) 998 ear, spike, capitulum, ellipse
+458.JPEG 39(39) 50(4) 181(182) 104(223) 340 zebra, ellipse
+459.JPEG 7(7) 104(40) 81(81) 138(179) 456 bow, box
+460.JPEG 73(73) 99(28) 151(151) 141(198) 988 acorn, ellipse
+461.JPEG 25(25) 79(32) 169(170) 117(185) 724 pirate, pirate ship, ellipse
+462.JPEG 5(5) 59(5) 223(223) 85(113) 853 thatch, thatched roof, ellipse
+463.JPEG 25(25) 41(7) 201(202) 91(213) 667 mortarboard, box
+464.JPEG 83(83) 68(20) 223(223) 110(191) 97 drake, rectangle
+465.JPEG 58(58) 83(16) 156(156) 133(223) 135 limpkin, Aramus pictus, box
+466.JPEG 0(0) 33(0) 222(222) 87(223) 289 snow leopard, ounce, Panthera uncia, ellipse
+467.JPEG 0(0) 33(1) 222(223) 87(223) 854 theater curtain, theatre curtain, disk
+468.JPEG 43(43) 122(102) 209(210) 130(135) 833 submarine, pigboat, sub, U-boat, ellipse
+469.JPEG 17(17) 130(0) 149(150) 184(223) 683 oboe, hautboy, hautbois, rectangle
+470.JPEG 31(31) 79(8) 185(186) 131(223) 894 wardrobe, closet, press, rectangle
+471.JPEG 86(86) 79(25) 188(189) 103(128) 973 coral reef, ellipse
+472.JPEG 35(35) 150(134) 147(148) 156(164) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, rectangle
+473.JPEG 4(4) 85(15) 112(113) 123(172) 294 brown bear, bruin, Ursus arctos, ellipse
+474.JPEG 29(29) 104(28) 181(181) 138(169) 321 admiral, ellipse
+475.JPEG 116(116) 134(10) 222(223) 184(213) 146 albatross, mollymawk, disk
+476.JPEG 44(44) 89(40) 158(159) 123(182) 232 Border collie, rectangle
+477.JPEG 0(0) 80(20) 222(223) 128(218) 881 upright, upright piano, rectangle
+478.JPEG 74(74) 56(39) 106(107) 62(69) 989 hip, rose hip, rosehip, disk
+479.JPEG 2(2) 154(122) 110(110) 176(215) 816 spindle, rectangle
+480.JPEG 0(0) 128(104) 220(221) 156(222) 118 Dungeness crab, Cancer magister, ellipse
+481.JPEG 90(90) 117(1) 222(222) 171(222) 406 altar, box
+482.JPEG 103(103) 108(101) 119(120) 110(116) 433 bathing cap, swimming cap, rectangle
+483.JPEG 0(0) 50(14) 222(222) 102(222) 256 Newfoundland, Newfoundland dog, ellipse
+484.JPEG 54(54) 77(53) 200(201) 117(213) 172 whippet, rectangle
+485.JPEG 116(116) 103(72) 158(158) 117(130) 842 swimming trunks, bathing trunks, rectangle
+486.JPEG 1(1) 112(48) 223(223) 144(180) 963 pizza, pizza pie, ellipse
+487.JPEG 57(57) 103(37) 209(209) 149(223) 164 bluetick, ellipse
+488.JPEG 0(0) 76(0) 222(222) 130(223) 668 mosque, ellipse
+489.JPEG 0(0) 70(0) 152(152) 100(125) 542 drumstick, rectangle
+490.JPEG 41(41) 169(149) 105(105) 185(218) 83 prairie chicken, prairie grouse, prairie fowl, box
+491.JPEG 43(43) 134(61) 205(205) 168(203) 273 dingo, warrigal, warragal, Canis dingo, rectangle
+492.JPEG 0(0) 51(0) 222(223) 105(223) 539 doormat, welcome mat, ellipse
+493.JPEG 81(81) 52(3) 199(199) 102(206) 446 binder, ring-binder, box
+494.JPEG 35(35) 148(118) 129(129) 164(187) 714 pick, plectrum, plectron, box
+495.JPEG 0(0) 129(83) 222(223) 163(223) 109 brain coral, rectangle
+496.JPEG 120(120) 53(47) 146(147) 57(65) 970 alp, box
+497.JPEG 74(74) 68(53) 152(153) 86(130) 811 space heater, box
+498.JPEG 28(28) 138(73) 146(147) 166(189) 125 hermit crab, ellipse
+499.JPEG 29(29) 90(54) 213(213) 126(199) 586 half track, ellipse
+500.JPEG 94(94) 77(30) 130(131) 125(223) 557 flagpole, flagstaff, ellipse
+501.JPEG 16(16) 52(18) 152(152) 100(216) 152 Japanese spaniel, ellipse
+502.JPEG 23(23) 141(126) 139(140) 157(191) 763 revolver, six-gun, six-shooter, ellipse
+503.JPEG 0(0) 98(1) 132(133) 146(199) 363 armadillo, ellipse
+504.JPEG 60(60) 78(69) 82(82) 86(105) 768 rugby ball, box
+505.JPEG 0(0) 162(92) 160(161) 194(222) 251 dalmatian, coach dog, carriage dog, rectangle
+506.JPEG 48(48) 109(78) 142(143) 137(190) 756 rain barrel, box
+507.JPEG 75(75) 183(167) 221(222) 197(223) 428 barrow, garden cart, lawn cart, wheelbarrow, rectangle
+508.JPEG 5(5) 90(5) 85(85) 134(186) 503 cocktail shaker, box
+509.JPEG 0(0) 36(0) 184(185) 88(215) 174 Norwegian elkhound, elkhound, rectangle
+510.JPEG 17(17) 128(26) 215(215) 170(201) 950 orange, ellipse
+511.JPEG 57(57) 61(43) 203(204) 83(131) 146 albatross, mollymawk, ellipse
+512.JPEG 53(53) 100(86) 149(149) 112(135) 803 snowplow, snowplough, ellipse
+513.JPEG 10(10) 97(26) 120(120) 143(217) 225 malinois, ellipse
+514.JPEG 0(0) 142(83) 150(150) 168(192) 976 promontory, headland, head, foreland, rectangle
+515.JPEG 93(93) 117(36) 213(213) 161(219) 298 mongoose, box
+516.JPEG 47(47) 93(0) 177(177) 147(221) 857 throne, box
+517.JPEG 0(0) 76(59) 222(223) 82(90) 977 sandbar, sand bar, box
+518.JPEG 61(61) 56(14) 223(223) 100(197) 268 Mexican hairless, ellipse
+519.JPEG 11(11) 104(6) 117(118) 152(201) 432 bassoon, box
+520.JPEG 1(1) 113(0) 223(223) 167(223) 800 slot, one-armed bandit, box
+521.JPEG 106(106) 110(87) 178(179) 128(163) 11 goldfinch, Carduelis carduelis, rectangle
+522.JPEG 28(28) 31(1) 196(196) 81(203) 625 lifeboat, rectangle
+523.JPEG 12(12) 124(1) 216(216) 178(223) 164 bluetick, rectangle
+524.JPEG 46(46) 128(52) 156(157) 160(181) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, box
+525.JPEG 3(3) 126(3) 221(222) 180(223) 937 broccoli, ellipse
+526.JPEG 144(144) 84(60) 182(183) 100(129) 363 armadillo, rectangle
+527.JPEG 32(32) 113(0) 182(183) 167(223) 451 bolo tie, bolo, bola tie, bola, box
+528.JPEG 0(0) 79(33) 102(103) 107(146) 976 promontory, headland, head, foreland, ellipse
+529.JPEG 106(106) 113(77) 222(223) 139(183) 181 Bedlington terrier, ellipse
+530.JPEG 46(46) 72(26) 196(196) 116(208) 949 strawberry, rectangle
+531.JPEG 64(64) 51(18) 190(191) 95(200) 245 French bulldog, rectangle
+532.JPEG 64(64) 126(44) 130(131) 162(194) 95 jacamar, rectangle
+533.JPEG 134(134) 147(103) 198(199) 167(185) 347 bison, disk
+534.JPEG 44(44) 100(41) 194(194) 136(186) 294 brown bear, bruin, Ursus arctos, ellipse
+535.JPEG 0(0) 129(28) 160(161) 171(198) 2 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias, ellipse
+536.JPEG 27(27) 171(159) 51(51) 177(186) 957 pomegranate, box
+537.JPEG 34(34) 107(14) 216(216) 157(215) 291 lion, king of beasts, Panthera leo, ellipse
+538.JPEG 82(82) 179(158) 142(142) 187(194) 554 fireboat, rectangle
+539.JPEG 86(86) 116(105) 112(112) 128(153) 701 parachute, chute, box
+540.JPEG 19(19) 79(11) 215(216) 125(195) 156 Blenheim spaniel, ellipse
+541.JPEG 85(85) 134(61) 113(113) 164(184) 939 zucchini, courgette, box
+542.JPEG 41(41) 120(24) 197(198) 164(206) 183 Kerry blue terrier, box
+543.JPEG 0(0) 136(34) 222(223) 182(222) 925 consomme, rectangle
+544.JPEG 46(46) 55(33) 196(197) 87(168) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, box
+545.JPEG 120(120) 126(3) 220(221) 180(223) 658 mitten, ellipse
+546.JPEG 55(55) 166(103) 145(146) 192(209) 140 red-backed sandpiper, dunlin, Erolia alpina, disk
+547.JPEG 19(19) 75(52) 195(195) 97(143) 738 pot, flowerpot, rectangle
+548.JPEG 34(34) 108(80) 180(181) 130(172) 2 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias, rectangle
+549.JPEG 51(51) 38(4) 221(222) 92(223) 145 king penguin, Aptenodytes patagonica, rectangle
+550.JPEG 25(25) 115(96) 137(138) 139(198) 662 modem, ellipse
+551.JPEG 0(0) 12(11) 222(222) 14(20) 602 horizontal bar, high bar, rectangle
+552.JPEG 63(63) 113(95) 223(223) 145(223) 948 Granny Smith, box
+553.JPEG 27(27) 75(25) 185(185) 119(208) 272 coyote, prairie wolf, brush wolf, Canis latrans, rectangle
+554.JPEG 60(60) 85(47) 152(153) 109(146) 163 bloodhound, sleuthhound, ellipse
+555.JPEG 128(128) 99(42) 222(222) 141(214) 503 cocktail shaker, rectangle
+556.JPEG 49(49) 125(10) 205(206) 175(211) 251 dalmatian, coach dog, carriage dog, ellipse
+557.JPEG 34(34) 96(66) 174(175) 130(204) 938 cauliflower, rectangle
+558.JPEG 28(28) 47(6) 160(160) 85(164) 540 drilling platform, offshore rig, rectangle
+559.JPEG 89(89) 131(108) 135(135) 153(198) 880 unicycle, monocycle, rectangle
+560.JPEG 49(49) 63(48) 159(160) 83(133) 141 redshank, Tringa totanus, box
+561.JPEG 22(22) 164(89) 214(215) 196(223) 617 lab coat, laboratory coat, rectangle
+562.JPEG 43(43) 145(56) 223(223) 185(223) 149 dugong, Dugong dugon, ellipse
+563.JPEG 163(163) 165(94) 223(223) 197(223) 945 bell pepper, disk
+564.JPEG 2(2) 174(109) 222(222) 202(222) 977 sandbar, sand bar, rectangle
+565.JPEG 43(43) 90(77) 109(110) 114(180) 80 black grouse, rectangle
+566.JPEG 35(35) 129(54) 151(151) 161(183) 330 wood rabbit, cottontail, cottontail rabbit, rectangle
+567.JPEG 34(34) 36(6) 188(189) 90(222) 244 Tibetan mastiff, ellipse
+568.JPEG 0(0) 28(25) 200(201) 30(38) 602 horizontal bar, high bar, ellipse
+569.JPEG 22(22) 105(12) 218(218) 151(196) 555 fire engine, fire truck, ellipse
+570.JPEG 7(7) 33(7) 205(205) 81(204) 163 bloodhound, sleuthhound, ellipse
+571.JPEG 31(31) 124(38) 193(194) 162(195) 465 bulletproof vest, rectangle
+572.JPEG 15(15) 72(4) 211(212) 120(203) 359 black-footed ferret, ferret, Mustela nigripes, rectangle
+573.JPEG 94(94) 140(67) 146(147) 172(202) 773 saltshaker, salt shaker, rectangle
+574.JPEG 4(4) 24(4) 132(133) 36(59) 502 clog, geta, patten, sabot, box
+575.JPEG 16(16) 145(17) 166(167) 195(223) 816 spindle, ellipse
+576.JPEG 0(0) 86(1) 170(171) 140(223) 466 bullet train, bullet, ellipse
+577.JPEG 17(17) 146(112) 51(52) 166(197) 145 king penguin, Aptenodytes patagonica, rectangle
+578.JPEG 52(52) 95(71) 174(174) 119(167) 874 trolleybus, trolley coach, trackless trolley, ellipse
+579.JPEG 22(22) 41(6) 210(210) 93(220) 846 table lamp, rectangle
+580.JPEG 57(57) 126(37) 161(161) 168(207) 524 cuirass, ellipse
+581.JPEG 0(0) 29(0) 222(222) 83(222) 648 medicine chest, medicine cabinet, ellipse
+582.JPEG 0(0) 139(11) 222(223) 191(223) 87 African grey, African gray, Psittacus erithacus, ellipse
+583.JPEG 32(32) 129(28) 214(214) 175(212) 11 goldfinch, Carduelis carduelis, ellipse
+584.JPEG 15(15) 109(52) 223(223) 147(208) 260 chow, chow chow, rectangle
+585.JPEG 97(97) 129(62) 145(145) 155(172) 756 rain barrel, box
+586.JPEG 26(26) 109(21) 142(143) 155(208) 330 wood rabbit, cottontail, cottontail rabbit, ellipse
+587.JPEG 0(0) 51(0) 222(223) 105(223) 521 Crock Pot, rectangle
+588.JPEG 57(57) 126(13) 173(174) 176(214) 356 weasel, rectangle
+589.JPEG 0(0) 60(6) 222(223) 114(223) 399 abaya, rectangle
+590.JPEG 137(137) 106(0) 223(223) 148(170) 850 teddy, teddy bear, ellipse
+591.JPEG 52(52) 176(110) 182(183) 204(222) 678 neck brace, box
+592.JPEG 0(0) 64(14) 180(180) 116(223) 396 lionfish, ellipse
+593.JPEG 76(76) 124(61) 148(149) 150(169) 971 bubble, rectangle
+594.JPEG 0(0) 29(0) 222(223) 83(223) 480 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, rectangle
+595.JPEG 33(33) 98(37) 201(201) 126(155) 688 oscilloscope, scope, cathode-ray oscilloscope, CRO, ellipse
+596.JPEG 0(0) 167(123) 188(189) 191(223) 769 rule, ruler, ellipse
+597.JPEG 56(56) 91(38) 174(174) 127(187) 115 sea slug, nudibranch, rectangle
+598.JPEG 0(0) 160(98) 88(89) 188(216) 783 screw, ellipse
+599.JPEG 0(0) 43(14) 190(191) 91(213) 392 rock beauty, Holocanthus tricolor, box
+600.JPEG 30(30) 149(29) 168(168) 197(222) 607 jack-o'-lantern, ellipse
+601.JPEG 37(37) 134(70) 199(199) 166(201) 637 mailbox, letter, box, ellipse
+602.JPEG 70(70) 74(50) 146(147) 100(156) 1 goldfish, Carassius auratus, ellipse
+603.JPEG 59(59) 77(38) 169(169) 123(223) 900 water tower, rectangle
+604.JPEG 65(65) 70(47) 119(120) 96(155) 701 parachute, chute, ellipse
+605.JPEG 0(0) 50(18) 196(197) 100(222) 130 flamingo, box
+606.JPEG 43(43) 64(21) 189(190) 104(187) 938 cauliflower, box
+607.JPEG 66(66) 47(20) 144(144) 97(223) 816 spindle, rectangle
+608.JPEG 68(68) 155(72) 164(165) 191(221) 320 damselfly, box
+609.JPEG 0(0) 54(20) 220(221) 104(223) 118 Dungeness crab, Cancer magister, ellipse
+610.JPEG 111(111) 70(43) 143(144) 98(162) 920 traffic light, traffic signal, stoplight, rectangle
+611.JPEG 0(0) 133(0) 222(223) 187(222) 274 dhole, Cuon alpinus, rectangle
+612.JPEG 8(8) 103(0) 222(223) 155(212) 672 mountain tent, rectangle
+613.JPEG 83(83) 139(24) 191(192) 187(220) 279 Arctic fox, white fox, Alopex lagopus, rectangle
+614.JPEG 136(136) 110(93) 176(176) 118(125) 98 red-breasted merganser, Mergus serrator, ellipse
+615.JPEG 63(63) 126(42) 159(159) 162(188) 714 pick, plectrum, plectron, box
+616.JPEG 17(17) 115(25) 201(202) 157(195) 276 hyena, hyaena, ellipse
+617.JPEG 38(38) 151(105) 194(194) 179(222) 617 lab coat, laboratory coat, ellipse
+618.JPEG 29(29) 35(20) 149(149) 61(125) 142 dowitcher, rectangle
+619.JPEG 84(84) 161(130) 162(162) 177(199) 902 whistle, ellipse
+620.JPEG 0(0) 143(31) 180(180) 191(223) 163 bloodhound, sleuthhound, box
+621.JPEG 50(50) 77(40) 188(189) 105(152) 143 oystercatcher, oyster catcher, ellipse
+622.JPEG 0(0) 191(183) 170(170) 201(223) 987 corn, ellipse
+623.JPEG 41(41) 117(34) 117(117) 157(201) 684 ocarina, sweet potato, ellipse
+624.JPEG 76(76) 95(76) 150(151) 109(137) 392 rock beauty, Holocanthus tricolor, rectangle
+625.JPEG 64(64) 62(9) 188(189) 98(160) 301 ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle, rectangle
+626.JPEG 63(63) 63(0) 159(159) 117(219) 631 lotion, ellipse
+627.JPEG 55(55) 146(97) 193(193) 168(185) 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus, box
+628.JPEG 0(0) 62(34) 168(168) 78(99) 696 paintbrush, box
+629.JPEG 36(36) 80(33) 222(223) 118(192) 360 otter, rectangle
+630.JPEG 28(28) 120(35) 188(189) 160(198) 280 grey fox, gray fox, Urocyon cinereoargenteus, rectangle
+631.JPEG 24(24) 36(2) 222(222) 90(218) 370 guenon, guenon monkey, rectangle
+632.JPEG 37(37) 100(10) 205(205) 150(216) 699 panpipe, pandean pipe, syrinx, ellipse
+633.JPEG 118(118) 182(173) 142(142) 188(202) 649 megalith, megalithic structure, ellipse
+634.JPEG 31(31) 131(30) 215(216) 175(206) 79 centipede, ellipse
+635.JPEG 7(7) 103(29) 217(217) 145(203) 856 thresher, thrasher, threshing machine, ellipse
+636.JPEG 50(50) 122(64) 130(130) 150(180) 989 hip, rose hip, rosehip, ellipse
+637.JPEG 89(89) 65(27) 179(179) 109(207) 994 stinkhorn, carrion fungus, ellipse
+638.JPEG 0(0) 133(45) 210(211) 177(222) 218 Welsh springer spaniel, ellipse
+639.JPEG 18(18) 116(14) 218(219) 160(197) 743 prison, prison house, ellipse
+640.JPEG 101(101) 124(56) 221(222) 160(206) 187 Yorkshire terrier, box
+641.JPEG 19(19) 67(8) 219(219) 119(218) 669 mosquito net, rectangle
+642.JPEG 94(94) 120(84) 160(160) 136(150) 273 dingo, warrigal, warragal, Canis dingo, ellipse
+643.JPEG 17(17) 111(19) 199(199) 157(210) 527 desktop computer, ellipse
+644.JPEG 0(0) 81(16) 184(185) 131(221) 283 Persian cat, rectangle
+645.JPEG 59(59) 44(1) 197(197) 98(219) 283 Persian cat, rectangle
+646.JPEG 7(7) 51(20) 221(222) 99(218) 935 mashed potato, box
+647.JPEG 0(0) 106(87) 166(167) 138(222) 954 banana, rectangle
+648.JPEG 8(8) 100(50) 46(47) 132(179) 799 sliding door, box
+649.JPEG 75(75) 128(107) 161(161) 152(205) 522 croquet ball, disk
+650.JPEG 1(1) 146(86) 107(107) 180(223) 161 basset, basset hound, rectangle
+651.JPEG 85(85) 69(1) 219(220) 117(200) 249 malamute, malemute, Alaskan malamute, rectangle
+652.JPEG 4(4) 146(126) 40(40) 166(206) 107 jellyfish, disk
+653.JPEG 51(51) 82(17) 93(93) 124(186) 769 rule, ruler, ellipse
+654.JPEG 58(58) 124(103) 152(152) 136(157) 458 brass, memorial tablet, plaque, ellipse
+655.JPEG 13(13) 121(8) 223(223) 173(222) 191 Airedale, Airedale terrier, rectangle
+656.JPEG 9(9) 49(24) 93(94) 69(106) 919 street sign, box
+657.JPEG 0(0) 121(106) 222(223) 149(223) 111 nematode, nematode worm, roundworm, ellipse
+658.JPEG 83(83) 102(24) 201(201) 144(197) 352 impala, Aepyceros melampus, box
+659.JPEG 0(0) 93(0) 138(139) 137(176) 1 goldfish, Carassius auratus, rectangle
+660.JPEG 5(5) 85(60) 219(219) 109(158) 394 sturgeon, rectangle
+661.JPEG 73(73) 94(61) 195(195) 112(133) 530 digital clock, ellipse
+662.JPEG 122(122) 90(13) 222(222) 136(204) 451 bolo tie, bolo, bola tie, bola, rectangle
+663.JPEG 64(64) 61(45) 122(123) 89(161) 192 cairn, cairn terrier, ellipse
+664.JPEG 0(0) 75(0) 210(211) 129(223) 261 keeshond, rectangle
+665.JPEG 0(0) 105(0) 222(223) 159(223) 490 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour, rectangle
+666.JPEG 0(0) 86(59) 166(166) 118(190) 974 geyser, box
+667.JPEG 48(48) 87(18) 178(178) 133(205) 326 lycaenid, lycaenid butterfly, box
+668.JPEG 0(0) 106(45) 222(223) 150(223) 75 black widow, Latrodectus mactans, rectangle
+669.JPEG 68(68) 152(141) 142(142) 160(174) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, disk
+670.JPEG 52(52) 118(17) 206(207) 164(202) 371 patas, hussar monkey, Erythrocebus patas, box
+671.JPEG 68(68) 20(8) 90(90) 30(54) 801 snorkel, ellipse
+672.JPEG 51(51) 89(40) 155(156) 129(204) 811 space heater, box
+673.JPEG 115(115) 122(76) 165(166) 142(157) 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus, rectangle
+674.JPEG 109(109) 116(15) 221(222) 162(200) 229 Old English sheepdog, bobtail, ellipse
+675.JPEG 5(5) 92(77) 215(216) 106(136) 398 abacus, box
+676.JPEG 0(0) 69(28) 204(204) 111(203) 287 lynx, catamount, rectangle
+677.JPEG 103(103) 89(3) 217(217) 141(216) 615 knee pad, ellipse
+678.JPEG 93(93) 204(201) 135(136) 208(218) 500 cliff dwelling, rectangle
+679.JPEG 119(119) 73(55) 179(180) 83(98) 449 boathouse, rectangle
+680.JPEG 0(0) 56(19) 180(181) 106(223) 24 great grey owl, great gray owl, Strix nebulosa, ellipse
+681.JPEG 67(67) 29(0) 181(182) 81(212) 28 spotted salamander, Ambystoma maculatum, box
+682.JPEG 0(0) 138(0) 222(222) 192(223) 533 dishrag, dishcloth, rectangle
+683.JPEG 35(35) 57(6) 173(174) 109(214) 379 howler monkey, howler, ellipse
+684.JPEG 0(0) 130(0) 222(222) 184(222) 760 refrigerator, icebox, ellipse
+685.JPEG 8(8) 150(59) 112(112) 186(209) 388 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca, ellipse
+686.JPEG 4(4) 79(39) 218(218) 113(182) 777 scabbard, rectangle
+687.JPEG 81(81) 99(67) 157(158) 113(129) 12 house finch, linnet, Carpodacus mexicanus, ellipse
+688.JPEG 34(34) 115(58) 144(144) 149(199) 19 chickadee, rectangle
+689.JPEG 0(0) 140(63) 222(223) 180(223) 526 desk, rectangle
+690.JPEG 38(38) 49(0) 178(179) 89(163) 871 trimaran, ellipse
+691.JPEG 15(15) 121(0) 223(223) 175(223) 989 hip, rose hip, rosehip, ellipse
+692.JPEG 124(124) 31(12) 220(220) 51(95) 259 Pomeranian, ellipse
+693.JPEG 102(102) 46(20) 206(206) 84(177) 948 Granny Smith, rectangle
+694.JPEG 1(1) 112(90) 103(103) 142(210) 741 prayer rug, prayer mat, ellipse
+695.JPEG 13(13) 119(20) 209(209) 163(198) 851 television, television system, box
+696.JPEG 68(68) 141(109) 158(158) 167(213) 932 pretzel, ellipse
+697.JPEG 23(23) 60(13) 115(115) 108(210) 90 lorikeet, rectangle
+698.JPEG 87(87) 161(97) 217(217) 187(208) 951 lemon, disk
+699.JPEG 88(88) 63(21) 222(223) 109(212) 951 lemon, ellipse
+700.JPEG 29(29) 55(26) 195(195) 93(182) 330 wood rabbit, cottontail, cottontail rabbit, box
+701.JPEG 5(5) 91(77) 217(217) 113(170) 699 panpipe, pandean pipe, syrinx, box
+702.JPEG 1(1) 49(17) 215(216) 99(223) 612 jinrikisha, ricksha, rickshaw, rectangle
+703.JPEG 8(8) 119(44) 98(98) 161(218) 901 whiskey jug, rectangle
+704.JPEG 34(34) 39(0) 182(183) 93(223) 604 hourglass, box
+705.JPEG 148(148) 110(82) 216(216) 138(198) 145 king penguin, Aptenodytes patagonica, rectangle
+706.JPEG 14(14) 130(13) 214(215) 180(217) 765 rocking chair, rocker, rectangle
+707.JPEG 97(97) 86(10) 223(223) 138(219) 171 Italian greyhound, rectangle
+708.JPEG 67(67) 45(28) 153(154) 59(91) 985 daisy, box
+709.JPEG 27(27) 90(74) 177(178) 108(148) 0 tench, Tinca tinca, rectangle
+710.JPEG 39(39) 74(20) 201(202) 110(169) 555 fire engine, fire truck, rectangle
+711.JPEG 45(45) 98(11) 203(203) 150(223) 355 llama, box
+712.JPEG 64(64) 82(41) 136(137) 126(221) 293 cheetah, chetah, Acinonyx jubatus, ellipse
+713.JPEG 39(39) 62(29) 197(198) 106(212) 201 silky terrier, Sydney silky, box
+714.JPEG 12(12) 30(3) 218(219) 80(207) 797 sleeping bag, rectangle
+715.JPEG 75(75) 136(121) 187(188) 154(198) 554 fireboat, box
+716.JPEG 43(43) 98(15) 181(182) 150(223) 383 Madagascar cat, ring-tailed lemur, Lemur catta, box
+717.JPEG 22(22) 134(124) 166(166) 144(170) 984 rapeseed, ellipse
+718.JPEG 147(147) 95(86) 197(197) 107(134) 783 screw, rectangle
+719.JPEG 61(61) 85(50) 205(205) 119(188) 649 megalith, megalithic structure, rectangle
+720.JPEG 43(43) 122(96) 89(90) 140(175) 371 patas, hussar monkey, Erythrocebus patas, ellipse
+721.JPEG 51(51) 83(71) 173(174) 103(156) 36 terrapin, ellipse
+722.JPEG 37(37) 84(39) 201(201) 118(175) 902 whistle, rectangle
+723.JPEG 27(27) 125(98) 115(116) 145(179) 324 cabbage butterfly, box
+724.JPEG 133(133) 53(0) 223(223) 97(183) 328 sea urchin, ellipse
+725.JPEG 0(0) 113(52) 222(223) 155(223) 525 dam, dike, dyke, rectangle
+726.JPEG 0(0) 94(80) 36(37) 120(184) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, ellipse
+727.JPEG 21(21) 122(111) 63(64) 136(170) 985 daisy, box
+728.JPEG 69(69) 102(83) 141(142) 114(137) 874 trolleybus, trolley coach, trackless trolley, rectangle
+729.JPEG 38(38) 80(32) 194(195) 126(220) 194 Dandie Dinmont, Dandie Dinmont terrier, rectangle
+730.JPEG 56(56) 118(45) 166(166) 148(171) 995 earthstar, rectangle
+731.JPEG 20(20) 121(13) 198(199) 169(206) 505 coffeepot, rectangle
+732.JPEG 1(1) 120(41) 207(207) 158(193) 375 colobus, colobus monkey, ellipse
+733.JPEG 32(32) 85(50) 82(82) 101(118) 895 warplane, military plane, rectangle
+734.JPEG 36(36) 105(83) 76(76) 127(176) 201 silky terrier, Sydney silky, ellipse
+735.JPEG 70(70) 103(31) 176(177) 135(164) 756 rain barrel, rectangle
+736.JPEG 9(9) 86(37) 217(217) 124(194) 404 airliner, ellipse
+737.JPEG 50(50) 89(28) 152(153) 133(205) 211 vizsla, Hungarian pointer, rectangle
+738.JPEG 0(0) 89(74) 210(211) 107(150) 397 puffer, pufferfish, blowfish, globefish, rectangle
+739.JPEG 68(68) 82(65) 170(170) 110(183) 448 birdhouse, rectangle
+740.JPEG 0(0) 83(0) 178(179) 137(223) 532 dining table, board, ellipse
+741.JPEG 51(51) 55(15) 195(195) 91(162) 105 koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus, rectangle
+742.JPEG 88(88) 138(47) 194(194) 182(223) 900 water tower, ellipse
+743.JPEG 84(84) 33(0) 148(148) 51(75) 793 shower cap, box
+744.JPEG 56(56) 155(149) 92(92) 157(162) 393 anemone fish, ellipse
+745.JPEG 39(39) 52(19) 121(121) 70(96) 948 Granny Smith, rectangle
+746.JPEG 0(0) 41(0) 198(199) 95(222) 279 Arctic fox, white fox, Alopex lagopus, box
+747.JPEG 28(28) 43(3) 200(201) 97(223) 287 lynx, catamount, ellipse
+748.JPEG 122(122) 123(61) 174(175) 149(168) 829 streetcar, tram, tramcar, trolley, trolley car, box
+749.JPEG 0(0) 138(73) 222(222) 174(223) 931 bagel, beigel, rectangle
+750.JPEG 60(60) 45(28) 158(159) 75(149) 685 odometer, hodometer, mileometer, milometer, box
+751.JPEG 63(63) 127(88) 149(150) 159(223) 707 pay-phone, pay-station, rectangle
+752.JPEG 19(19) 65(0) 223(223) 119(223) 352 impala, Aepyceros melampus, rectangle
+753.JPEG 3(3) 82(10) 223(223) 134(223) 294 brown bear, bruin, Ursus arctos, ellipse
+754.JPEG 95(95) 114(45) 149(149) 146(177) 27 eft, rectangle
+755.JPEG 41(41) 66(39) 223(223) 104(194) 397 puffer, pufferfish, blowfish, globefish, ellipse
+756.JPEG 0(0) 180(165) 140(141) 194(223) 980 volcano, disk
+757.JPEG 4(4) 112(60) 198(199) 150(212) 339 sorrel, ellipse
+758.JPEG 18(18) 118(33) 64(65) 158(198) 680 nipple, rectangle
+759.JPEG 27(27) 72(61) 195(195) 92(147) 895 warplane, military plane, ellipse
+760.JPEG 22(22) 147(92) 200(200) 173(199) 121 king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica, rectangle
+761.JPEG 177(177) 126(68) 209(210) 162(218) 629 lipstick, lip rouge, box
+762.JPEG 0(0) 61(0) 124(125) 87(104) 659 mixing bowl, ellipse
+763.JPEG 41(41) 68(16) 177(177) 118(223) 388 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca, ellipse
+764.JPEG 124(124) 123(66) 222(223) 161(223) 238 Greater Swiss Mountain dog, ellipse
+765.JPEG 125(125) 70(53) 179(180) 90(134) 956 custard apple, ellipse
+766.JPEG 8(8) 75(0) 212(213) 125(203) 914 yawl, box
+767.JPEG 36(36) 119(0) 208(208) 167(198) 518 crash helmet, box
+768.JPEG 133(133) 144(42) 195(196) 188(223) 399 abaya, box
+769.JPEG 19(19) 56(17) 199(200) 106(223) 181 Bedlington terrier, rectangle
+770.JPEG 78(78) 113(37) 134(135) 143(163) 796 ski mask, rectangle
+771.JPEG 116(116) 88(66) 192(193) 102(128) 137 American coot, marsh hen, mud hen, water hen, Fulica americana, rectangle
+772.JPEG 67(67) 101(35) 161(161) 141(199) 901 whiskey jug, box
+773.JPEG 0(0) 93(59) 156(157) 123(180) 363 armadillo, rectangle
+774.JPEG 7(7) 114(39) 199(199) 152(198) 329 sea cucumber, holothurian, ellipse
+775.JPEG 85(85) 100(59) 221(222) 122(154) 48 Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis, ellipse
+776.JPEG 51(51) 73(39) 103(104) 119(223) 88 macaw, ellipse
+777.JPEG 0(0) 73(17) 98(99) 97(115) 793 shower cap, box
+778.JPEG 0(0) 80(26) 202(203) 124(204) 277 red fox, Vulpes vulpes, rectangle
+779.JPEG 0(0) 116(24) 222(222) 164(223) 376 proboscis monkey, Nasalis larvatus, rectangle
+780.JPEG 44(44) 123(45) 222(223) 167(223) 100 black swan, Cygnus atratus, ellipse
+781.JPEG 73(73) 64(37) 125(125) 74(82) 392 rock beauty, Holocanthus tricolor, disk
+782.JPEG 116(116) 199(179) 160(160) 205(210) 554 fireboat, rectangle
+783.JPEG 25(25) 125(70) 85(86) 147(164) 130 flamingo, ellipse
+784.JPEG 17(17) 44(0) 205(206) 98(223) 610 jersey, T-shirt, tee shirt, ellipse
+785.JPEG 81(81) 122(86) 129(129) 136(148) 755 radio telescope, radio reflector, rectangle
+786.JPEG 0(0) 107(0) 210(211) 161(223) 882 vacuum, vacuum cleaner, rectangle
+787.JPEG 20(20) 79(51) 138(139) 93(112) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, box
+788.JPEG 0(0) 140(16) 210(211) 190(223) 209 Chesapeake Bay retriever, rectangle
+789.JPEG 28(28) 98(33) 178(178) 132(176) 337 beaver, rectangle
+790.JPEG 62(62) 28(2) 206(206) 80(213) 564 four-poster, rectangle
+791.JPEG 30(30) 134(48) 202(202) 168(189) 116 chiton, coat-of-mail shell, sea cradle, polyplacophore, rectangle
+792.JPEG 0(0) 151(84) 48(48) 185(223) 975 lakeside, lakeshore, box
+793.JPEG 55(55) 127(50) 135(136) 169(223) 696 paintbrush, rectangle
+794.JPEG 56(56) 92(36) 124(124) 134(206) 203 West Highland white terrier, rectangle
+795.JPEG 111(111) 105(14) 177(177) 145(177) 379 howler monkey, howler, rectangle
+796.JPEG 0(0) 136(0) 222(223) 190(223) 411 apron, rectangle
+797.JPEG 66(66) 38(1) 222(222) 92(223) 63 Indian cobra, Naja naja, ellipse
+798.JPEG 63(63) 51(24) 193(193) 85(164) 330 wood rabbit, cottontail, cottontail rabbit, ellipse
+799.JPEG 12(12) 166(90) 76(77) 196(217) 297 sloth bear, Melursus ursinus, Ursus ursinus, box
+800.JPEG 35(35) 129(44) 183(184) 169(209) 925 consomme, rectangle
+801.JPEG 129(129) 137(65) 185(185) 169(193) 375 colobus, colobus monkey, ellipse
+802.JPEG 17(17) 103(2) 185(186) 157(220) 389 barracouta, snoek, ellipse
+803.JPEG 122(122) 45(40) 162(163) 51(64) 543 dumbbell, disk
+804.JPEG 0(0) 64(0) 218(219) 106(171) 688 oscilloscope, scope, cathode-ray oscilloscope, CRO, box
+805.JPEG 130(130) 60(46) 222(222) 82(134) 864 tow truck, tow car, wrecker, rectangle
+806.JPEG 47(47) 109(88) 155(155) 137(205) 103 platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus, ellipse
+807.JPEG 74(74) 63(19) 98(98) 81(96) 761 remote control, remote, rectangle
+808.JPEG 35(35) 44(0) 215(215) 90(185) 871 trimaran, ellipse
+809.JPEG 132(132) 137(126) 178(179) 141(146) 457 bow tie, bow-tie, bowtie, box
+810.JPEG 75(75) 112(45) 179(180) 146(184) 99 goose, ellipse
+811.JPEG 0(0) 127(18) 196(197) 177(223) 165 black-and-tan coonhound, ellipse
+812.JPEG 3(3) 93(59) 221(221) 119(167) 736 pool table, billiard table, snooker table, rectangle
+813.JPEG 0(0) 96(32) 188(189) 142(223) 466 bullet train, bullet, rectangle
+814.JPEG 143(143) 115(103) 155(156) 123(135) 801 snorkel, box
+815.JPEG 55(55) 43(21) 123(124) 67(123) 11 goldfinch, Carduelis carduelis, ellipse
+816.JPEG 52(52) 104(74) 98(99) 120(142) 1 goldfish, Carassius auratus, box
+817.JPEG 101(101) 87(0) 221(221) 141(216) 335 fox squirrel, eastern fox squirrel, Sciurus niger, rectangle
+818.JPEG 0(0) 61(0) 130(131) 115(223) 490 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour, box
+819.JPEG 67(67) 96(84) 153(154) 106(127) 147 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus, ellipse
+820.JPEG 8(8) 115(38) 98(98) 153(191) 956 custard apple, rectangle
+821.JPEG 34(34) 129(99) 212(213) 153(195) 389 barracouta, snoek, rectangle
+822.JPEG 164(164) 138(128) 222(222) 146(164) 825 stone wall, ellipse
+823.JPEG 48(48) 103(60) 184(185) 135(191) 554 fireboat, rectangle
+824.JPEG 0(0) 48(19) 222(222) 98(221) 667 mortarboard, ellipse
+825.JPEG 163(163) 116(76) 205(205) 152(223) 523 crutch, ellipse
+826.JPEG 0(0) 120(0) 146(147) 174(223) 102 echidna, spiny anteater, anteater, ellipse
+827.JPEG 112(112) 101(51) 164(165) 125(148) 419 Band Aid, rectangle
+828.JPEG 77(77) 89(18) 213(214) 123(158) 5 electric ray, crampfish, numbfish, torpedo, rectangle
+829.JPEG 152(152) 72(70) 196(197) 74(81) 970 alp, ellipse
+830.JPEG 0(0) 145(54) 216(216) 187(223) 366 gorilla, Gorilla gorilla, ellipse
+831.JPEG 20(20) 97(31) 222(223) 133(182) 235 German shepherd, German shepherd dog, German police dog, alsatian, ellipse
+832.JPEG 122(122) 127(52) 222(223) 169(223) 797 sleeping bag, disk
+833.JPEG 15(15) 130(84) 117(117) 164(223) 948 Granny Smith, rectangle
+834.JPEG 102(102) 82(77) 156(157) 92(120) 548 entertainment center, box
+835.JPEG 0(0) 122(0) 154(155) 176(221) 942 butternut squash, rectangle
+836.JPEG 69(69) 174(120) 185(186) 198(220) 822 steel drum, box
+837.JPEG 0(0) 61(0) 222(223) 115(223) 456 bow, ellipse
+838.JPEG 123(123) 170(120) 191(191) 194(222) 941 acorn squash, box
+839.JPEG 41(41) 121(12) 143(143) 165(193) 462 broom, rectangle
+840.JPEG 21(21) 124(83) 113(113) 152(198) 333 hamster, box
+841.JPEG 107(107) 60(14) 223(223) 106(204) 161 basset, basset hound, ellipse
+842.JPEG 81(81) 130(105) 213(214) 152(197) 551 face powder, rectangle
+843.JPEG 64(64) 117(98) 152(152) 137(184) 707 pay-phone, pay-station, ellipse
+844.JPEG 60(60) 86(56) 150(150) 108(148) 892 wall clock, ellipse
+845.JPEG 0(0) 120(95) 48(49) 152(223) 328 sea urchin, disk
+846.JPEG 65(65) 164(107) 131(131) 192(223) 699 panpipe, pandean pipe, syrinx, ellipse
+847.JPEG 16(16) 111(10) 206(206) 161(211) 921 book jacket, dust cover, dust jacket, dust wrapper, rectangle
+848.JPEG 84(84) 209(203) 164(164) 211(218) 840 swab, swob, mop, box
+849.JPEG 47(47) 7(0) 113(113) 11(17) 111 nematode, nematode worm, roundworm, box
+850.JPEG 76(76) 133(129) 80(81) 133(136) 522 croquet ball, disk
+851.JPEG 102(102) 66(60) 158(158) 72(84) 970 alp, ellipse
+852.JPEG 52(52) 84(60) 174(175) 108(159) 475 car mirror, box
+853.JPEG 104(104) 187(138) 206(206) 207(223) 756 rain barrel, box
+854.JPEG 0(0) 78(63) 222(223) 94(134) 888 viaduct, ellipse
+855.JPEG 1(1) 64(28) 221(222) 112(223) 794 shower curtain, box
+856.JPEG 11(11) 142(37) 109(110) 186(213) 69 trilobite, rectangle
+857.JPEG 19(19) 83(63) 171(172) 105(154) 317 leafhopper, ellipse
+858.JPEG 0(0) 77(2) 178(179) 131(220) 797 sleeping bag, ellipse
+859.JPEG 61(61) 60(8) 185(186) 102(183) 968 cup, ellipse
+860.JPEG 10(10) 106(84) 44(45) 116(131) 449 boathouse, ellipse
+861.JPEG 80(80) 71(0) 222(223) 123(212) 938 cauliflower, rectangle
+862.JPEG 23(23) 95(47) 175(175) 129(187) 143 oystercatcher, oyster catcher, ellipse
+863.JPEG 23(23) 102(84) 199(199) 118(148) 587 hammer, ellipse
+864.JPEG 62(62) 55(25) 196(197) 101(214) 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus, ellipse
+865.JPEG 0(0) 121(0) 222(222) 175(222) 648 medicine chest, medicine cabinet, rectangle
+866.JPEG 154(154) 132(34) 222(222) 178(223) 743 prison, prison house, box
+867.JPEG 10(10) 61(23) 172(173) 109(221) 88 macaw, box
+868.JPEG 34(34) 142(82) 156(156) 174(210) 685 odometer, hodometer, mileometer, milometer, ellipse
+869.JPEG 68(68) 84(40) 168(169) 126(209) 115 sea slug, nudibranch, ellipse
+870.JPEG 23(23) 93(34) 193(193) 129(179) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+871.JPEG 143(143) 60(38) 199(200) 80(120) 948 Granny Smith, box
+872.JPEG 50(50) 76(13) 222(223) 126(218) 475 car mirror, ellipse
+873.JPEG 84(84) 159(63) 186(187) 199(223) 293 cheetah, chetah, Acinonyx jubatus, box
+874.JPEG 6(6) 106(2) 212(212) 160(219) 921 book jacket, dust cover, dust jacket, dust wrapper, rectangle
+875.JPEG 28(28) 115(33) 220(220) 151(182) 312 cricket, ellipse
+876.JPEG 68(68) 119(61) 128(129) 157(219) 211 vizsla, Hungarian pointer, rectangle
+877.JPEG 25(25) 59(21) 101(101) 89(146) 417 balloon, rectangle
+878.JPEG 0(0) 88(0) 222(223) 142(223) 608 jean, blue jean, denim, ellipse
+879.JPEG 45(45) 64(30) 213(213) 106(200) 241 EntleBucher, ellipse
+880.JPEG 57(57) 141(41) 179(180) 185(223) 87 African grey, African gray, Psittacus erithacus, ellipse
+881.JPEG 67(67) 44(14) 139(140) 94(215) 351 hartebeest, rectangle
+882.JPEG 6(6) 127(3) 204(204) 181(223) 169 borzoi, Russian wolfhound, ellipse
+883.JPEG 56(56) 122(55) 194(195) 148(163) 172 whippet, ellipse
+884.JPEG 24(24) 47(17) 186(186) 91(198) 901 whiskey jug, rectangle
+885.JPEG 0(0) 198(164) 222(222) 212(222) 974 geyser, ellipse
+886.JPEG 19(19) 44(18) 207(208) 90(205) 451 bolo tie, bolo, bola tie, bola, rectangle
+887.JPEG 33(33) 147(60) 121(121) 185(219) 927 trifle, ellipse
+888.JPEG 97(97) 43(22) 195(196) 75(150) 574 golf ball, disk
+889.JPEG 0(0) 60(0) 222(222) 114(223) 903 wig, ellipse
+890.JPEG 56(56) 195(191) 180(181) 197(205) 810 space bar, rectangle
+891.JPEG 7(7) 148(41) 173(174) 192(217) 204 Lhasa, Lhasa apso, ellipse
+892.JPEG 9(9) 38(0) 127(128) 92(221) 340 zebra, disk
+893.JPEG 56(56) 126(44) 138(138) 170(221) 699 panpipe, pandean pipe, syrinx, ellipse
+894.JPEG 3(3) 131(32) 205(206) 177(219) 12 house finch, linnet, Carpodacus mexicanus, rectangle
+895.JPEG 94(94) 166(143) 140(141) 180(202) 410 apiary, bee house, box
+896.JPEG 56(56) 94(65) 172(172) 126(199) 644 matchstick, ellipse
+897.JPEG 49(49) 167(146) 119(119) 177(189) 739 potter's wheel, box
+898.JPEG 160(160) 103(78) 178(178) 119(146) 783 screw, disk
+899.JPEG 24(24) 70(45) 152(153) 114(223) 145 king penguin, Aptenodytes patagonica, rectangle
+900.JPEG 44(44) 56(44) 80(81) 76(131) 649 megalith, megalithic structure, ellipse
+901.JPEG 0(0) 62(0) 222(223) 116(223) 480 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, rectangle
+902.JPEG 47(47) 65(0) 145(146) 91(108) 935 mashed potato, ellipse
+903.JPEG 15(15) 100(24) 217(218) 144(200) 156 Blenheim spaniel, box
+904.JPEG 115(115) 172(134) 133(134) 192(221) 351 hartebeest, ellipse
+905.JPEG 64(64) 105(94) 112(113) 117(146) 851 television, television system, rectangle
+906.JPEG 27(27) 82(58) 193(194) 106(159) 871 trimaran, ellipse
+907.JPEG 62(62) 124(93) 92(92) 138(152) 801 snorkel, ellipse
+908.JPEG 64(64) 80(59) 160(161) 96(129) 712 Petri dish, rectangle
+909.JPEG 117(117) 85(25) 223(223) 129(202) 291 lion, king of beasts, Panthera leo, ellipse
+910.JPEG 40(40) 146(118) 220(221) 156(163) 472 canoe, ellipse
+911.JPEG 33(33) 142(34) 197(198) 186(210) 427 barrel, cask, box
+912.JPEG 1(1) 87(0) 221(222) 141(223) 290 jaguar, panther, Panthera onca, Felis onca, rectangle
+913.JPEG 53(53) 106(86) 151(151) 140(223) 861 toilet seat, ellipse
+914.JPEG 0(0) 46(4) 222(222) 100(223) 947 mushroom, rectangle
+915.JPEG 0(0) 125(0) 222(223) 179(223) 564 four-poster, ellipse
+916.JPEG 26(26) 90(38) 200(201) 122(168) 17 jay, ellipse
+917.JPEG 5(5) 44(4) 221(222) 96(219) 562 fountain, ellipse
+918.JPEG 82(82) 120(53) 184(184) 154(195) 169 borzoi, Russian wolfhound, rectangle
+919.JPEG 66(66) 68(55) 136(137) 88(141) 307 weevil, ellipse
+920.JPEG 67(67) 93(26) 205(205) 125(158) 392 rock beauty, Holocanthus tricolor, box
+921.JPEG 114(114) 96(84) 148(149) 102(114) 988 acorn, disk
+922.JPEG 128(128) 80(78) 176(176) 84(97) 973 coral reef, ellipse
+923.JPEG 15(15) 156(50) 137(137) 198(223) 256 Newfoundland, Newfoundland dog, ellipse
+924.JPEG 46(46) 146(81) 154(155) 180(220) 87 African grey, African gray, Psittacus erithacus, disk
+925.JPEG 25(25) 62(34) 223(223) 106(217) 387 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens, rectangle
+926.JPEG 0(0) 55(6) 188(188) 109(223) 162 beagle, rectangle
+927.JPEG 49(49) 52(0) 187(187) 106(223) 769 rule, ruler, rectangle
+928.JPEG 28(28) 80(54) 202(202) 102(148) 625 lifeboat, ellipse
+929.JPEG 18(18) 126(108) 188(188) 150(204) 532 dining table, board, box
+930.JPEG 12(12) 60(19) 118(118) 96(170) 267 standard poodle, box
+931.JPEG 13(13) 120(5) 211(211) 174(223) 872 tripod, rectangle
+932.JPEG 95(95) 151(48) 201(201) 193(223) 89 sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita, rectangle
+933.JPEG 1(1) 211(195) 221(222) 217(223) 416 balance beam, beam, rectangle
+934.JPEG 79(79) 89(24) 173(173) 129(188) 693 paddle, boat paddle, box
+935.JPEG 24(24) 102(53) 210(211) 126(155) 5 electric ray, crampfish, numbfish, torpedo, rectangle
+936.JPEG 130(130) 96(65) 214(215) 126(190) 258 Samoyed, Samoyede, disk
+937.JPEG 41(41) 121(62) 129(130) 147(167) 392 rock beauty, Holocanthus tricolor, rectangle
+938.JPEG 7(7) 85(64) 215(215) 119(201) 398 abacus, box
+939.JPEG 90(90) 70(30) 170(171) 112(202) 93 hornbill, rectangle
+940.JPEG 0(0) 85(65) 202(203) 123(223) 199 Scotch terrier, Scottish terrier, Scottie, ellipse
+941.JPEG 27(27) 67(26) 203(203) 115(218) 901 whiskey jug, ellipse
+942.JPEG 34(34) 40(5) 192(193) 88(199) 453 bookcase, rectangle
+943.JPEG 119(119) 108(102) 129(129) 114(126) 920 traffic light, traffic signal, stoplight, disk
+944.JPEG 73(73) 170(99) 221(222) 200(222) 658 mitten, box
+945.JPEG 65(65) 123(67) 119(119) 161(219) 128 black stork, Ciconia nigra, rectangle
+946.JPEG 10(10) 114(14) 162(162) 154(181) 112 conch, rectangle
+947.JPEG 88(88) 50(36) 124(124) 58(73) 955 jackfruit, jak, jack, ellipse
+948.JPEG 30(30) 182(124) 190(191) 206(222) 556 fire screen, fireguard, rectangle
+949.JPEG 0(0) 163(83) 222(223) 197(223) 716 picket fence, paling, ellipse
+950.JPEG 83(83) 73(47) 199(200) 99(153) 936 head cabbage, ellipse
+951.JPEG 23(23) 78(23) 203(204) 122(205) 932 pretzel, ellipse
+952.JPEG 69(69) 197(189) 185(185) 199(202) 810 space bar, rectangle
+953.JPEG 98(98) 128(25) 176(177) 174(210) 23 vulture, box
+954.JPEG 131(131) 48(14) 181(182) 82(153) 557 flagpole, flagstaff, box
+955.JPEG 46(46) 120(67) 178(179) 142(158) 152 Japanese spaniel, ellipse
+956.JPEG 18(18) 98(9) 210(211) 144(199) 938 cauliflower, ellipse
+957.JPEG 70(70) 90(26) 176(177) 124(169) 78 tick, ellipse
+958.JPEG 0(0) 108(28) 160(160) 148(188) 337 beaver, ellipse
+959.JPEG 103(103) 75(68) 111(111) 77(80) 812 space shuttle, disk
+960.JPEG 0(0) 109(0) 222(223) 163(223) 957 pomegranate, ellipse
+961.JPEG 32(32) 121(36) 196(197) 159(190) 458 brass, memorial tablet, plaque, rectangle
+962.JPEG 17(17) 134(64) 205(206) 162(183) 684 ocarina, sweet potato, rectangle
+963.JPEG 35(35) 96(87) 205(206) 110(145) 320 damselfly, rectangle
+964.JPEG 5(5) 125(17) 213(213) 171(206) 169 borzoi, Russian wolfhound, box
+965.JPEG 31(31) 104(46) 185(185) 148(223) 167 English foxhound, rectangle
+966.JPEG 101(101) 94(6) 209(209) 146(219) 335 fox squirrel, eastern fox squirrel, Sciurus niger, ellipse
+967.JPEG 79(79) 82(44) 169(169) 106(146) 280 grey fox, gray fox, Urocyon cinereoargenteus, rectangle
+968.JPEG 78(78) 49(18) 194(195) 75(125) 324 cabbage butterfly, box
+969.JPEG 0(0) 114(100) 38(39) 122(134) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, box
+970.JPEG 39(39) 105(57) 215(215) 143(209) 162 beagle, rectangle
+971.JPEG 43(43) 50(0) 211(211) 104(223) 923 plate, ellipse
+972.JPEG 9(9) 116(49) 121(122) 146(170) 680 nipple, ellipse
+973.JPEG 21(21) 75(9) 203(203) 125(214) 790 shopping basket, rectangle
+974.JPEG 33(33) 46(3) 181(181) 98(211) 641 maraca, ellipse
+975.JPEG 0(0) 41(0) 146(146) 95(219) 807 solar dish, solar collector, solar furnace, box
+976.JPEG 48(48) 129(107) 172(173) 157(223) 736 pool table, billiard table, snooker table, ellipse
+977.JPEG 139(139) 106(94) 201(201) 116(140) 842 swimming trunks, bathing trunks, box
+978.JPEG 58(58) 153(121) 96(97) 169(192) 855 thimble, rectangle
+979.JPEG 0(0) 110(5) 220(221) 164(223) 367 chimpanzee, chimp, Pan troglodytes, box
+980.JPEG 57(57) 150(115) 151(152) 176(219) 678 neck brace, rectangle
+981.JPEG 0(0) 94(8) 202(203) 146(221) 287 lynx, catamount, ellipse
+982.JPEG 49(49) 139(25) 173(174) 185(211) 503 cocktail shaker, box
+983.JPEG 0(0) 98(47) 196(196) 138(208) 59 vine snake, rectangle
+984.JPEG 38(38) 116(78) 106(106) 134(157) 322 ringlet, ringlet butterfly, ellipse
+985.JPEG 16(16) 122(120) 32(32) 124(129) 984 rapeseed, rectangle
+986.JPEG 48(48) 81(25) 172(173) 117(172) 811 space heater, box
+987.JPEG 0(0) 39(4) 190(190) 93(222) 207 golden retriever, ellipse
+988.JPEG 0(0) 142(19) 114(115) 192(223) 194 Dandie Dinmont, Dandie Dinmont terrier, disk
+989.JPEG 101(101) 155(90) 123(124) 187(223) 733 pole, rectangle
+990.JPEG 123(123) 125(41) 215(215) 163(193) 233 Bouvier des Flandres, Bouviers des Flandres, box
+991.JPEG 93(93) 135(82) 163(163) 155(168) 195 Boston bull, Boston terrier, rectangle
+992.JPEG 45(45) 68(7) 165(166) 120(217) 321 admiral, rectangle
+993.JPEG 2(2) 154(65) 218(218) 188(208) 896 washbasin, handbasin, washbowl, lavabo, wash-hand basin, box
+994.JPEG 44(44) 153(129) 120(120) 165(180) 310 ant, emmet, pismire, box
+995.JPEG 48(48) 63(17) 176(177) 105(191) 914 yawl, ellipse
+996.JPEG 15(15) 120(20) 221(221) 168(217) 294 brown bear, bruin, Ursus arctos, rectangle
+997.JPEG 139(139) 51(35) 213(214) 83(163) 376 proboscis monkey, Nasalis larvatus, ellipse
+998.JPEG 2(2) 132(69) 152(152) 170(223) 35 mud turtle, ellipse
+999.JPEG 22(22) 127(5) 200(201) 177(211) 699 panpipe, pandean pipe, syrinx, ellipse
+1000.JPEG 130(130) 61(51) 164(165) 73(100) 801 snorkel, rectangle
+1001.JPEG 47(47) 148(77) 127(127) 182(219) 331 hare, box
+1002.JPEG 2(2) 103(76) 72(73) 113(119) 305 dung beetle, box
+1003.JPEG 16(16) 108(80) 52(53) 132(176) 901 whiskey jug, rectangle
+1004.JPEG 41(41) 89(27) 203(204) 123(170) 927 trifle, rectangle
+1005.JPEG 15(15) 81(78) 167(167) 85(98) 840 swab, swob, mop, rectangle
+1006.JPEG 125(125) 27(20) 173(173) 33(46) 150 sea lion, ellipse
+1007.JPEG 111(111) 104(48) 153(154) 142(201) 862 torch, rectangle
+1008.JPEG 12(12) 108(0) 194(195) 156(195) 685 odometer, hodometer, mileometer, milometer, ellipse
+1009.JPEG 74(74) 179(150) 174(175) 195(216) 522 croquet ball, disk
+1010.JPEG 120(120) 56(1) 166(167) 92(152) 974 geyser, ellipse
+1011.JPEG 99(99) 129(118) 105(105) 137(153) 437 beacon, lighthouse, beacon light, pharos, rectangle
+1012.JPEG 41(41) 97(50) 191(192) 115(128) 554 fireboat, ellipse
+1013.JPEG 21(21) 132(19) 201(201) 182(221) 175 otterhound, otter hound, ellipse
+1014.JPEG 127(127) 119(68) 207(208) 157(223) 421 bannister, banister, balustrade, balusters, handrail, box
+1015.JPEG 0(0) 112(0) 208(209) 162(202) 596 hatchet, rectangle
+1016.JPEG 22(22) 56(0) 222(222) 90(137) 243 bull mastiff, rectangle
+1017.JPEG 31(31) 138(116) 165(165) 150(168) 919 street sign, ellipse
+1018.JPEG 7(7) 137(64) 161(162) 171(200) 774 sandal, rectangle
+1019.JPEG 22(22) 45(15) 192(193) 69(116) 259 Pomeranian, ellipse
+1020.JPEG 0(0) 47(0) 218(219) 101(223) 532 dining table, board, rectangle
+1021.JPEG 103(103) 73(34) 141(141) 95(129) 630 Loafer, disk
+1022.JPEG 30(30) 76(15) 222(223) 128(223) 288 leopard, Panthera pardus, box
+1023.JPEG 0(0) 127(1) 202(202) 181(223) 936 head cabbage, rectangle
+1024.JPEG 49(49) 145(23) 223(223) 195(223) 286 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor, rectangle
+1025.JPEG 58(58) 83(0) 222(223) 125(170) 587 hammer, ellipse
+1026.JPEG 26(26) 127(50) 196(196) 159(180) 141 redshank, Tringa totanus, ellipse
+1027.JPEG 0(0) 98(42) 220(221) 142(222) 739 potter's wheel, ellipse
+1028.JPEG 13(13) 75(46) 107(108) 109(188) 230 Shetland sheepdog, Shetland sheep dog, Shetland, box
+1029.JPEG 1(1) 105(0) 209(210) 149(179) 95 jacamar, rectangle
+1030.JPEG 15(15) 126(13) 223(223) 174(211) 262 Brabancon griffon, ellipse
+1031.JPEG 143(143) 31(0) 223(223) 53(91) 924 guacamole, ellipse
+1032.JPEG 93(93) 113(97) 125(126) 123(137) 349 bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis, box
+1033.JPEG 0(0) 145(53) 222(223) 187(222) 646 maze, labyrinth, rectangle
+1034.JPEG 81(81) 116(0) 223(223) 170(222) 462 broom, ellipse
+1035.JPEG 152(152) 147(73) 210(211) 175(192) 806 sock, rectangle
+1036.JPEG 66(66) 69(1) 112(112) 123(223) 794 shower curtain, ellipse
+1037.JPEG 16(16) 89(9) 206(206) 139(211) 443 bib, ellipse
+1038.JPEG 73(73) 116(60) 221(222) 154(213) 54 hognose snake, puff adder, sand viper, ellipse
+1039.JPEG 46(46) 120(108) 62(63) 126(132) 430 basketball, disk
+1040.JPEG 94(94) 52(0) 222(223) 96(180) 905 window shade, rectangle
+1041.JPEG 0(0) 102(41) 78(79) 146(223) 145 king penguin, Aptenodytes patagonica, rectangle
+1042.JPEG 78(78) 53(0) 222(222) 91(159) 914 yawl, ellipse
+1043.JPEG 30(30) 54(5) 188(188) 108(222) 548 entertainment center, box
+1044.JPEG 0(0) 56(11) 184(184) 102(198) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, rectangle
+1045.JPEG 5(5) 124(75) 223(223) 150(179) 314 cockroach, roach, ellipse
+1046.JPEG 21(21) 143(78) 151(152) 179(223) 994 stinkhorn, carrion fungus, ellipse
+1047.JPEG 44(44) 142(39) 154(154) 188(223) 153 Maltese dog, Maltese terrier, Maltese, rectangle
+1048.JPEG 24(24) 195(154) 116(116) 211(223) 642 marimba, xylophone, rectangle
+1049.JPEG 65(65) 142(128) 185(185) 164(220) 121 king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica, ellipse
+1050.JPEG 140(140) 148(51) 192(193) 190(223) 280 grey fox, gray fox, Urocyon cinereoargenteus, box
+1051.JPEG 79(79) 124(22) 171(171) 168(199) 293 cheetah, chetah, Acinonyx jubatus, box
+1052.JPEG 67(67) 131(64) 145(146) 159(178) 95 jacamar, rectangle
+1053.JPEG 116(116) 113(88) 166(167) 125(139) 500 cliff dwelling, rectangle
+1054.JPEG 48(48) 131(1) 174(175) 185(223) 245 French bulldog, rectangle
+1055.JPEG 91(91) 38(1) 185(185) 88(206) 914 yawl, rectangle
+1056.JPEG 72(72) 36(8) 136(136) 56(92) 985 daisy, disk
+1057.JPEG 23(23) 84(63) 121(121) 110(168) 691 oxygen mask, disk
+1058.JPEG 62(62) 138(107) 204(205) 156(180) 989 hip, rose hip, rosehip, box
+1059.JPEG 82(82) 65(0) 158(159) 91(109) 29 axolotl, mud puppy, Ambystoma mexicanum, box
+1060.JPEG 0(0) 98(0) 222(223) 152(223) 771 safe, rectangle
+1061.JPEG 4(4) 136(0) 112(112) 190(223) 281 tabby, tabby cat, ellipse
+1062.JPEG 20(20) 93(34) 200(200) 139(223) 339 sorrel, rectangle
+1063.JPEG 66(66) 65(30) 164(164) 89(129) 480 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, box
+1064.JPEG 112(112) 81(64) 166(166) 113(192) 503 cocktail shaker, rectangle
+1065.JPEG 63(63) 154(136) 161(161) 174(223) 883 vase, rectangle
+1066.JPEG 53(53) 60(6) 171(172) 112(217) 571 gas pump, gasoline pump, petrol pump, island dispenser, rectangle
+1067.JPEG 2(2) 57(21) 216(216) 103(208) 477 carpenter's kit, tool kit, rectangle
+1068.JPEG 139(139) 113(30) 185(186) 153(197) 503 cocktail shaker, ellipse
+1069.JPEG 27(27) 103(50) 129(129) 143(215) 773 saltshaker, salt shaker, ellipse
+1070.JPEG 0(0) 77(47) 176(177) 103(152) 149 dugong, Dugong dugon, rectangle
+1071.JPEG 80(80) 22(8) 112(113) 28(32) 890 volleyball, rectangle
+1072.JPEG 25(25) 97(40) 211(212) 141(217) 262 Brabancon griffon, ellipse
+1073.JPEG 22(22) 110(3) 188(189) 162(215) 192 cairn, cairn terrier, ellipse
+1074.JPEG 11(11) 39(0) 219(219) 85(190) 586 half track, rectangle
+1075.JPEG 34(34) 66(30) 164(164) 114(223) 861 toilet seat, disk
+1076.JPEG 158(158) 64(38) 218(218) 102(190) 375 colobus, colobus monkey, rectangle
+1077.JPEG 21(21) 123(85) 179(180) 141(158) 114 slug, rectangle
+1078.JPEG 24(24) 100(0) 198(199) 146(185) 840 swab, swob, mop, ellipse
+1079.JPEG 33(33) 134(18) 125(126) 180(207) 615 knee pad, box
+1080.JPEG 112(112) 24(6) 210(211) 38(69) 879 umbrella, ellipse
+1081.JPEG 141(141) 101(89) 181(182) 109(127) 85 quail, ellipse
+1082.JPEG 40(40) 79(58) 176(176) 101(149) 139 ruddy turnstone, Arenaria interpres, ellipse
+1083.JPEG 10(10) 84(37) 108(108) 106(128) 419 Band Aid, rectangle
+1084.JPEG 26(26) 112(14) 192(193) 162(220) 826 stopwatch, stop watch, rectangle
+1085.JPEG 162(162) 83(66) 218(219) 95(118) 793 shower cap, ellipse
+1086.JPEG 85(85) 120(103) 127(127) 132(157) 127 white stork, Ciconia ciconia, ellipse
+1087.JPEG 36(36) 169(117) 108(108) 189(200) 772 safety pin, rectangle
+1088.JPEG 61(61) 137(59) 215(215) 175(213) 629 lipstick, lip rouge, box
+1089.JPEG 45(45) 75(21) 153(154) 117(190) 137 American coot, marsh hen, mud hen, water hen, Fulica americana, ellipse
+1090.JPEG 124(124) 73(61) 194(195) 87(120) 107 jellyfish, rectangle
+1091.JPEG 63(63) 64(43) 133(134) 100(193) 804 soap dispenser, rectangle
+1092.JPEG 98(98) 168(167) 168(168) 170(178) 974 geyser, ellipse
+1093.JPEG 124(124) 49(33) 222(222) 81(162) 327 starfish, sea star, rectangle
+1094.JPEG 165(165) 65(17) 187(188) 85(99) 666 mortar, box
+1095.JPEG 0(0) 114(22) 210(210) 160(210) 366 gorilla, Gorilla gorilla, ellipse
+1096.JPEG 147(147) 43(30) 175(176) 53(70) 599 honeycomb, box
+1097.JPEG 117(117) 101(57) 223(223) 135(200) 940 spaghetti squash, rectangle
+1098.JPEG 8(8) 120(0) 222(223) 174(222) 861 toilet seat, rectangle
+1099.JPEG 65(65) 86(4) 205(205) 138(217) 606 iron, smoothing iron, ellipse
+1100.JPEG 88(88) 70(8) 214(214) 122(223) 235 German shepherd, German shepherd dog, German police dog, alsatian, rectangle
+1101.JPEG 0(0) 115(68) 222(223) 153(223) 713 photocopier, rectangle
+1102.JPEG 98(98) 87(35) 198(199) 107(118) 80 black grouse, disk
+1103.JPEG 42(42) 103(22) 132(133) 143(185) 331 hare, ellipse
+1104.JPEG 38(38) 110(83) 184(185) 128(159) 781 scoreboard, ellipse
+1105.JPEG 17(17) 87(7) 223(223) 137(213) 181 Bedlington terrier, rectangle
+1106.JPEG 0(0) 114(0) 222(223) 168(223) 729 plate rack, rectangle
+1107.JPEG 58(58) 113(80) 140(140) 129(151) 540 drilling platform, offshore rig, rectangle
+1108.JPEG 51(51) 136(4) 183(183) 190(223) 816 spindle, box
+1109.JPEG 0(0) 78(46) 168(168) 98(127) 913 wreck, rectangle
+1110.JPEG 0(0) 116(12) 186(186) 168(223) 88 macaw, rectangle
+1111.JPEG 19(19) 110(9) 215(216) 160(209) 3 tiger shark, Galeocerdo cuvieri, rectangle
+1112.JPEG 15(15) 56(0) 213(214) 110(223) 531 digital watch, ellipse
+1113.JPEG 26(26) 76(28) 222(223) 112(177) 284 Siamese cat, Siamese, ellipse
+1114.JPEG 36(36) 53(5) 206(207) 105(220) 559 folding chair, rectangle
+1115.JPEG 46(46) 88(68) 162(163) 118(189) 294 brown bear, bruin, Ursus arctos, rectangle
+1116.JPEG 25(25) 92(7) 211(211) 134(177) 268 Mexican hairless, rectangle
+1117.JPEG 63(63) 149(51) 145(146) 189(215) 13 junco, snowbird, box
+1118.JPEG 0(0) 80(44) 184(184) 124(223) 181 Bedlington terrier, ellipse
+1119.JPEG 0(0) 97(44) 158(159) 141(223) 85 quail, ellipse
+1120.JPEG 34(34) 112(23) 222(223) 156(202) 360 otter, rectangle
+1121.JPEG 47(47) 68(34) 109(109) 98(158) 107 jellyfish, box
+1122.JPEG 44(44) 122(10) 210(211) 166(189) 9 ostrich, Struthio camelus, rectangle
+1123.JPEG 17(17) 128(15) 215(216) 178(222) 371 patas, hussar monkey, Erythrocebus patas, ellipse
+1124.JPEG 0(0) 101(45) 222(223) 145(223) 517 crane, ellipse
+1125.JPEG 25(25) 120(32) 193(194) 164(215) 96 toucan, box
+1126.JPEG 81(81) 101(87) 217(218) 125(185) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, box
+1127.JPEG 9(9) 89(51) 151(151) 125(195) 874 trolleybus, trolley coach, trackless trolley, ellipse
+1128.JPEG 10(10) 100(38) 208(208) 136(187) 252 affenpinscher, monkey pinscher, monkey dog, rectangle
+1129.JPEG 37(37) 131(31) 205(205) 177(218) 418 ballpoint, ballpoint pen, ballpen, Biro, ellipse
+1130.JPEG 118(118) 51(40) 220(220) 73(128) 551 face powder, box
+1131.JPEG 0(0) 49(0) 222(222) 103(223) 611 jigsaw puzzle, rectangle
+1132.JPEG 1(1) 14(0) 219(219) 42(114) 777 scabbard, ellipse
+1133.JPEG 104(104) 137(43) 166(166) 177(204) 707 pay-phone, pay-station, ellipse
+1134.JPEG 49(49) 78(46) 175(175) 112(188) 177 Scottish deerhound, deerhound, rectangle
+1135.JPEG 11(11) 15(1) 109(109) 39(98) 680 nipple, disk
+1136.JPEG 104(104) 88(70) 134(134) 102(126) 783 screw, ellipse
+1137.JPEG 76(76) 88(65) 154(154) 110(153) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, rectangle
+1138.JPEG 60(60) 43(4) 118(119) 77(142) 641 maraca, rectangle
+1139.JPEG 25(25) 43(26) 73(73) 71(139) 914 yawl, ellipse
+1140.JPEG 56(56) 78(5) 222(223) 132(222) 40 American chameleon, anole, Anolis carolinensis, ellipse
+1141.JPEG 45(45) 135(25) 223(223) 183(223) 213 Irish setter, red setter, rectangle
+1142.JPEG 0(0) 147(122) 156(156) 165(200) 537 dogsled, dog sled, dog sleigh, box
+1143.JPEG 87(87) 54(35) 217(217) 78(135) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, rectangle
+1144.JPEG 68(68) 85(37) 222(223) 131(223) 347 bison, box
+1145.JPEG 30(30) 94(27) 122(122) 136(201) 172 whippet, box
+1146.JPEG 47(47) 98(86) 159(159) 108(132) 554 fireboat, ellipse
+1147.JPEG 21(21) 50(1) 209(210) 104(223) 801 snorkel, rectangle
+1148.JPEG 25(25) 109(38) 199(199) 149(198) 142 dowitcher, ellipse
+1149.JPEG 25(25) 109(59) 97(98) 141(193) 190 Sealyham terrier, Sealyham, rectangle
+1150.JPEG 81(81) 75(54) 145(146) 91(123) 301 ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle, ellipse
+1151.JPEG 11(11) 106(2) 191(191) 152(190) 871 trimaran, ellipse
+1152.JPEG 111(111) 69(48) 223(223) 79(91) 740 power drill, box
+1153.JPEG 0(0) 96(4) 222(223) 150(223) 548 entertainment center, box
+1154.JPEG 23(23) 53(25) 195(195) 99(213) 169 borzoi, Russian wolfhound, ellipse
+1155.JPEG 0(0) 124(37) 206(206) 162(189) 734 police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria, ellipse
+1156.JPEG 40(40) 142(59) 192(193) 176(198) 293 cheetah, chetah, Acinonyx jubatus, ellipse
+1157.JPEG 26(26) 89(4) 200(201) 125(153) 903 wig, rectangle
+1158.JPEG 1(1) 176(153) 191(192) 186(197) 391 coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch, rectangle
+1159.JPEG 45(45) 125(20) 223(223) 169(202) 19 chickadee, rectangle
+1160.JPEG 94(94) 125(106) 156(157) 145(189) 852 tennis ball, ellipse
+1161.JPEG 18(18) 115(19) 202(202) 155(181) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, rectangle
+1162.JPEG 12(12) 44(0) 192(192) 96(208) 452 bonnet, poke bonnet, ellipse
+1163.JPEG 22(22) 119(0) 192(193) 171(214) 780 schooner, box
+1164.JPEG 70(70) 84(24) 138(139) 128(206) 229 Old English sheepdog, bobtail, ellipse
+1165.JPEG 16(16) 170(101) 200(201) 200(223) 591 handkerchief, hankie, hanky, hankey, rectangle
+1166.JPEG 68(68) 148(106) 124(124) 166(180) 686 oil filter, ellipse
+1167.JPEG 81(81) 135(19) 143(144) 183(214) 418 ballpoint, ballpoint pen, ballpen, Biro, rectangle
+1168.JPEG 0(0) 142(123) 134(135) 166(223) 291 lion, king of beasts, Panthera leo, ellipse
+1169.JPEG 107(107) 33(0) 193(193) 75(169) 914 yawl, ellipse
+1170.JPEG 94(94) 42(8) 222(222) 64(100) 378 capuchin, ringtail, Cebus capucinus, disk
+1171.JPEG 40(40) 57(19) 222(222) 91(157) 397 puffer, pufferfish, blowfish, globefish, rectangle
+1172.JPEG 1(1) 120(30) 209(209) 158(185) 772 safety pin, ellipse
+1173.JPEG 83(83) 112(69) 189(190) 128(140) 5 electric ray, crampfish, numbfish, torpedo, ellipse
+1174.JPEG 103(103) 135(5) 221(222) 189(223) 806 sock, disk
+1175.JPEG 12(12) 117(16) 120(120) 167(221) 243 bull mastiff, ellipse
+1176.JPEG 20(20) 82(49) 118(119) 122(215) 615 knee pad, box
+1177.JPEG 26(26) 39(6) 182(182) 79(169) 228 komondor, rectangle
+1178.JPEG 67(67) 129(57) 209(209) 165(206) 288 leopard, Panthera pardus, rectangle
+1179.JPEG 39(39) 126(6) 189(189) 176(213) 901 whiskey jug, rectangle
+1180.JPEG 45(45) 113(69) 133(133) 147(206) 78 tick, box
+1181.JPEG 2(2) 104(16) 220(221) 152(208) 610 jersey, T-shirt, tee shirt, rectangle
+1182.JPEG 42(42) 68(30) 222(223) 112(206) 295 American black bear, black bear, Ursus americanus, Euarctos americanus, ellipse
+1183.JPEG 4(4) 92(0) 216(216) 146(223) 721 pillow, ellipse
+1184.JPEG 19(19) 67(29) 163(163) 107(189) 514 cowboy boot, ellipse
+1185.JPEG 51(51) 146(80) 165(166) 178(208) 228 komondor, ellipse
+1186.JPEG 0(0) 152(89) 84(85) 178(196) 789 shoji, disk
+1187.JPEG 52(52) 128(6) 216(217) 180(219) 283 Persian cat, ellipse
+1188.JPEG 35(35) 167(90) 85(85) 199(221) 813 spatula, disk
+1189.JPEG 34(34) 79(21) 166(166) 125(208) 562 fountain, box
+1190.JPEG 21(21) 153(145) 123(123) 169(212) 822 steel drum, ellipse
+1191.JPEG 64(64) 45(0) 170(171) 99(223) 426 barometer, rectangle
+1192.JPEG 5(5) 115(0) 199(200) 167(212) 894 wardrobe, closet, press, rectangle
+1193.JPEG 51(51) 89(57) 143(143) 107(130) 114 slug, ellipse
+1194.JPEG 0(0) 120(49) 186(186) 158(205) 483 castle, ellipse
+1195.JPEG 95(95) 39(11) 159(159) 85(197) 863 totem pole, ellipse
+1196.JPEG 0(0) 62(1) 222(222) 116(223) 274 dhole, Cuon alpinus, rectangle
+1197.JPEG 22(22) 105(38) 222(223) 151(222) 153 Maltese dog, Maltese terrier, Maltese, rectangle
+1198.JPEG 78(78) 149(106) 188(189) 167(181) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, ellipse
+1199.JPEG 39(39) 128(41) 141(141) 168(204) 693 paddle, boat paddle, ellipse
+1200.JPEG 60(60) 84(69) 208(208) 106(162) 540 drilling platform, offshore rig, box
+1201.JPEG 62(62) 40(25) 82(82) 48(63) 577 gong, tam-tam, box
+1202.JPEG 80(80) 52(42) 96(97) 60(79) 522 croquet ball, rectangle
+1203.JPEG 29(29) 33(5) 199(200) 87(221) 661 Model T, ellipse
+1204.JPEG 57(57) 99(22) 159(159) 131(153) 714 pick, plectrum, plectron, disk
+1205.JPEG 86(86) 79(60) 146(146) 93(123) 796 ski mask, disk
+1206.JPEG 0(0) 107(65) 164(164) 137(189) 853 thatch, thatched roof, box
+1207.JPEG 65(65) 60(5) 163(164) 112(218) 159 Rhodesian ridgeback, rectangle
+1208.JPEG 145(145) 52(28) 209(209) 62(75) 439 bearskin, busby, shako, box
+1209.JPEG 0(0) 77(31) 222(222) 125(223) 263 Pembroke, Pembroke Welsh corgi, ellipse
+1210.JPEG 48(48) 109(93) 184(185) 129(180) 821 steel arch bridge, ellipse
+1211.JPEG 39(39) 116(53) 125(125) 144(169) 322 ringlet, ringlet butterfly, ellipse
+1212.JPEG 77(77) 46(35) 117(118) 64(112) 989 hip, rose hip, rosehip, box
+1213.JPEG 0(0) 65(0) 50(51) 89(103) 884 vault, ellipse
+1214.JPEG 41(41) 108(78) 89(89) 128(158) 945 bell pepper, ellipse
+1215.JPEG 60(60) 114(31) 142(142) 148(174) 701 parachute, chute, ellipse
+1216.JPEG 24(24) 87(8) 210(210) 139(223) 227 kelpie, ellipse
+1217.JPEG 105(105) 138(119) 219(219) 158(203) 446 binder, ring-binder, rectangle
+1218.JPEG 35(35) 54(0) 187(188) 108(223) 863 totem pole, ellipse
+1219.JPEG 14(14) 128(2) 198(198) 182(222) 922 menu, rectangle
+1220.JPEG 1(1) 78(0) 223(223) 130(211) 411 apron, rectangle
+1221.JPEG 11(11) 124(15) 215(216) 172(210) 293 cheetah, chetah, Acinonyx jubatus, ellipse
+1222.JPEG 0(0) 125(72) 222(223) 149(173) 798 slide rule, slipstick, ellipse
+1223.JPEG 35(35) 79(2) 223(223) 131(211) 726 plane, carpenter's plane, woodworking plane, box
+1224.JPEG 82(82) 165(98) 144(144) 195(220) 196 miniature schnauzer, disk
+1225.JPEG 18(18) 96(64) 76(76) 108(117) 767 rubber eraser, rubber, pencil eraser, box
+1226.JPEG 19(19) 140(7) 217(217) 192(222) 669 mosquito net, box
+1227.JPEG 64(64) 55(18) 154(154) 105(221) 631 lotion, rectangle
+1228.JPEG 0(0) 79(0) 222(222) 133(223) 904 window screen, box
+1229.JPEG 42(42) 89(43) 102(102) 125(188) 680 nipple, ellipse
+1230.JPEG 0(0) 149(125) 190(190) 165(189) 785 seat belt, seatbelt, box
+1231.JPEG 116(116) 115(83) 222(223) 137(171) 20 water ouzel, dipper, rectangle
+1232.JPEG 8(8) 93(26) 222(222) 141(219) 376 proboscis monkey, Nasalis larvatus, rectangle
+1233.JPEG 43(43) 103(46) 177(177) 137(183) 189 Lakeland terrier, ellipse
+1234.JPEG 166(166) 124(120) 196(196) 130(151) 783 screw, disk
+1235.JPEG 105(105) 62(46) 185(185) 82(126) 680 nipple, box
+1236.JPEG 110(110) 94(53) 202(202) 134(213) 160 Afghan hound, Afghan, box
+1237.JPEG 5(5) 166(110) 219(219) 194(223) 78 tick, disk
+1238.JPEG 33(33) 80(57) 197(197) 120(222) 95 jacamar, rectangle
+1239.JPEG 58(58) 42(2) 162(163) 78(152) 701 parachute, chute, ellipse
+1240.JPEG 47(47) 68(17) 155(156) 96(130) 938 cauliflower, box
+1241.JPEG 0(0) 152(113) 202(202) 176(214) 176 Saluki, gazelle hound, box
+1242.JPEG 24(24) 77(27) 212(212) 125(223) 191 Airedale, Airedale terrier, rectangle
+1243.JPEG 69(69) 61(30) 151(151) 101(197) 385 Indian elephant, Elephas maximus, rectangle
+1244.JPEG 12(12) 106(68) 120(121) 132(175) 188 wire-haired fox terrier, rectangle
+1245.JPEG 92(92) 101(48) 214(215) 137(196) 169 borzoi, Russian wolfhound, rectangle
+1246.JPEG 13(13) 136(8) 217(218) 188(223) 78 tick, rectangle
+1247.JPEG 94(94) 47(16) 174(174) 73(122) 918 crossword puzzle, crossword, box
+1248.JPEG 72(72) 103(81) 130(130) 127(184) 615 knee pad, rectangle
+1249.JPEG 18(18) 101(61) 210(211) 137(209) 519 crate, box
+1250.JPEG 49(49) 73(17) 67(68) 123(223) 557 flagpole, flagstaff, ellipse
+1251.JPEG 80(80) 136(4) 134(134) 190(222) 683 oboe, hautboy, hautbois, box
+1252.JPEG 160(160) 21(9) 206(207) 35(66) 890 volleyball, disk
+1253.JPEG 30(30) 33(7) 196(196) 83(210) 707 pay-phone, pay-station, rectangle
+1254.JPEG 0(0) 45(0) 222(223) 99(223) 175 otterhound, otter hound, ellipse
+1255.JPEG 92(92) 74(65) 164(165) 88(121) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, ellipse
+1256.JPEG 95(95) 39(5) 203(203) 79(167) 958 hay, rectangle
+1257.JPEG 0(0) 48(3) 218(218) 100(216) 283 Persian cat, box
+1258.JPEG 5(5) 49(26) 191(192) 77(142) 881 upright, upright piano, ellipse
+1259.JPEG 9(9) 123(8) 219(219) 175(217) 721 pillow, ellipse
+1260.JPEG 7(7) 38(30) 87(88) 46(66) 830 stretcher, box
+1261.JPEG 34(34) 49(19) 210(210) 95(208) 169 borzoi, Russian wolfhound, rectangle
+1262.JPEG 0(0) 132(36) 116(116) 178(222) 704 parking meter, ellipse
+1263.JPEG 0(0) 121(21) 214(214) 171(222) 122 American lobster, Northern lobster, Maine lobster, Homarus americanus, ellipse
+1264.JPEG 89(89) 124(85) 213(213) 156(215) 169 borzoi, Russian wolfhound, rectangle
+1265.JPEG 36(36) 106(33) 186(187) 142(179) 293 cheetah, chetah, Acinonyx jubatus, rectangle
+1266.JPEG 12(12) 149(117) 208(209) 163(180) 934 hotdog, hot dog, red hot, rectangle
+1267.JPEG 17(17) 101(15) 205(205) 151(216) 255 Leonberg, ellipse
+1268.JPEG 8(8) 106(10) 118(119) 156(214) 376 proboscis monkey, Nasalis larvatus, rectangle
+1269.JPEG 19(19) 70(47) 159(160) 94(145) 185 Norfolk terrier, rectangle
+1270.JPEG 34(34) 84(63) 128(128) 110(171) 98 red-breasted merganser, Mergus serrator, ellipse
+1271.JPEG 38(38) 70(46) 192(192) 110(211) 496 Christmas stocking, rectangle
+1272.JPEG 71(71) 89(0) 191(191) 143(223) 789 shoji, rectangle
+1273.JPEG 25(25) 69(36) 185(186) 113(218) 857 throne, box
+1274.JPEG 50(50) 141(26) 222(223) 189(222) 239 Bernese mountain dog, ellipse
+1275.JPEG 146(146) 56(32) 212(212) 76(112) 310 ant, emmet, pismire, disk
+1276.JPEG 98(98) 41(34) 126(126) 45(51) 715 pickelhaube, rectangle
+1277.JPEG 148(148) 104(32) 210(210) 144(195) 572 goblet, box
+1278.JPEG 2(2) 76(1) 218(219) 130(221) 763 revolver, six-gun, six-shooter, rectangle
+1279.JPEG 30(30) 23(4) 84(84) 35(58) 701 parachute, chute, rectangle
+1280.JPEG 0(0) 54(0) 222(223) 108(223) 599 honeycomb, rectangle
+1281.JPEG 36(36) 117(38) 148(149) 163(223) 900 water tower, ellipse
+1282.JPEG 46(46) 130(14) 196(196) 182(223) 945 bell pepper, ellipse
+1283.JPEG 40(40) 127(73) 222(223) 155(187) 268 Mexican hairless, rectangle
+1284.JPEG 10(10) 132(1) 210(210) 186(223) 881 upright, upright piano, ellipse
+1285.JPEG 117(117) 76(26) 193(193) 120(203) 317 leafhopper, ellipse
+1286.JPEG 6(6) 80(42) 206(207) 114(183) 935 mashed potato, ellipse
+1287.JPEG 28(28) 128(31) 86(87) 168(194) 783 screw, ellipse
+1288.JPEG 120(120) 145(92) 182(183) 167(185) 948 Granny Smith, rectangle
+1289.JPEG 134(134) 54(0) 178(179) 100(186) 368 gibbon, Hylobates lar, rectangle
+1290.JPEG 44(44) 87(57) 106(106) 127(218) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, ellipse
+1291.JPEG 22(22) 146(92) 144(144) 172(198) 946 cardoon, rectangle
+1292.JPEG 3(3) 138(87) 215(215) 172(223) 444 bicycle-built-for-two, tandem bicycle, tandem, rectangle
+1293.JPEG 0(0) 64(0) 222(223) 118(223) 762 restaurant, eating house, eating place, eatery, rectangle
+1294.JPEG 0(0) 32(0) 222(223) 76(182) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, ellipse
+1295.JPEG 44(44) 87(13) 176(177) 135(208) 353 gazelle, box
+1296.JPEG 129(129) 92(84) 177(178) 104(133) 927 trifle, disk
+1297.JPEG 34(34) 104(0) 202(203) 158(223) 260 chow, chow chow, rectangle
+1298.JPEG 0(0) 85(1) 222(223) 139(223) 588 hamper, ellipse
+1299.JPEG 10(10) 133(15) 142(142) 179(206) 605 iPod, box
+1300.JPEG 94(94) 35(23) 136(137) 39(43) 715 pickelhaube, box
+1301.JPEG 61(61) 88(17) 223(223) 136(209) 294 brown bear, bruin, Ursus arctos, ellipse
+1302.JPEG 10(10) 56(11) 190(191) 106(213) 168 redbone, ellipse
+1303.JPEG 0(0) 99(0) 54(55) 151(214) 679 necklace, rectangle
+1304.JPEG 51(51) 111(26) 191(192) 145(166) 322 ringlet, ringlet butterfly, ellipse
+1305.JPEG 66(66) 145(72) 222(223) 181(223) 149 dugong, Dugong dugon, ellipse
+1306.JPEG 0(0) 31(1) 210(211) 79(194) 284 Siamese cat, Siamese, rectangle
+1307.JPEG 25(25) 139(12) 195(196) 191(223) 335 fox squirrel, eastern fox squirrel, Sciurus niger, rectangle
+1308.JPEG 5(5) 153(137) 219(220) 173(221) 984 rapeseed, ellipse
+1309.JPEG 14(14) 145(68) 214(214) 179(211) 298 mongoose, ellipse
+1310.JPEG 99(99) 89(82) 153(154) 103(141) 990 buckeye, horse chestnut, conker, rectangle
+1311.JPEG 76(76) 81(40) 162(163) 117(186) 701 parachute, chute, ellipse
+1312.JPEG 11(11) 83(27) 211(212) 123(192) 548 entertainment center, rectangle
+1313.JPEG 53(53) 128(80) 131(131) 148(164) 729 plate rack, rectangle
+1314.JPEG 96(96) 86(76) 148(148) 96(118) 419 Band Aid, rectangle
+1315.JPEG 0(0) 65(0) 222(223) 119(223) 109 brain coral, rectangle
+1316.JPEG 0(0) 139(51) 218(219) 181(220) 646 maze, labyrinth, ellipse
+1317.JPEG 0(0) 131(112) 182(182) 151(193) 239 Bernese mountain dog, ellipse
+1318.JPEG 58(58) 97(72) 168(168) 113(143) 0 tench, Tinca tinca, ellipse
+1319.JPEG 63(63) 100(26) 217(217) 142(198) 122 American lobster, Northern lobster, Maine lobster, Homarus americanus, rectangle
+1320.JPEG 7(7) 70(25) 217(218) 118(219) 553 file, file cabinet, filing cabinet, rectangle
+1321.JPEG 4(4) 144(16) 134(135) 194(223) 851 television, television system, box
+1322.JPEG 98(98) 92(18) 206(207) 132(178) 514 cowboy boot, ellipse
+1323.JPEG 191(191) 80(25) 221(222) 112(153) 782 screen, CRT screen, ellipse
+1324.JPEG 8(8) 59(7) 214(215) 111(217) 746 puck, hockey puck, rectangle
+1325.JPEG 0(0) 102(63) 76(77) 128(172) 293 cheetah, chetah, Acinonyx jubatus, rectangle
+1326.JPEG 0(0) 43(2) 70(70) 95(215) 496 Christmas stocking, ellipse
+1327.JPEG 0(0) 143(23) 136(136) 193(223) 177 Scottish deerhound, deerhound, ellipse
+1328.JPEG 3(3) 100(0) 221(222) 154(223) 342 wild boar, boar, Sus scrofa, rectangle
+1329.JPEG 38(38) 131(119) 122(123) 141(164) 573 go-kart, ellipse
+1330.JPEG 46(46) 127(31) 184(184) 175(223) 133 bittern, rectangle
+1331.JPEG 50(50) 85(27) 218(218) 131(215) 216 clumber, clumber spaniel, ellipse
+1332.JPEG 12(12) 58(21) 222(223) 102(199) 521 Crock Pot, ellipse
+1333.JPEG 148(148) 162(99) 222(223) 192(223) 223 schipperke, box
+1334.JPEG 0(0) 186(136) 110(110) 206(223) 975 lakeside, lakeshore, disk
+1335.JPEG 141(141) 27(25) 153(154) 29(36) 429 baseball, ellipse
+1336.JPEG 0(0) 144(107) 222(223) 172(222) 739 potter's wheel, rectangle
+1337.JPEG 62(62) 61(57) 80(81) 69(92) 920 traffic light, traffic signal, stoplight, disk
+1338.JPEG 67(67) 50(1) 165(165) 104(223) 191 Airedale, Airedale terrier, rectangle
+1339.JPEG 0(0) 113(73) 62(63) 131(146) 948 Granny Smith, ellipse
+1340.JPEG 64(64) 103(23) 222(223) 151(222) 192 cairn, cairn terrier, ellipse
+1341.JPEG 41(41) 79(61) 81(82) 89(102) 433 bathing cap, swimming cap, disk
+1342.JPEG 14(14) 168(107) 104(105) 196(223) 966 red wine, disk
+1343.JPEG 32(32) 70(37) 128(129) 114(213) 294 brown bear, bruin, Ursus arctos, disk
+1344.JPEG 23(23) 44(5) 203(203) 96(219) 631 lotion, rectangle
+1345.JPEG 1(1) 49(18) 221(222) 99(223) 648 medicine chest, medicine cabinet, rectangle
+1346.JPEG 48(48) 68(4) 168(168) 120(216) 920 traffic light, traffic signal, stoplight, ellipse
+1347.JPEG 91(91) 88(81) 119(120) 98(121) 844 switch, electric switch, electrical switch, ellipse
+1348.JPEG 115(115) 74(28) 191(192) 100(132) 695 padlock, ellipse
+1349.JPEG 89(89) 93(68) 135(135) 113(150) 855 thimble, ellipse
+1350.JPEG 65(65) 130(56) 153(153) 162(187) 261 keeshond, box
+1351.JPEG 0(0) 91(8) 222(223) 143(221) 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus, ellipse
+1352.JPEG 23(23) 96(1) 193(194) 150(217) 946 cardoon, rectangle
+1353.JPEG 17(17) 98(11) 195(196) 138(175) 190 Sealyham terrier, Sealyham, ellipse
+1354.JPEG 84(84) 102(84) 128(129) 116(141) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, ellipse
+1355.JPEG 64(64) 89(71) 222(223) 99(117) 781 scoreboard, ellipse
+1356.JPEG 0(0) 170(123) 76(76) 194(222) 785 seat belt, seatbelt, ellipse
+1357.JPEG 32(32) 122(103) 186(187) 142(187) 94 hummingbird, ellipse
+1358.JPEG 23(23) 69(36) 201(202) 111(206) 44 alligator lizard, rectangle
+1359.JPEG 8(8) 130(36) 218(219) 168(195) 491 chain saw, chainsaw, ellipse
+1360.JPEG 139(139) 115(78) 205(205) 129(140) 651 microwave, microwave oven, disk
+1361.JPEG 0(0) 117(54) 186(186) 149(186) 959 carbonara, ellipse
+1362.JPEG 60(60) 55(33) 210(211) 95(194) 182 Border terrier, rectangle
+1363.JPEG 21(21) 102(71) 83(84) 114(122) 684 ocarina, sweet potato, box
+1364.JPEG 19(19) 60(50) 127(128) 74(112) 449 boathouse, rectangle
+1365.JPEG 64(64) 65(43) 202(202) 87(138) 304 leaf beetle, chrysomelid, ellipse
+1366.JPEG 74(74) 93(52) 202(203) 121(167) 277 red fox, Vulpes vulpes, ellipse
+1367.JPEG 8(8) 83(1) 222(223) 135(213) 123 spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish, ellipse
+1368.JPEG 23(23) 100(54) 199(199) 126(161) 670 motor scooter, scooter, ellipse
+1369.JPEG 119(119) 109(46) 159(159) 137(159) 902 whistle, box
+1370.JPEG 8(8) 111(57) 142(143) 141(182) 139 ruddy turnstone, Arenaria interpres, rectangle
+1371.JPEG 60(60) 140(75) 128(128) 164(178) 378 capuchin, ringtail, Cebus capucinus, ellipse
+1372.JPEG 73(73) 52(30) 147(147) 88(176) 368 gibbon, Hylobates lar, ellipse
+1373.JPEG 13(13) 71(34) 131(131) 117(223) 9 ostrich, Struthio camelus, disk
+1374.JPEG 3(3) 134(77) 217(218) 170(222) 690 oxcart, rectangle
+1375.JPEG 7(7) 54(19) 221(221) 100(206) 78 tick, ellipse
+1376.JPEG 37(37) 90(30) 157(158) 124(172) 362 badger, rectangle
+1377.JPEG 106(106) 65(45) 146(146) 87(137) 966 red wine, box
+1378.JPEG 49(49) 115(81) 103(104) 127(135) 353 gazelle, ellipse
+1379.JPEG 0(0) 136(18) 122(122) 186(223) 222 kuvasz, disk
+1380.JPEG 4(4) 81(66) 210(211) 105(164) 473 can opener, tin opener, rectangle
+1381.JPEG 24(24) 117(30) 172(172) 163(218) 588 hamper, rectangle
+1382.JPEG 0(0) 48(2) 214(214) 102(223) 815 spider web, spider's web, rectangle
+1383.JPEG 80(80) 105(32) 138(138) 137(160) 884 vault, rectangle
+1384.JPEG 26(26) 168(77) 222(223) 204(223) 293 cheetah, chetah, Acinonyx jubatus, ellipse
+1385.JPEG 0(0) 65(0) 162(163) 107(175) 164 bluetick, ellipse
+1386.JPEG 66(66) 80(58) 154(154) 112(189) 19 chickadee, rectangle
+1387.JPEG 83(83) 159(81) 177(178) 193(222) 617 lab coat, laboratory coat, rectangle
+1388.JPEG 32(32) 109(38) 184(185) 139(158) 12 house finch, linnet, Carpodacus mexicanus, box
+1389.JPEG 84(84) 40(20) 122(122) 76(166) 682 obelisk, ellipse
+1390.JPEG 65(65) 58(0) 115(115) 90(129) 801 snorkel, ellipse
+1391.JPEG 0(0) 9(5) 220(221) 11(13) 602 horizontal bar, high bar, box
+1392.JPEG 46(46) 109(69) 150(150) 129(155) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, rectangle
+1393.JPEG 60(60) 40(34) 88(89) 44(54) 890 volleyball, ellipse
+1394.JPEG 40(40) 100(11) 216(216) 150(216) 151 Chihuahua, ellipse
+1395.JPEG 8(8) 53(9) 216(216) 101(205) 78 tick, rectangle
+1396.JPEG 0(0) 88(62) 50(51) 126(218) 617 lab coat, laboratory coat, rectangle
+1397.JPEG 0(0) 46(13) 176(177) 98(223) 7 cock, box
+1398.JPEG 125(125) 78(48) 165(165) 98(128) 150 sea lion, disk
+1399.JPEG 19(19) 105(33) 201(201) 151(223) 900 water tower, box
+1400.JPEG 0(0) 90(23) 208(208) 140(223) 354 Arabian camel, dromedary, Camelus dromedarius, ellipse
+1401.JPEG 0(0) 137(10) 208(208) 189(223) 214 Gordon setter, ellipse
+1402.JPEG 0(0) 70(0) 222(223) 108(159) 510 container ship, containership, container vessel, rectangle
+1403.JPEG 34(34) 82(61) 86(86) 92(106) 989 hip, rose hip, rosehip, rectangle
+1404.JPEG 104(104) 115(63) 150(151) 139(166) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, disk
+1405.JPEG 5(5) 83(60) 215(215) 101(134) 418 ballpoint, ballpoint pen, ballpen, Biro, ellipse
+1406.JPEG 123(123) 108(89) 223(223) 126(166) 902 whistle, box
+1407.JPEG 1(1) 85(3) 217(218) 139(219) 746 puck, hockey puck, ellipse
+1408.JPEG 45(45) 64(37) 91(91) 78(94) 949 strawberry, rectangle
+1409.JPEG 116(116) 165(107) 186(186) 191(213) 852 tennis ball, rectangle
+1410.JPEG 21(21) 165(145) 195(195) 175(190) 539 doormat, welcome mat, box
+1411.JPEG 2(2) 112(47) 222(222) 154(222) 520 crib, cot, rectangle
+1412.JPEG 36(36) 50(17) 214(214) 100(217) 604 hourglass, box
+1413.JPEG 52(52) 53(11) 164(164) 101(210) 840 swab, swob, mop, ellipse
+1414.JPEG 35(35) 134(15) 181(182) 184(217) 901 whiskey jug, box
+1415.JPEG 124(124) 139(122) 154(155) 149(163) 971 bubble, disk
+1416.JPEG 1(1) 132(0) 205(205) 186(223) 284 Siamese cat, Siamese, rectangle
+1417.JPEG 57(57) 32(2) 187(188) 74(172) 187 Yorkshire terrier, rectangle
+1418.JPEG 122(122) 152(73) 222(223) 186(214) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, rectangle
+1419.JPEG 0(0) 48(0) 152(152) 102(223) 241 EntleBucher, ellipse
+1420.JPEG 80(80) 57(5) 142(143) 109(216) 78 tick, disk
+1421.JPEG 97(97) 70(49) 137(138) 80(91) 988 acorn, box
+1422.JPEG 89(89) 51(23) 129(129) 77(129) 783 screw, ellipse
+1423.JPEG 52(52) 96(35) 182(183) 124(150) 997 bolete, rectangle
+1424.JPEG 29(29) 105(15) 193(193) 147(190) 896 washbasin, handbasin, washbowl, lavabo, wash-hand basin, rectangle
+1425.JPEG 64(64) 119(24) 164(164) 161(193) 78 tick, disk
+1426.JPEG 32(32) 54(0) 184(185) 86(130) 946 cardoon, ellipse
+1427.JPEG 0(0) 125(43) 222(223) 169(223) 213 Irish setter, red setter, ellipse
+1428.JPEG 49(49) 131(26) 147(148) 177(214) 82 ruffed grouse, partridge, Bonasa umbellus, box
+1429.JPEG 0(0) 36(0) 222(223) 90(223) 108 sea anemone, anemone, rectangle
+1430.JPEG 13(13) 120(55) 83(84) 148(168) 621 lawn mower, mower, rectangle
+1431.JPEG 146(146) 125(124) 148(149) 125(128) 746 puck, hockey puck, rectangle
+1432.JPEG 49(49) 70(19) 181(182) 118(214) 771 safe, ellipse
+1433.JPEG 6(6) 76(45) 204(205) 108(180) 0 tench, Tinca tinca, rectangle
+1434.JPEG 0(0) 100(0) 222(223) 146(184) 904 window screen, rectangle
+1435.JPEG 186(186) 203(200) 202(202) 205(208) 746 puck, hockey puck, ellipse
+1436.JPEG 68(68) 127(104) 172(173) 149(199) 951 lemon, box
+1437.JPEG 36(36) 137(56) 98(98) 177(222) 785 seat belt, seatbelt, ellipse
+1438.JPEG 19(19) 52(19) 215(215) 96(196) 636 mailbag, postbag, box
+1439.JPEG 0(0) 150(135) 184(185) 172(223) 420 banjo, rectangle
+1440.JPEG 6(6) 125(74) 160(161) 151(183) 425 barn, rectangle
+1441.JPEG 47(47) 78(0) 167(167) 126(198) 679 necklace, ellipse
+1442.JPEG 39(39) 67(50) 159(159) 95(167) 625 lifeboat, box
+1443.JPEG 99(99) 117(111) 129(130) 125(149) 870 tricycle, trike, velocipede, rectangle
+1444.JPEG 70(70) 98(38) 172(173) 122(137) 938 cauliflower, ellipse
+1445.JPEG 98(98) 131(52) 214(214) 173(223) 372 baboon, ellipse
+1446.JPEG 125(125) 212(206) 143(143) 214(221) 611 jigsaw puzzle, box
+1447.JPEG 37(37) 48(10) 185(186) 98(217) 268 Mexican hairless, rectangle
+1448.JPEG 57(57) 119(38) 169(170) 157(190) 249 malamute, malemute, Alaskan malamute, rectangle
+1449.JPEG 44(44) 126(24) 160(160) 170(204) 160 Afghan hound, Afghan, ellipse
+1450.JPEG 42(42) 98(24) 192(193) 138(189) 65 sea snake, rectangle
+1451.JPEG 47(47) 103(41) 199(200) 133(164) 19 chickadee, rectangle
+1452.JPEG 37(37) 122(35) 211(211) 160(192) 466 bullet train, bullet, ellipse
+1453.JPEG 0(0) 131(105) 60(60) 157(211) 952 fig, disk
+1454.JPEG 25(25) 44(5) 203(203) 86(173) 57 garter snake, grass snake, ellipse
+1455.JPEG 74(74) 50(22) 188(189) 84(165) 951 lemon, ellipse
+1456.JPEG 99(99) 71(56) 159(160) 87(122) 548 entertainment center, ellipse
+1457.JPEG 50(50) 113(0) 164(164) 165(213) 258 Samoyed, Samoyede, box
+1458.JPEG 39(39) 53(38) 199(200) 83(161) 290 jaguar, panther, Panthera onca, Felis onca, ellipse
+1459.JPEG 22(22) 33(1) 222(223) 57(102) 905 window shade, rectangle
+1460.JPEG 10(10) 96(4) 220(221) 148(217) 283 Persian cat, ellipse
+1461.JPEG 44(44) 135(62) 108(108) 165(188) 345 ox, rectangle
+1462.JPEG 27(27) 139(63) 167(168) 171(192) 20 water ouzel, dipper, rectangle
+1463.JPEG 24(24) 44(16) 186(187) 94(222) 533 dishrag, dishcloth, box
+1464.JPEG 84(84) 48(5) 152(153) 84(154) 747 punching bag, punch bag, punching ball, punchball, ellipse
+1465.JPEG 62(62) 139(2) 178(178) 193(223) 375 colobus, colobus monkey, rectangle
+1466.JPEG 112(112) 91(28) 170(171) 115(130) 945 bell pepper, ellipse
+1467.JPEG 136(136) 100(60) 188(188) 124(161) 270 white wolf, Arctic wolf, Canis lupus tundrarum, disk
+1468.JPEG 70(70) 99(0) 164(164) 149(206) 796 ski mask, ellipse
+1469.JPEG 64(64) 76(59) 114(114) 88(107) 952 fig, rectangle
+1470.JPEG 7(7) 95(6) 195(195) 141(197) 78 tick, ellipse
+1471.JPEG 36(36) 83(0) 200(201) 137(223) 857 throne, rectangle
+1472.JPEG 21(21) 139(9) 173(174) 191(223) 994 stinkhorn, carrion fungus, ellipse
+1473.JPEG 0(0) 58(0) 222(223) 112(223) 688 oscilloscope, scope, cathode-ray oscilloscope, CRO, ellipse
+1474.JPEG 119(119) 174(130) 191(192) 194(217) 756 rain barrel, ellipse
+1475.JPEG 12(12) 134(27) 214(214) 180(211) 291 lion, king of beasts, Panthera leo, rectangle
+1476.JPEG 106(106) 113(99) 204(204) 139(203) 226 briard, ellipse
+1477.JPEG 12(12) 38(11) 210(211) 90(223) 384 indri, indris, Indri indri, Indri brevicaudatus, ellipse
+1478.JPEG 44(44) 117(27) 90(91) 165(222) 557 flagpole, flagstaff, ellipse
+1479.JPEG 86(86) 111(73) 200(200) 129(150) 655 miniskirt, mini, ellipse
+1480.JPEG 57(57) 146(96) 221(222) 176(221) 939 zucchini, courgette, rectangle
+1481.JPEG 0(0) 118(0) 222(223) 172(223) 959 carbonara, rectangle
+1482.JPEG 89(89) 143(79) 205(206) 169(190) 551 face powder, disk
+1483.JPEG 76(76) 140(119) 126(126) 156(183) 233 Bouvier des Flandres, Bouviers des Flandres, ellipse
+1484.JPEG 6(6) 104(10) 214(214) 154(211) 606 iron, smoothing iron, rectangle
+1485.JPEG 54(54) 135(0) 188(189) 189(223) 268 Mexican hairless, ellipse
+1486.JPEG 114(114) 142(39) 222(223) 188(223) 299 meerkat, mierkat, rectangle
+1487.JPEG 60(60) 60(17) 158(159) 102(187) 244 Tibetan mastiff, box
+1488.JPEG 0(0) 124(0) 222(223) 178(223) 530 digital clock, ellipse
+1489.JPEG 184(184) 91(84) 220(221) 99(117) 949 strawberry, rectangle
+1490.JPEG 0(0) 93(0) 222(223) 147(223) 729 plate rack, rectangle
+1491.JPEG 31(31) 103(1) 221(222) 157(217) 647 measuring cup, ellipse
+1492.JPEG 60(60) 150(42) 180(181) 194(223) 225 malinois, disk
+1493.JPEG 2(2) 107(9) 216(216) 159(223) 726 plane, carpenter's plane, woodworking plane, ellipse
+1494.JPEG 30(30) 102(81) 184(184) 126(180) 329 sea cucumber, holothurian, ellipse
+1495.JPEG 0(0) 69(0) 222(223) 117(197) 936 head cabbage, rectangle
+1496.JPEG 39(39) 160(99) 131(132) 188(211) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, ellipse
+1497.JPEG 6(6) 69(60) 222(223) 87(134) 840 swab, swob, mop, ellipse
+1498.JPEG 56(56) 112(44) 164(164) 146(181) 701 parachute, chute, rectangle
+1499.JPEG 39(39) 54(26) 187(188) 68(86) 398 abacus, box
+1500.JPEG 51(51) 55(32) 177(177) 97(204) 217 English springer, English springer spaniel, rectangle
+1501.JPEG 6(6) 102(65) 222(223) 140(223) 833 submarine, pigboat, sub, U-boat, rectangle
+1502.JPEG 75(75) 124(107) 143(143) 148(209) 775 sarong, rectangle
+1503.JPEG 5(5) 79(28) 203(203) 105(138) 418 ballpoint, ballpoint pen, ballpen, Biro, rectangle
+1504.JPEG 60(60) 159(137) 128(129) 167(175) 98 red-breasted merganser, Mergus serrator, box
+1505.JPEG 97(97) 80(63) 125(126) 92(115) 393 anemone fish, rectangle
+1506.JPEG 100(100) 62(36) 186(187) 92(163) 12 house finch, linnet, Carpodacus mexicanus, rectangle
+1507.JPEG 69(69) 108(41) 137(137) 142(181) 857 throne, rectangle
+1508.JPEG 0(0) 80(59) 202(202) 96(129) 344 hippopotamus, hippo, river horse, Hippopotamus amphibius, ellipse
+1509.JPEG 31(31) 137(121) 147(148) 155(194) 740 power drill, ellipse
+1510.JPEG 172(172) 60(8) 220(220) 110(210) 648 medicine chest, medicine cabinet, disk
+1511.JPEG 7(7) 96(67) 215(216) 118(156) 895 warplane, military plane, rectangle
+1512.JPEG 0(0) 30(1) 222(223) 80(206) 716 picket fence, paling, rectangle
+1513.JPEG 41(41) 67(16) 195(195) 87(102) 884 vault, ellipse
+1514.JPEG 74(74) 137(29) 222(223) 185(223) 100 black swan, Cygnus atratus, ellipse
+1515.JPEG 0(0) 142(20) 178(179) 192(223) 165 black-and-tan coonhound, ellipse
+1516.JPEG 54(54) 45(9) 116(116) 67(99) 143 oystercatcher, oyster catcher, disk
+1517.JPEG 49(49) 110(94) 131(131) 136(204) 951 lemon, rectangle
+1518.JPEG 159(159) 64(44) 189(189) 80(108) 439 bearskin, busby, shako, box
+1519.JPEG 0(0) 52(18) 210(211) 96(201) 252 affenpinscher, monkey pinscher, monkey dog, rectangle
+1520.JPEG 0(0) 89(36) 214(215) 131(204) 152 Japanese spaniel, rectangle
+1521.JPEG 3(3) 129(28) 195(195) 171(203) 152 Japanese spaniel, ellipse
+1522.JPEG 137(137) 150(124) 179(179) 170(211) 92 bee eater, disk
+1523.JPEG 109(109) 113(49) 193(194) 147(191) 932 pretzel, rectangle
+1524.JPEG 21(21) 85(18) 137(137) 127(190) 117 chambered nautilus, pearly nautilus, nautilus, rectangle
+1525.JPEG 11(11) 44(0) 223(223) 94(205) 780 schooner, rectangle
+1526.JPEG 78(78) 82(49) 222(222) 108(156) 990 buckeye, horse chestnut, conker, rectangle
+1527.JPEG 95(95) 112(53) 157(158) 152(213) 441 beer glass, rectangle
+1528.JPEG 41(41) 132(0) 173(174) 186(223) 986 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, box
+1529.JPEG 32(32) 92(48) 92(93) 120(160) 199 Scotch terrier, Scottish terrier, Scottie, rectangle
+1530.JPEG 47(47) 136(124) 83(83) 142(148) 873 triumphal arch, rectangle
+1531.JPEG 24(24) 71(37) 206(206) 107(182) 173 Ibizan hound, Ibizan Podenco, box
+1532.JPEG 65(65) 65(63) 79(79) 65(70) 890 volleyball, box
+1533.JPEG 14(14) 124(58) 184(185) 158(201) 561 forklift, ellipse
+1534.JPEG 22(22) 135(18) 198(198) 181(206) 714 pick, plectrum, plectron, rectangle
+1535.JPEG 39(39) 118(46) 197(198) 146(162) 363 armadillo, rectangle
+1536.JPEG 16(16) 54(2) 218(218) 106(213) 369 siamang, Hylobates syndactylus, Symphalangus syndactylus, ellipse
+1537.JPEG 13(13) 86(65) 223(223) 124(222) 646 maze, labyrinth, rectangle
+1538.JPEG 60(60) 57(14) 190(191) 89(145) 325 sulphur butterfly, sulfur butterfly, ellipse
+1539.JPEG 53(53) 123(39) 169(169) 159(189) 615 knee pad, rectangle
+1540.JPEG 111(111) 64(0) 185(185) 100(147) 846 table lamp, rectangle
+1541.JPEG 42(42) 122(37) 162(163) 168(222) 87 African grey, African gray, Psittacus erithacus, ellipse
+1542.JPEG 0(0) 98(87) 64(65) 108(128) 970 alp, disk
+1543.JPEG 79(79) 36(1) 139(139) 86(205) 451 bolo tie, bolo, bola tie, bola, box
+1544.JPEG 28(28) 130(0) 174(174) 184(219) 927 trifle, rectangle
+1545.JPEG 41(41) 95(27) 223(223) 137(197) 295 American black bear, black bear, Ursus americanus, Euarctos americanus, ellipse
+1546.JPEG 29(29) 134(40) 187(188) 172(197) 139 ruddy turnstone, Arenaria interpres, rectangle
+1547.JPEG 132(132) 76(52) 166(167) 88(104) 801 snorkel, box
+1548.JPEG 0(0) 134(34) 222(223) 180(223) 96 toucan, rectangle
+1549.JPEG 0(0) 83(63) 222(223) 99(127) 510 container ship, containership, container vessel, rectangle
+1550.JPEG 97(97) 130(69) 223(223) 166(219) 510 container ship, containership, container vessel, box
+1551.JPEG 83(83) 54(29) 223(223) 92(183) 577 gong, tam-tam, disk
+1552.JPEG 15(15) 64(11) 173(174) 116(221) 635 magnetic compass, box
+1553.JPEG 58(58) 171(157) 118(119) 183(210) 294 brown bear, bruin, Ursus arctos, ellipse
+1554.JPEG 32(32) 63(45) 204(205) 87(141) 100 black swan, Cygnus atratus, disk
+1555.JPEG 22(22) 171(139) 64(64) 191(223) 884 vault, rectangle
+1556.JPEG 25(25) 35(8) 185(186) 87(221) 429 baseball, rectangle
+1557.JPEG 26(26) 115(13) 162(163) 161(201) 699 panpipe, pandean pipe, syrinx, ellipse
+1558.JPEG 99(99) 124(45) 183(183) 164(205) 267 standard poodle, rectangle
+1559.JPEG 34(34) 135(51) 92(93) 173(207) 399 abaya, rectangle
+1560.JPEG 122(122) 146(99) 182(183) 166(184) 956 custard apple, ellipse
+1561.JPEG 54(54) 10(0) 160(161) 16(29) 107 jellyfish, ellipse
+1562.JPEG 108(108) 51(7) 222(223) 105(223) 658 mitten, disk
+1563.JPEG 104(104) 148(109) 222(223) 168(190) 849 teapot, box
+1564.JPEG 0(0) 81(37) 222(223) 109(156) 525 dam, dike, dyke, rectangle
+1565.JPEG 45(45) 137(38) 219(219) 183(223) 95 jacamar, box
+1566.JPEG 110(110) 178(175) 116(117) 180(185) 522 croquet ball, disk
+1567.JPEG 105(105) 114(108) 113(113) 118(126) 470 candle, taper, wax light, box
+1568.JPEG 209(209) 67(63) 223(223) 73(94) 862 torch, box
+1569.JPEG 23(23) 156(139) 93(94) 164(178) 1 goldfish, Carassius auratus, box
+1570.JPEG 27(27) 91(67) 167(167) 107(132) 565 freight car, box
+1571.JPEG 22(22) 89(24) 112(112) 137(221) 699 panpipe, pandean pipe, syrinx, rectangle
+1572.JPEG 0(0) 160(90) 222(223) 188(206) 646 maze, labyrinth, box
+1573.JPEG 74(74) 126(77) 150(150) 146(161) 574 golf ball, rectangle
+1574.JPEG 40(40) 139(31) 190(191) 187(223) 376 proboscis monkey, Nasalis larvatus, rectangle
+1575.JPEG 47(47) 64(19) 187(187) 110(210) 604 hourglass, box
+1576.JPEG 39(39) 94(26) 175(176) 136(196) 905 window shade, rectangle
+1577.JPEG 22(22) 125(0) 222(223) 179(223) 431 bassinet, ellipse
+1578.JPEG 78(78) 26(9) 146(147) 38(62) 680 nipple, rectangle
+1579.JPEG 38(38) 121(117) 76(77) 127(146) 989 hip, rose hip, rosehip, disk
+1580.JPEG 50(50) 29(0) 222(222) 83(223) 236 Doberman, Doberman pinscher, rectangle
+1581.JPEG 0(0) 110(0) 212(213) 164(223) 957 pomegranate, rectangle
+1582.JPEG 32(32) 42(0) 214(215) 94(213) 152 Japanese spaniel, ellipse
+1583.JPEG 10(10) 166(93) 110(111) 194(210) 805 soccer ball, box
+1584.JPEG 0(0) 64(0) 222(223) 118(223) 886 vending machine, box
+1585.JPEG 48(48) 115(14) 206(206) 165(221) 259 Pomeranian, ellipse
+1586.JPEG 25(25) 87(51) 205(206) 111(147) 404 airliner, rectangle
+1587.JPEG 66(66) 70(53) 182(183) 102(182) 217 English springer, English springer spaniel, ellipse
+1588.JPEG 114(114) 65(21) 196(196) 107(195) 487 cellular telephone, cellular phone, cellphone, cell, mobile phone, box
+1589.JPEG 67(67) 97(75) 135(135) 107(117) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, ellipse
+1590.JPEG 21(21) 103(47) 191(192) 147(223) 552 feather boa, boa, rectangle
+1591.JPEG 0(0) 87(72) 222(223) 111(172) 888 viaduct, rectangle
+1592.JPEG 3(3) 83(18) 217(217) 123(183) 112 conch, rectangle
+1593.JPEG 30(30) 110(23) 188(189) 150(190) 687 organ, pipe organ, rectangle
+1594.JPEG 79(79) 120(33) 205(206) 158(192) 276 hyena, hyaena, box
+1595.JPEG 99(99) 166(130) 187(187) 188(223) 678 neck brace, box
+1596.JPEG 104(104) 129(109) 128(128) 137(142) 987 corn, disk
+1597.JPEG 19(19) 109(0) 171(171) 157(197) 630 Loafer, ellipse
+1598.JPEG 54(54) 186(134) 204(204) 208(223) 683 oboe, hautboy, hautbois, ellipse
+1599.JPEG 78(78) 133(61) 216(216) 163(184) 596 hatchet, box
+1600.JPEG 0(0) 80(30) 198(198) 128(223) 383 Madagascar cat, ring-tailed lemur, Lemur catta, rectangle
+1601.JPEG 74(74) 32(20) 102(103) 36(39) 890 volleyball, disk
+1602.JPEG 18(18) 81(57) 196(197) 115(199) 245 French bulldog, rectangle
+1603.JPEG 0(0) 49(0) 104(105) 99(203) 635 magnetic compass, disk
+1604.JPEG 99(99) 87(78) 151(151) 89(92) 593 harmonica, mouth organ, harp, mouth harp, ellipse
+1605.JPEG 0(0) 108(31) 208(209) 146(185) 318 lacewing, lacewing fly, ellipse
+1606.JPEG 60(60) 107(36) 222(223) 153(223) 379 howler monkey, howler, box
+1607.JPEG 138(138) 61(39) 184(185) 85(137) 81 ptarmigan, box
+1608.JPEG 130(130) 37(0) 212(213) 81(180) 604 hourglass, disk
+1609.JPEG 54(54) 102(46) 160(161) 136(184) 452 bonnet, poke bonnet, ellipse
+1610.JPEG 50(50) 75(0) 132(133) 127(209) 953 pineapple, ananas, ellipse
+1611.JPEG 41(41) 44(20) 213(214) 58(78) 667 mortarboard, rectangle
+1612.JPEG 79(79) 84(0) 163(164) 138(223) 704 parking meter, rectangle
+1613.JPEG 14(14) 137(59) 142(143) 173(206) 32 tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui, ellipse
+1614.JPEG 3(3) 160(111) 179(179) 186(222) 942 butternut squash, ellipse
+1615.JPEG 25(25) 126(60) 215(215) 164(215) 171 Italian greyhound, rectangle
+1616.JPEG 0(0) 113(3) 222(223) 167(222) 636 mailbag, postbag, rectangle
+1617.JPEG 48(48) 74(20) 146(147) 106(151) 392 rock beauty, Holocanthus tricolor, box
+1618.JPEG 40(40) 163(151) 78(79) 177(207) 973 coral reef, rectangle
+1619.JPEG 21(21) 118(62) 189(190) 154(209) 183 Kerry blue terrier, rectangle
+1620.JPEG 12(12) 94(49) 100(101) 134(216) 707 pay-phone, pay-station, rectangle
+1621.JPEG 52(52) 62(37) 184(185) 100(194) 117 chambered nautilus, pearly nautilus, nautilus, box
+1622.JPEG 81(81) 112(100) 191(192) 126(159) 739 potter's wheel, rectangle
+1623.JPEG 23(23) 30(6) 209(210) 72(179) 510 container ship, containership, container vessel, rectangle
+1624.JPEG 0(0) 166(72) 222(223) 202(223) 913 wreck, ellipse
+1625.JPEG 32(32) 130(37) 124(125) 168(192) 693 paddle, boat paddle, rectangle
+1626.JPEG 2(2) 93(56) 216(217) 115(144) 628 liner, ocean liner, ellipse
+1627.JPEG 23(23) 129(51) 219(220) 165(196) 175 otterhound, otter hound, ellipse
+1628.JPEG 47(47) 95(40) 201(202) 119(142) 42 agama, ellipse
+1629.JPEG 0(0) 81(38) 202(202) 127(223) 370 guenon, guenon monkey, rectangle
+1630.JPEG 36(36) 122(102) 82(82) 144(191) 210 German short-haired pointer, ellipse
+1631.JPEG 38(38) 99(43) 170(170) 137(196) 958 hay, rectangle
+1632.JPEG 0(0) 81(28) 186(186) 117(178) 50 American alligator, Alligator mississipiensis, rectangle
+1633.JPEG 12(12) 178(171) 140(141) 186(203) 795 ski, box
+1634.JPEG 15(15) 84(31) 213(214) 122(188) 528 dial telephone, dial phone, rectangle
+1635.JPEG 22(22) 73(36) 186(186) 105(170) 172 whippet, rectangle
+1636.JPEG 50(50) 152(61) 152(152) 192(223) 87 African grey, African gray, Psittacus erithacus, rectangle
+1637.JPEG 76(76) 177(155) 170(170) 193(223) 822 steel drum, ellipse
+1638.JPEG 45(45) 157(64) 199(199) 195(216) 172 whippet, rectangle
+1639.JPEG 4(4) 102(52) 216(217) 134(186) 512 corkscrew, bottle screw, rectangle
+1640.JPEG 7(7) 69(8) 189(190) 121(221) 152 Japanese spaniel, rectangle
+1641.JPEG 109(109) 132(32) 177(178) 176(208) 19 chickadee, ellipse
+1642.JPEG 21(21) 157(48) 205(205) 199(223) 194 Dandie Dinmont, Dandie Dinmont terrier, ellipse
+1643.JPEG 47(47) 99(36) 99(99) 143(213) 789 shoji, rectangle
+1644.JPEG 116(116) 214(207) 150(150) 218(223) 107 jellyfish, disk
+1645.JPEG 42(42) 132(41) 220(221) 174(211) 392 rock beauty, Holocanthus tricolor, rectangle
+1646.JPEG 59(59) 110(60) 149(150) 138(177) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, rectangle
+1647.JPEG 1(1) 159(126) 191(191) 183(223) 401 accordion, piano accordion, squeeze, box, box
+1648.JPEG 0(0) 156(142) 222(223) 164(174) 840 swab, swob, mop, rectangle
+1649.JPEG 84(84) 81(12) 160(161) 131(219) 863 totem pole, rectangle
+1650.JPEG 0(0) 56(28) 222(223) 104(223) 979 valley, vale, rectangle
+1651.JPEG 29(29) 111(66) 129(130) 145(209) 167 English foxhound, rectangle
+1652.JPEG 1(1) 68(0) 155(155) 102(142) 439 bearskin, busby, shako, box
+1653.JPEG 0(0) 55(0) 222(223) 109(223) 431 bassinet, rectangle
+1654.JPEG 99(99) 88(18) 195(195) 116(134) 327 starfish, sea star, rectangle
+1655.JPEG 44(44) 31(0) 164(164) 75(183) 779 school bus, rectangle
+1656.JPEG 26(26) 131(20) 112(113) 175(200) 299 meerkat, mierkat, ellipse
+1657.JPEG 19(19) 76(63) 211(212) 98(157) 449 boathouse, rectangle
+1658.JPEG 20(20) 94(21) 192(192) 144(223) 375 colobus, colobus monkey, ellipse
+1659.JPEG 38(38) 167(130) 120(120) 189(222) 117 chambered nautilus, pearly nautilus, nautilus, box
+1660.JPEG 32(32) 103(45) 182(182) 133(167) 278 kit fox, Vulpes macrotis, rectangle
+1661.JPEG 68(68) 94(74) 222(223) 114(156) 293 cheetah, chetah, Acinonyx jubatus, rectangle
+1662.JPEG 55(55) 111(93) 81(81) 121(135) 844 switch, electric switch, electrical switch, box
+1663.JPEG 10(10) 168(141) 64(65) 178(185) 902 whistle, box
+1664.JPEG 116(116) 73(30) 212(213) 113(195) 463 bucket, pail, ellipse
+1665.JPEG 24(24) 68(0) 188(189) 122(223) 302 ground beetle, carabid beetle, box
+1666.JPEG 179(179) 113(65) 197(198) 151(223) 696 paintbrush, rectangle
+1667.JPEG 42(42) 124(107) 92(93) 136(160) 83 prairie chicken, prairie grouse, prairie fowl, rectangle
+1668.JPEG 17(17) 120(15) 201(201) 166(199) 741 prayer rug, prayer mat, rectangle
+1669.JPEG 90(90) 163(118) 162(163) 183(201) 356 weasel, rectangle
+1670.JPEG 73(73) 63(47) 187(188) 93(168) 322 ringlet, ringlet butterfly, box
+1671.JPEG 61(61) 114(21) 195(195) 160(205) 247 Saint Bernard, St Bernard, rectangle
+1672.JPEG 0(0) 91(0) 170(171) 145(223) 538 dome, rectangle
+1673.JPEG 54(54) 39(12) 116(117) 49(55) 957 pomegranate, rectangle
+1674.JPEG 14(14) 123(50) 174(175) 157(192) 325 sulphur butterfly, sulfur butterfly, rectangle
+1675.JPEG 58(58) 108(30) 208(209) 148(194) 91 coucal, ellipse
+1676.JPEG 29(29) 111(55) 203(203) 151(218) 380 titi, titi monkey, ellipse
+1677.JPEG 23(23) 122(23) 173(174) 168(212) 220 Sussex spaniel, box
+1678.JPEG 0(0) 60(0) 170(171) 104(181) 1 goldfish, Carassius auratus, rectangle
+1679.JPEG 77(77) 104(50) 211(212) 140(198) 324 cabbage butterfly, ellipse
+1680.JPEG 19(19) 81(46) 85(86) 123(217) 955 jackfruit, jak, jack, ellipse
+1681.JPEG 0(0) 84(31) 180(180) 132(223) 89 sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita, rectangle
+1682.JPEG 117(117) 165(146) 159(159) 181(214) 990 buckeye, horse chestnut, conker, ellipse
+1683.JPEG 7(7) 97(28) 217(218) 141(204) 755 radio telescope, radio reflector, ellipse
+1684.JPEG 132(132) 88(48) 202(203) 110(140) 951 lemon, rectangle
+1685.JPEG 6(6) 90(17) 198(198) 136(208) 901 whiskey jug, rectangle
+1686.JPEG 0(0) 131(17) 208(209) 181(223) 1 goldfish, Carassius auratus, ellipse
+1687.JPEG 0(0) 60(21) 200(201) 100(186) 40 American chameleon, anole, Anolis carolinensis, rectangle
+1688.JPEG 9(9) 96(14) 223(223) 146(215) 78 tick, rectangle
+1689.JPEG 0(0) 78(50) 222(223) 94(118) 970 alp, rectangle
+1690.JPEG 0(0) 51(0) 56(56) 99(194) 800 slot, one-armed bandit, rectangle
+1691.JPEG 175(175) 54(40) 201(202) 80(145) 525 dam, dike, dyke, box
+1692.JPEG 0(0) 37(4) 218(218) 89(219) 990 buckeye, horse chestnut, conker, box
+1693.JPEG 41(41) 107(1) 167(167) 153(191) 861 toilet seat, ellipse
+1694.JPEG 0(0) 75(1) 222(223) 129(223) 591 handkerchief, hankie, hanky, hankey, rectangle
+1695.JPEG 52(52) 126(25) 202(203) 174(222) 796 ski mask, box
+1696.JPEG 0(0) 119(87) 100(100) 151(221) 603 horse cart, horse-cart, ellipse
+1697.JPEG 27(27) 131(99) 97(97) 151(180) 938 cauliflower, rectangle
+1698.JPEG 32(32) 77(4) 130(131) 127(204) 322 ringlet, ringlet butterfly, box
+1699.JPEG 72(72) 60(4) 210(210) 114(221) 228 komondor, rectangle
+1700.JPEG 11(11) 44(2) 181(181) 98(223) 239 Bernese mountain dog, ellipse
+1701.JPEG 6(6) 92(5) 218(218) 144(219) 647 measuring cup, rectangle
+1702.JPEG 0(0) 123(77) 210(211) 149(182) 491 chain saw, chainsaw, ellipse
+1703.JPEG 168(168) 96(61) 192(192) 114(137) 339 sorrel, rectangle
+1704.JPEG 2(2) 51(0) 112(112) 105(218) 502 clog, geta, patten, sabot, box
+1705.JPEG 26(26) 57(40) 184(184) 85(156) 540 drilling platform, offshore rig, rectangle
+1706.JPEG 42(42) 37(4) 220(220) 81(186) 475 car mirror, box
+1707.JPEG 36(36) 72(47) 162(162) 112(209) 994 stinkhorn, carrion fungus, ellipse
+1708.JPEG 18(18) 122(61) 166(167) 158(211) 351 hartebeest, rectangle
+1709.JPEG 71(71) 146(99) 191(192) 172(209) 220 Sussex spaniel, ellipse
+1710.JPEG 105(105) 112(67) 189(190) 142(194) 855 thimble, rectangle
+1711.JPEG 57(57) 71(20) 181(182) 97(127) 952 fig, disk
+1712.JPEG 54(54) 155(118) 98(99) 171(186) 296 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus, ellipse
+1713.JPEG 58(58) 115(45) 114(115) 141(156) 366 gorilla, Gorilla gorilla, disk
+1714.JPEG 101(101) 120(61) 159(159) 158(217) 568 fur coat, ellipse
+1715.JPEG 1(1) 87(3) 199(200) 141(223) 946 cardoon, ellipse
+1716.JPEG 24(24) 111(23) 218(219) 151(185) 314 cockroach, roach, ellipse
+1717.JPEG 30(30) 120(8) 212(213) 170(212) 587 hammer, ellipse
+1718.JPEG 3(3) 38(14) 223(223) 86(208) 518 crash helmet, box
+1719.JPEG 6(6) 97(0) 222(223) 151(223) 851 television, television system, rectangle
+1720.JPEG 123(123) 156(115) 149(149) 176(195) 954 banana, ellipse
+1721.JPEG 119(119) 114(41) 193(193) 142(158) 714 pick, plectrum, plectron, ellipse
+1722.JPEG 50(50) 87(5) 118(118) 141(223) 587 hammer, box
+1723.JPEG 47(47) 55(0) 221(222) 109(223) 340 zebra, ellipse
+1724.JPEG 19(19) 87(32) 177(177) 113(136) 85 quail, rectangle
+1725.JPEG 18(18) 50(14) 222(223) 100(219) 495 china cabinet, china closet, rectangle
+1726.JPEG 97(97) 19(12) 121(121) 23(29) 430 basketball, disk
+1727.JPEG 71(71) 104(95) 129(129) 110(124) 751 racer, race car, racing car, rectangle
+1728.JPEG 45(45) 76(57) 223(223) 110(194) 2 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias, ellipse
+1729.JPEG 111(111) 113(107) 173(174) 119(134) 814 speedboat, disk
+1730.JPEG 26(26) 150(43) 200(200) 192(214) 260 chow, chow chow, rectangle
+1731.JPEG 33(33) 79(32) 195(195) 111(163) 277 red fox, Vulpes vulpes, ellipse
+1732.JPEG 124(124) 107(44) 194(194) 133(150) 948 Granny Smith, rectangle
+1733.JPEG 48(48) 43(20) 152(152) 81(173) 322 ringlet, ringlet butterfly, ellipse
+1734.JPEG 86(86) 113(39) 208(209) 153(205) 188 wire-haired fox terrier, rectangle
+1735.JPEG 175(175) 88(86) 193(194) 90(101) 405 airship, dirigible, rectangle
+1736.JPEG 65(65) 173(127) 151(151) 197(223) 322 ringlet, ringlet butterfly, box
+1737.JPEG 17(17) 128(19) 223(223) 178(223) 908 wing, ellipse
+1738.JPEG 10(10) 110(56) 222(222) 150(223) 797 sleeping bag, ellipse
+1739.JPEG 0(0) 72(0) 222(223) 126(219) 480 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, box
+1740.JPEG 0(0) 114(81) 156(156) 138(179) 395 gar, garfish, garpike, billfish, Lepisosteus osseus, rectangle
+1741.JPEG 104(104) 86(58) 120(120) 106(145) 645 maypole, box
+1742.JPEG 17(17) 100(62) 87(88) 124(161) 971 bubble, ellipse
+1743.JPEG 31(31) 126(84) 219(219) 146(169) 814 speedboat, ellipse
+1744.JPEG 103(103) 88(77) 161(161) 102(134) 822 steel drum, ellipse
+1745.JPEG 34(34) 87(69) 164(165) 111(172) 576 gondola, box
+1746.JPEG 0(0) 60(9) 222(222) 112(219) 766 rotisserie, box
+1747.JPEG 45(45) 110(6) 205(206) 162(221) 362 badger, ellipse
+1748.JPEG 21(21) 57(12) 183(184) 103(199) 342 wild boar, boar, Sus scrofa, rectangle
+1749.JPEG 135(135) 66(41) 175(176) 80(103) 988 acorn, disk
+1750.JPEG 49(49) 112(0) 221(222) 162(200) 850 teddy, teddy bear, box
+1751.JPEG 0(0) 80(44) 222(222) 120(206) 823 stethoscope, ellipse
+1752.JPEG 6(6) 51(19) 216(216) 91(180) 570 gasmask, respirator, gas helmet, ellipse
+1753.JPEG 13(13) 75(0) 191(192) 129(223) 620 laptop, laptop computer, box
+1754.JPEG 37(37) 131(35) 207(208) 171(202) 299 meerkat, mierkat, rectangle
+1755.JPEG 130(130) 107(84) 178(179) 119(134) 678 neck brace, box
+1756.JPEG 59(59) 42(3) 223(223) 96(223) 387 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens, rectangle
+1757.JPEG 10(10) 68(0) 214(215) 114(184) 621 lawn mower, mower, rectangle
+1758.JPEG 2(2) 74(25) 220(221) 118(206) 402 acoustic guitar, rectangle
+1759.JPEG 0(0) 62(1) 222(223) 116(223) 669 mosquito net, rectangle
+1760.JPEG 0(0) 112(0) 218(219) 166(223) 687 organ, pipe organ, rectangle
+1761.JPEG 76(76) 49(23) 178(179) 71(112) 438 beaker, rectangle
+1762.JPEG 26(26) 59(21) 194(195) 93(157) 666 mortar, ellipse
+1763.JPEG 13(13) 54(29) 53(53) 98(211) 629 lipstick, lip rouge, box
+1764.JPEG 0(0) 127(36) 104(104) 173(223) 985 daisy, box
+1765.JPEG 0(0) 52(1) 222(223) 106(222) 431 bassinet, box
+1766.JPEG 3(3) 101(29) 223(223) 139(182) 803 snowplow, snowplough, rectangle
+1767.JPEG 175(175) 110(59) 209(209) 136(169) 755 radio telescope, radio reflector, ellipse
+1768.JPEG 138(138) 82(56) 192(193) 100(128) 767 rubber eraser, rubber, pencil eraser, rectangle
+1769.JPEG 51(51) 114(51) 123(124) 144(171) 110 flatworm, platyhelminth, ellipse
+1770.JPEG 51(51) 113(31) 153(154) 145(164) 920 traffic light, traffic signal, stoplight, rectangle
+1771.JPEG 26(26) 58(6) 178(179) 88(128) 22 bald eagle, American eagle, Haliaeetus leucocephalus, rectangle
+1772.JPEG 0(0) 87(0) 222(223) 141(223) 904 window screen, box
+1773.JPEG 72(72) 106(76) 170(170) 138(209) 948 Granny Smith, ellipse
+1774.JPEG 0(0) 123(0) 222(223) 177(223) 950 orange, rectangle
+1775.JPEG 22(22) 30(0) 190(190) 82(214) 448 birdhouse, box
+1776.JPEG 21(21) 83(32) 221(222) 129(223) 694 paddlewheel, paddle wheel, rectangle
+1777.JPEG 58(58) 34(12) 190(190) 58(108) 540 drilling platform, offshore rig, box
+1778.JPEG 10(10) 38(0) 222(223) 76(159) 219 cocker spaniel, English cocker spaniel, cocker, rectangle
+1779.JPEG 19(19) 197(186) 159(159) 203(212) 795 ski, box
+1780.JPEG 63(63) 54(0) 159(159) 94(164) 387 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens, ellipse
+1781.JPEG 51(51) 116(33) 193(193) 154(188) 990 buckeye, horse chestnut, conker, ellipse
+1782.JPEG 16(16) 126(72) 150(151) 154(191) 293 cheetah, chetah, Acinonyx jubatus, rectangle
+1783.JPEG 92(92) 121(41) 222(222) 165(223) 137 American coot, marsh hen, mud hen, water hen, Fulica americana, rectangle
+1784.JPEG 40(40) 140(19) 182(182) 190(219) 465 bulletproof vest, box
+1785.JPEG 0(0) 81(1) 204(204) 135(223) 951 lemon, rectangle
+1786.JPEG 88(88) 14(0) 104(105) 22(34) 752 racket, racquet, disk
+1787.JPEG 131(131) 185(146) 155(155) 199(208) 804 soap dispenser, disk
+1788.JPEG 119(119) 99(67) 143(144) 131(201) 783 screw, rectangle
+1789.JPEG 116(116) 124(107) 222(223) 130(136) 148 killer whale, killer, orca, grampus, sea wolf, Orcinus orca, box
+1790.JPEG 32(32) 116(18) 176(176) 160(198) 136 European gallinule, Porphyrio porphyrio, rectangle
+1791.JPEG 155(155) 39(10) 195(195) 53(70) 616 knot, box
+1792.JPEG 6(6) 38(12) 216(216) 76(171) 417 balloon, disk
+1793.JPEG 134(134) 89(8) 212(213) 135(197) 735 poncho, ellipse
+1794.JPEG 57(57) 114(67) 177(178) 136(158) 392 rock beauty, Holocanthus tricolor, rectangle
+1795.JPEG 40(40) 140(27) 150(151) 188(223) 426 barometer, ellipse
+1796.JPEG 103(103) 38(0) 181(182) 68(120) 811 space heater, rectangle
+1797.JPEG 46(46) 101(68) 68(68) 115(130) 920 traffic light, traffic signal, stoplight, disk
+1798.JPEG 32(32) 86(0) 184(185) 140(219) 486 cello, violoncello, rectangle
+1799.JPEG 71(71) 130(57) 161(161) 164(199) 136 European gallinule, Porphyrio porphyrio, disk
+1800.JPEG 13(13) 108(0) 223(223) 162(223) 940 spaghetti squash, rectangle
+1801.JPEG 18(18) 42(16) 208(209) 86(199) 588 hamper, rectangle
+1802.JPEG 17(17) 122(22) 197(198) 166(204) 112 conch, rectangle
+1803.JPEG 113(113) 138(126) 157(158) 148(170) 576 gondola, ellipse
+1804.JPEG 4(4) 145(80) 218(218) 169(183) 546 electric guitar, ellipse
+1805.JPEG 105(105) 122(29) 219(220) 168(214) 896 washbasin, handbasin, washbowl, lavabo, wash-hand basin, rectangle
+1806.JPEG 30(30) 76(0) 190(190) 130(223) 297 sloth bear, Melursus ursinus, Ursus ursinus, ellipse
+1807.JPEG 14(14) 65(11) 204(205) 113(208) 325 sulphur butterfly, sulfur butterfly, rectangle
+1808.JPEG 136(136) 40(28) 200(200) 60(109) 309 bee, ellipse
+1809.JPEG 111(111) 91(86) 149(149) 99(119) 80 black grouse, box
+1810.JPEG 74(74) 124(86) 134(135) 142(163) 334 porcupine, hedgehog, rectangle
+1811.JPEG 0(0) 111(60) 160(161) 139(177) 149 dugong, Dugong dugon, ellipse
+1812.JPEG 18(18) 119(21) 96(97) 163(198) 695 padlock, box
+1813.JPEG 31(31) 116(21) 213(213) 154(180) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+1814.JPEG 79(79) 120(89) 167(168) 134(149) 326 lycaenid, lycaenid butterfly, ellipse
+1815.JPEG 66(66) 87(74) 86(87) 93(103) 752 racket, racquet, box
+1816.JPEG 50(50) 36(15) 174(174) 56(101) 208 Labrador retriever, ellipse
+1817.JPEG 34(34) 68(33) 176(176) 108(196) 392 rock beauty, Holocanthus tricolor, ellipse
+1818.JPEG 33(33) 177(142) 81(81) 191(203) 911 wool, woolen, woollen, box
+1819.JPEG 46(46) 25(0) 172(172) 59(138) 914 yawl, ellipse
+1820.JPEG 85(85) 109(41) 143(144) 135(150) 22 bald eagle, American eagle, Haliaeetus leucocephalus, ellipse
+1821.JPEG 41(41) 86(58) 171(171) 116(180) 556 fire screen, fireguard, ellipse
+1822.JPEG 11(11) 102(26) 163(164) 146(204) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+1823.JPEG 0(0) 103(0) 222(223) 157(223) 924 guacamole, rectangle
+1824.JPEG 64(64) 64(49) 160(160) 88(145) 320 damselfly, rectangle
+1825.JPEG 12(12) 54(9) 208(209) 106(218) 244 Tibetan mastiff, rectangle
+1826.JPEG 22(22) 130(17) 190(191) 178(215) 288 leopard, Panthera pardus, ellipse
+1827.JPEG 26(26) 54(8) 62(63) 100(196) 629 lipstick, lip rouge, rectangle
+1828.JPEG 94(94) 81(11) 130(130) 131(218) 421 bannister, banister, balustrade, balusters, handrail, rectangle
+1829.JPEG 81(81) 144(29) 223(223) 192(223) 380 titi, titi monkey, rectangle
+1830.JPEG 72(72) 83(47) 216(217) 123(209) 172 whippet, rectangle
+1831.JPEG 0(0) 123(20) 222(223) 173(223) 532 dining table, board, rectangle
+1832.JPEG 63(63) 122(33) 163(164) 166(213) 141 redshank, Tringa totanus, rectangle
+1833.JPEG 91(91) 91(34) 181(181) 137(223) 387 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens, rectangle
+1834.JPEG 0(0) 95(0) 222(222) 149(221) 934 hotdog, hot dog, red hot, ellipse
+1835.JPEG 164(164) 86(45) 222(223) 116(171) 955 jackfruit, jak, jack, disk
+1836.JPEG 13(13) 153(120) 115(115) 175(211) 615 knee pad, disk
+1837.JPEG 45(45) 122(77) 195(195) 154(207) 466 bullet train, bullet, rectangle
+1838.JPEG 46(46) 123(44) 202(203) 167(223) 690 oxcart, rectangle
+1839.JPEG 0(0) 106(33) 222(222) 152(223) 984 rapeseed, rectangle
+1840.JPEG 30(30) 131(14) 160(161) 183(223) 641 maraca, ellipse
+1841.JPEG 88(88) 177(154) 116(116) 185(191) 937 broccoli, ellipse
+1842.JPEG 35(35) 34(10) 221(222) 72(166) 2 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias, rectangle
+1843.JPEG 0(0) 90(9) 222(223) 142(221) 636 mailbag, postbag, rectangle
+1844.JPEG 141(141) 20(15) 149(150) 22(29) 890 volleyball, ellipse
+1845.JPEG 9(9) 79(8) 219(220) 129(213) 914 yawl, ellipse
+1846.JPEG 48(48) 199(183) 152(152) 207(215) 739 potter's wheel, box
+1847.JPEG 21(21) 73(45) 195(196) 103(170) 360 otter, rectangle
+1848.JPEG 104(104) 88(26) 222(223) 128(192) 347 bison, box
+1849.JPEG 32(32) 105(92) 222(223) 111(121) 783 screw, rectangle
+1850.JPEG 110(110) 91(61) 218(218) 117(170) 361 skunk, polecat, wood pussy, rectangle
+1851.JPEG 56(56) 125(54) 212(212) 153(171) 379 howler monkey, howler, ellipse
+1852.JPEG 121(121) 135(89) 207(208) 161(200) 574 golf ball, box
+1853.JPEG 20(20) 141(21) 198(199) 189(217) 455 bottlecap, rectangle
+1854.JPEG 0(0) 54(28) 176(177) 96(202) 127 white stork, Ciconia ciconia, rectangle
+1855.JPEG 48(48) 92(0) 70(70) 140(197) 840 swab, swob, mop, rectangle
+1856.JPEG 43(43) 133(110) 109(110) 147(171) 537 dogsled, dog sled, dog sleigh, rectangle
+1857.JPEG 100(100) 68(35) 186(187) 86(112) 874 trolleybus, trolley coach, trackless trolley, box
+1858.JPEG 15(15) 69(32) 223(223) 115(221) 532 dining table, board, rectangle
+1859.JPEG 35(35) 50(25) 143(144) 98(223) 500 cliff dwelling, rectangle
+1860.JPEG 112(112) 74(38) 210(211) 114(198) 584 hair slide, ellipse
+1861.JPEG 89(89) 56(0) 223(223) 102(184) 283 Persian cat, rectangle
+1862.JPEG 5(5) 61(26) 223(223) 109(219) 840 swab, swob, mop, ellipse
+1863.JPEG 109(109) 53(32) 207(207) 87(173) 512 corkscrew, bottle screw, ellipse
+1864.JPEG 57(57) 45(18) 175(175) 73(130) 695 padlock, rectangle
+1865.JPEG 137(137) 79(56) 209(209) 105(162) 910 wooden spoon, ellipse
+1866.JPEG 0(0) 86(27) 198(199) 130(203) 817 sports car, sport car, ellipse
+1867.JPEG 55(55) 99(26) 159(159) 147(222) 299 meerkat, mierkat, rectangle
+1868.JPEG 62(62) 62(34) 218(218) 108(223) 24 great grey owl, great gray owl, Strix nebulosa, ellipse
+1869.JPEG 95(95) 104(19) 171(172) 152(212) 24 great grey owl, great gray owl, Strix nebulosa, ellipse
+1870.JPEG 132(132) 49(7) 212(212) 69(92) 892 wall clock, rectangle
+1871.JPEG 70(70) 69(45) 166(166) 105(189) 392 rock beauty, Holocanthus tricolor, box
+1872.JPEG 15(15) 90(26) 85(86) 138(220) 241 EntleBucher, rectangle
+1873.JPEG 58(58) 58(14) 132(132) 98(180) 331 hare, box
+1874.JPEG 17(17) 36(21) 195(195) 46(63) 777 scabbard, ellipse
+1875.JPEG 83(83) 100(32) 123(124) 134(173) 146 albatross, mollymawk, ellipse
+1876.JPEG 0(0) 59(0) 222(222) 113(219) 540 drilling platform, offshore rig, ellipse
+1877.JPEG 96(96) 61(18) 164(164) 105(201) 94 hummingbird, rectangle
+1878.JPEG 63(63) 128(40) 157(157) 170(209) 95 jacamar, ellipse
+1879.JPEG 123(123) 67(0) 213(213) 121(223) 421 bannister, banister, balustrade, balusters, handrail, box
+1880.JPEG 69(69) 100(55) 211(211) 140(219) 186 Norwich terrier, ellipse
+1881.JPEG 40(40) 154(102) 124(125) 184(222) 225 malinois, ellipse
+1882.JPEG 89(89) 136(65) 145(146) 164(182) 10 brambling, Fringilla montifringilla, ellipse
+1883.JPEG 0(0) 42(0) 222(223) 96(223) 599 honeycomb, rectangle
+1884.JPEG 18(18) 133(105) 206(207) 153(189) 543 dumbbell, box
+1885.JPEG 33(33) 88(57) 99(100) 122(196) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, rectangle
+1886.JPEG 0(0) 83(20) 178(179) 129(210) 293 cheetah, chetah, Acinonyx jubatus, rectangle
+1887.JPEG 35(35) 106(57) 215(215) 134(175) 257 Great Pyrenees, rectangle
+1888.JPEG 92(92) 76(68) 126(126) 80(88) 447 binoculars, field glasses, opera glasses, rectangle
+1889.JPEG 69(69) 157(55) 153(153) 197(221) 267 standard poodle, box
+1890.JPEG 26(26) 56(0) 200(201) 92(145) 299 meerkat, mierkat, ellipse
+1891.JPEG 25(25) 66(12) 201(201) 114(207) 169 borzoi, Russian wolfhound, ellipse
+1892.JPEG 4(4) 70(17) 222(223) 98(133) 939 zucchini, courgette, ellipse
+1893.JPEG 133(133) 144(123) 173(174) 164(204) 576 gondola, disk
+1894.JPEG 0(0) 114(21) 222(223) 164(223) 963 pizza, pizza pie, rectangle
+1895.JPEG 20(20) 80(13) 174(174) 118(169) 333 hamster, ellipse
+1896.JPEG 23(23) 129(13) 107(108) 175(200) 650 microphone, mike, rectangle
+1897.JPEG 12(12) 47(13) 142(142) 91(190) 173 Ibizan hound, Ibizan Podenco, rectangle
+1898.JPEG 7(7) 95(10) 203(204) 141(198) 757 recreational vehicle, RV, R.V., rectangle
+1899.JPEG 59(59) 101(67) 161(161) 123(156) 294 brown bear, bruin, Ursus arctos, ellipse
+1900.JPEG 112(112) 124(36) 222(223) 170(223) 983 scuba diver, box
+1901.JPEG 56(56) 144(127) 126(126) 162(199) 361 skunk, polecat, wood pussy, box
+1902.JPEG 12(12) 94(17) 216(216) 142(211) 787 shield, buckler, rectangle
+1903.JPEG 11(11) 53(7) 207(208) 105(222) 371 patas, hussar monkey, Erythrocebus patas, rectangle
+1904.JPEG 47(47) 111(63) 145(146) 151(223) 517 crane, rectangle
+1905.JPEG 33(33) 123(18) 183(183) 173(223) 826 stopwatch, stop watch, box
+1906.JPEG 68(68) 126(101) 186(186) 150(198) 679 necklace, ellipse
+1907.JPEG 12(12) 97(22) 200(201) 139(195) 19 chickadee, ellipse
+1908.JPEG 101(101) 84(0) 189(190) 122(158) 258 Samoyed, Samoyede, rectangle
+1909.JPEG 5(5) 40(3) 197(197) 92(217) 283 Persian cat, ellipse
+1910.JPEG 108(108) 120(0) 210(211) 172(215) 631 lotion, disk
+1911.JPEG 0(0) 83(15) 222(223) 135(223) 926 hot pot, hotpot, rectangle
+1912.JPEG 8(8) 57(11) 216(216) 107(212) 112 conch, ellipse
+1913.JPEG 21(21) 99(69) 89(90) 127(186) 13 junco, snowbird, rectangle
+1914.JPEG 31(31) 118(35) 197(197) 160(203) 277 red fox, Vulpes vulpes, ellipse
+1915.JPEG 61(61) 141(98) 141(142) 171(223) 979 valley, vale, box
+1916.JPEG 2(2) 180(114) 220(221) 206(221) 977 sandbar, sand bar, rectangle
+1917.JPEG 0(0) 89(41) 198(199) 125(190) 309 bee, ellipse
+1918.JPEG 43(43) 112(65) 199(199) 136(165) 30 bullfrog, Rana catesbeiana, rectangle
+1919.JPEG 1(1) 111(1) 223(223) 165(223) 274 dhole, Cuon alpinus, box
+1920.JPEG 83(83) 33(9) 181(181) 81(201) 507 combination lock, rectangle
+1921.JPEG 23(23) 124(66) 123(124) 152(183) 624 library, box
+1922.JPEG 113(113) 76(60) 199(200) 98(155) 990 buckeye, horse chestnut, conker, ellipse
+1923.JPEG 28(28) 70(45) 174(175) 102(180) 83 prairie chicken, prairie grouse, prairie fowl, ellipse
+1924.JPEG 144(144) 39(18) 182(183) 49(60) 946 cardoon, ellipse
+1925.JPEG 54(54) 114(96) 128(129) 134(183) 99 goose, rectangle
+1926.JPEG 67(67) 109(20) 131(131) 155(210) 572 goblet, disk
+1927.JPEG 72(72) 113(71) 168(168) 137(169) 113 snail, rectangle
+1928.JPEG 82(82) 21(0) 118(119) 29(39) 801 snorkel, disk
+1929.JPEG 89(89) 88(61) 223(223) 128(223) 289 snow leopard, ounce, Panthera uncia, box
+1930.JPEG 120(120) 95(19) 174(174) 133(172) 804 soap dispenser, ellipse
+1931.JPEG 47(47) 72(18) 219(219) 120(214) 371 patas, hussar monkey, Erythrocebus patas, ellipse
+1932.JPEG 1(1) 31(1) 221(221) 85(220) 897 washer, automatic washer, washing machine, ellipse
+1933.JPEG 34(34) 97(78) 160(160) 113(149) 576 gondola, box
+1934.JPEG 23(23) 127(71) 165(166) 153(182) 346 water buffalo, water ox, Asiatic buffalo, Bubalus bubalis, ellipse
+1935.JPEG 0(0) 200(175) 48(48) 210(216) 973 coral reef, rectangle
+1936.JPEG 80(80) 120(66) 212(213) 144(167) 20 water ouzel, dipper, ellipse
+1937.JPEG 0(0) 197(177) 222(222) 207(222) 984 rapeseed, ellipse
+1938.JPEG 0(0) 63(9) 152(153) 103(174) 351 hartebeest, ellipse
+1939.JPEG 103(103) 87(4) 207(207) 139(218) 699 panpipe, pandean pipe, syrinx, rectangle
+1940.JPEG 108(108) 109(104) 156(156) 113(125) 842 swimming trunks, bathing trunks, disk
+1941.JPEG 0(0) 114(82) 146(147) 128(142) 563 fountain pen, rectangle
+1942.JPEG 108(108) 131(125) 120(120) 135(144) 984 rapeseed, ellipse
+1943.JPEG 69(69) 55(32) 171(171) 85(156) 616 knot, box
+1944.JPEG 2(2) 85(7) 208(209) 131(193) 221 Irish water spaniel, rectangle
+1945.JPEG 61(61) 57(0) 155(156) 111(221) 604 hourglass, ellipse
+1946.JPEG 16(16) 173(166) 50(51) 187(223) 696 paintbrush, box
+1947.JPEG 53(53) 91(77) 141(141) 103(131) 64 green mamba, rectangle
+1948.JPEG 141(141) 56(26) 211(211) 90(163) 375 colobus, colobus monkey, disk
+1949.JPEG 14(14) 169(135) 138(138) 189(222) 968 cup, ellipse
+1950.JPEG 107(107) 57(11) 223(223) 107(215) 244 Tibetan mastiff, disk
+1951.JPEG 28(28) 101(66) 222(223) 129(183) 318 lacewing, lacewing fly, rectangle
+1952.JPEG 103(103) 58(43) 205(205) 72(106) 113 snail, rectangle
+1953.JPEG 19(19) 51(15) 177(177) 101(215) 160 Afghan hound, Afghan, rectangle
+1954.JPEG 25(25) 129(0) 223(223) 183(218) 344 hippopotamus, hippo, river horse, Hippopotamus amphibius, ellipse
+1955.JPEG 78(78) 136(113) 118(118) 158(207) 880 unicycle, monocycle, ellipse
+1956.JPEG 70(70) 65(23) 214(215) 107(192) 333 hamster, rectangle
+1957.JPEG 0(0) 108(16) 170(170) 158(223) 39 common iguana, iguana, Iguana iguana, rectangle
+1958.JPEG 0(0) 36(0) 200(200) 88(211) 554 fireboat, ellipse
+1959.JPEG 49(49) 46(0) 195(195) 96(207) 618 ladle, rectangle
+1960.JPEG 66(66) 118(67) 166(167) 140(161) 671 mountain bike, all-terrain bike, off-roader, ellipse
+1961.JPEG 42(42) 61(44) 188(189) 95(180) 295 American black bear, black bear, Ursus americanus, Euarctos americanus, rectangle
+1962.JPEG 17(17) 126(27) 171(172) 172(214) 212 English setter, ellipse
+1963.JPEG 0(0) 110(63) 84(84) 150(223) 386 African elephant, Loxodonta africana, ellipse
+1964.JPEG 56(56) 142(106) 150(150) 162(189) 106 wombat, rectangle
+1965.JPEG 0(0) 128(38) 218(219) 172(218) 657 missile, rectangle
+1966.JPEG 134(134) 90(70) 210(210) 114(170) 100 black swan, Cygnus atratus, box
+1967.JPEG 5(5) 94(9) 215(215) 146(220) 790 shopping basket, rectangle
+1968.JPEG 2(2) 138(0) 218(218) 192(223) 690 oxcart, rectangle
+1969.JPEG 93(93) 199(166) 117(118) 213(222) 416 balance beam, beam, rectangle
+1970.JPEG 124(124) 104(60) 196(197) 122(135) 142 dowitcher, disk
+1971.JPEG 14(14) 131(69) 222(223) 169(223) 935 mashed potato, ellipse
+1972.JPEG 44(44) 113(90) 110(110) 135(182) 945 bell pepper, box
+1973.JPEG 18(18) 106(96) 216(216) 114(134) 472 canoe, rectangle
+1974.JPEG 51(51) 103(93) 177(178) 121(166) 27 eft, rectangle
+1975.JPEG 101(101) 104(66) 189(189) 140(210) 355 llama, ellipse
+1976.JPEG 11(11) 125(104) 177(178) 151(212) 586 half track, rectangle
+1977.JPEG 0(0) 99(41) 160(160) 143(223) 348 ram, tup, ellipse
+1978.JPEG 47(47) 100(27) 189(189) 142(200) 177 Scottish deerhound, deerhound, rectangle
+1979.JPEG 94(94) 136(117) 116(116) 156(198) 929 ice lolly, lolly, lollipop, popsicle, box
+1980.JPEG 27(27) 115(44) 221(221) 151(188) 53 ringneck snake, ring-necked snake, ring snake, box
+1981.JPEG 104(104) 88(46) 218(218) 112(143) 551 face powder, rectangle
+1982.JPEG 24(24) 127(10) 140(141) 177(212) 220 Sussex spaniel, box
+1983.JPEG 51(51) 93(14) 143(143) 139(199) 224 groenendael, rectangle
+1984.JPEG 126(126) 25(8) 160(161) 35(48) 543 dumbbell, box
+1985.JPEG 51(51) 124(57) 141(141) 154(183) 305 dung beetle, box
+1986.JPEG 90(90) 147(74) 162(163) 183(223) 263 Pembroke, Pembroke Welsh corgi, rectangle
+1987.JPEG 92(92) 50(15) 110(111) 86(165) 693 paddle, boat paddle, disk
+1988.JPEG 187(187) 112(20) 213(213) 154(193) 629 lipstick, lip rouge, ellipse
+1989.JPEG 52(52) 25(2) 162(163) 71(189) 621 lawn mower, mower, ellipse
+1990.JPEG 0(0) 72(2) 214(214) 126(222) 741 prayer rug, prayer mat, ellipse
+1991.JPEG 12(12) 115(77) 94(94) 147(208) 714 pick, plectrum, plectron, ellipse
+1992.JPEG 139(139) 76(35) 223(223) 122(223) 355 llama, rectangle
+1993.JPEG 0(0) 134(4) 208(208) 188(223) 694 paddlewheel, paddle wheel, ellipse
+1994.JPEG 100(100) 63(35) 204(204) 97(173) 239 Bernese mountain dog, ellipse
+1995.JPEG 52(52) 26(0) 222(223) 76(206) 95 jacamar, ellipse
+1996.JPEG 0(0) 176(162) 136(137) 184(197) 472 canoe, ellipse
+1997.JPEG 30(30) 113(71) 98(98) 145(202) 97 drake, ellipse
+1998.JPEG 56(56) 118(63) 172(172) 150(195) 544 Dutch oven, box
+1999.JPEG 110(110) 125(79) 214(215) 157(209) 711 perfume, essence, ellipse
+2000.JPEG 14(14) 97(22) 78(78) 129(150) 194 Dandie Dinmont, Dandie Dinmont terrier, box
+2001.JPEG 26(26) 71(42) 92(93) 103(177) 615 knee pad, ellipse
+2002.JPEG 9(9) 97(19) 149(150) 137(185) 323 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, ellipse
+2003.JPEG 11(11) 135(0) 223(223) 189(223) 940 spaghetti squash, ellipse
+2004.JPEG 14(14) 100(58) 218(218) 140(219) 211 vizsla, Hungarian pointer, rectangle
+2005.JPEG 102(102) 107(86) 202(202) 121(145) 714 pick, plectrum, plectron, ellipse
+2006.JPEG 18(18) 73(31) 158(159) 113(195) 271 red wolf, maned wolf, Canis rufus, Canis niger, rectangle
+2007.JPEG 0(0) 134(0) 158(159) 188(223) 914 yawl, rectangle
+2008.JPEG 96(96) 114(0) 152(153) 166(215) 843 swing, rectangle
+2009.JPEG 27(27) 78(41) 209(209) 108(168) 925 consomme, ellipse
+2010.JPEG 18(18) 153(75) 196(197) 185(209) 807 solar dish, solar collector, solar furnace, ellipse
+2011.JPEG 98(98) 62(40) 162(163) 80(117) 951 lemon, rectangle
+2012.JPEG 16(16) 83(50) 192(192) 117(186) 729 plate rack, rectangle
+2013.JPEG 57(57) 84(0) 93(94) 128(178) 747 punching bag, punch bag, punching ball, punchball, rectangle
+2014.JPEG 132(132) 51(21) 222(222) 83(152) 952 fig, ellipse
+2015.JPEG 52(52) 112(88) 222(222) 144(223) 617 lab coat, laboratory coat, box
+2016.JPEG 113(113) 113(97) 205(205) 143(223) 785 seat belt, seatbelt, box
+2017.JPEG 1(1) 64(0) 215(215) 118(222) 368 gibbon, Hylobates lar, rectangle
+2018.JPEG 21(21) 94(31) 195(195) 136(206) 607 jack-o'-lantern, rectangle
+2019.JPEG 66(66) 86(53) 134(135) 118(185) 855 thimble, ellipse
+2020.JPEG 1(1) 94(8) 221(222) 146(223) 480 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, rectangle
+2021.JPEG 90(90) 130(86) 218(218) 158(203) 369 siamang, Hylobates syndactylus, Symphalangus syndactylus, box
+2022.JPEG 67(67) 126(55) 151(151) 156(177) 379 howler monkey, howler, rectangle
+2023.JPEG 12(12) 127(5) 206(206) 179(217) 463 bucket, pail, rectangle
+2024.JPEG 24(24) 110(108) 34(34) 112(120) 611 jigsaw puzzle, ellipse
+2025.JPEG 61(61) 42(6) 139(140) 64(100) 793 shower cap, disk
+2026.JPEG 33(33) 142(111) 171(172) 154(163) 472 canoe, ellipse
+2027.JPEG 160(160) 117(111) 180(181) 123(139) 944 artichoke, globe artichoke, rectangle
+2028.JPEG 81(81) 50(32) 201(202) 80(159) 14 indigo bunting, indigo finch, indigo bird, Passerina cyanea, ellipse
+2029.JPEG 1(1) 53(2) 129(129) 107(222) 615 knee pad, ellipse
+2030.JPEG 0(0) 102(14) 178(179) 150(211) 156 Blenheim spaniel, ellipse
+2031.JPEG 8(8) 121(30) 222(223) 169(223) 517 crane, ellipse
+2032.JPEG 4(4) 104(83) 80(81) 120(148) 142 dowitcher, rectangle
+2033.JPEG 50(50) 70(42) 134(134) 90(122) 548 entertainment center, rectangle
+2034.JPEG 95(95) 146(119) 217(218) 166(204) 574 golf ball, box
+2035.JPEG 60(60) 171(109) 174(175) 199(223) 674 mousetrap, disk
+2036.JPEG 30(30) 76(53) 170(170) 100(156) 426 barometer, rectangle
+2037.JPEG 12(12) 145(128) 164(164) 159(184) 814 speedboat, box
+2038.JPEG 73(73) 104(66) 115(115) 126(155) 161 basset, basset hound, rectangle
+2039.JPEG 0(0) 21(0) 160(160) 59(157) 723 pinwheel, disk
+2040.JPEG 22(22) 149(27) 152(152) 197(223) 223 schipperke, ellipse
+2041.JPEG 105(105) 144(93) 177(177) 174(216) 608 jean, blue jean, denim, rectangle
+2042.JPEG 57(57) 192(177) 177(177) 200(209) 884 vault, box
+2043.JPEG 13(13) 101(44) 193(194) 129(160) 182 Border terrier, rectangle
+2044.JPEG 40(40) 140(0) 186(186) 194(223) 900 water tower, box
+2045.JPEG 22(22) 27(0) 196(196) 81(219) 366 gorilla, Gorilla gorilla, ellipse
+2046.JPEG 8(8) 100(42) 220(221) 144(222) 389 barracouta, snoek, ellipse
+2047.JPEG 62(62) 162(94) 212(213) 192(215) 362 badger, box
+2048.JPEG 1(1) 101(4) 135(135) 145(187) 118 Dungeness crab, Cancer magister, ellipse
+2049.JPEG 86(86) 84(14) 208(208) 132(210) 128 black stork, Ciconia nigra, ellipse
+2050.JPEG 68(68) 77(19) 152(152) 115(172) 417 balloon, ellipse
+2051.JPEG 122(122) 94(68) 214(215) 118(171) 504 coffee mug, disk
+2052.JPEG 29(29) 164(109) 171(171) 186(199) 870 tricycle, trike, velocipede, ellipse
+2053.JPEG 13(13) 152(101) 171(172) 182(222) 944 artichoke, globe artichoke, rectangle
+2054.JPEG 73(73) 133(47) 181(182) 169(191) 575 golfcart, golf cart, ellipse
+2055.JPEG 4(4) 121(34) 164(164) 167(223) 382 squirrel monkey, Saimiri sciureus, ellipse
+2056.JPEG 19(19) 86(35) 223(223) 132(223) 106 wombat, rectangle
+2057.JPEG 53(53) 98(49) 177(177) 132(192) 701 parachute, chute, ellipse
+2058.JPEG 21(21) 125(25) 135(135) 171(214) 90 lorikeet, rectangle
+2059.JPEG 19(19) 104(65) 167(167) 134(188) 27 eft, ellipse
