@@ -5,7 +5,7 @@
 DeepCover explains image classifiers using [statistical fault lolization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730392.pdf) and 
 [causal theory](https://openaccess.thecvf.com/content/ICCV2021/papers/Chockler_Explanations_for_Occluded_Images_ICCV_2021_paper.pdf).
 
-[ECCV2020 Video](https://www.youtube.com/watch?v=vTyfOBAGm_o) [ICCV2021 Video](https://www.cprover.org/deepcover/iccv2021/iccv2021-talk-compatible.mp4) 
+Videos: [ECCV2020](https://www.youtube.com/watch?v=vTyfOBAGm_o), [ICCV2021](https://www.cprover.org/deepcover/iccv2021/iccv2021-talk-compatible.mp4) 
 
 # Install and Setup
 #### Pre-Installed: `Conda 4.7.11`
