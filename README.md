@@ -1,7 +1,6 @@
 # DeepCover: Uncover the Truth Behind AI
-![Uncover the truth behind AI](images/deepcover.gif) 
 
-![alt text](images/deepcover-logo)
+![alt text](images/deepcover-logo.png)
 
 DeepCover explains image classifiers using [statistical fault lolization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730392.pdf) and 
 [causal theory](https://openaccess.thecvf.com/content/ICCV2021/papers/Chockler_Explanations_for_Occluded_Images_ICCV_2021_paper.pdf).
