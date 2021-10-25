@@ -38,6 +38,15 @@ usage: deepcover.py [-h] [--model MODEL] [--inputs DIR] [--outputs DIR]
 python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs
 ```
 
+## More options
+```
+python src/deepcover.py --mobilenet-model --inputs data/panda/ --outputs outs --testgen-size 200 --measures tarantula zoltar --x-verbosity 1 --masking-value 0
+```
+`--measures`      to specify the SFL measures for explaining: tarantula, zoltar, ochiai, wong-ii
+`--x-verbosity`   to control the verbosity level of the explanation results
+`--masking-value` to control the masking color for mutating the input image
+
+
 ## To start running the causal theory based explaining:
 ```
 python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --causal --testgen-iterations 50
@@ -70,3 +79,5 @@ YEAR = { 2020 }
 
 # Miscellaneous
 [Roaming Panda Dataset](https://github.com/theyoucheng/deepcover/tree/master/roaming-panda/)
+[Photo Bombing Dataset](https://github.com/theyoucheng/deepcover/tree/master/data/photobombing/)
+[DeepCover Site] (https://github.com/theyoucheng/deepcover/tree/master/data/photobombing)
