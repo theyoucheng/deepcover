@@ -61,6 +61,9 @@ python src/deepcover.py --mobilenet-model --inputs data/panda/ --outputs outs --
 ```
 python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --causal --testgen-iterations 50
 ```
+`--causal`              to trigger the causal explanation
+
+`--testgen-iterations`  number of individual causal refinement calls; by default, it’s 1  
 
 ## To load your own model
 ```
@@ -99,5 +102,7 @@ YEAR = { 2020 }
 
 # Miscellaneous
 [Roaming Panda Dataset](https://github.com/theyoucheng/deepcover/tree/master/roaming-panda/)
+
 [Photo Bombing Dataset](https://github.com/theyoucheng/deepcover/tree/master/data/photobombing/)
-[DeepCover Site] (https://github.com/theyoucheng/deepcover/tree/master/data/photobombing)
+
+[DeepCover Site] (https://www.cprover.org/deepcover/)
