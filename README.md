@@ -5,6 +5,8 @@
 DeepCover explains image classifiers using [statistical fault lolization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730392.pdf) and 
 [causal theory](https://openaccess.thecvf.com/content/ICCV2021/papers/Chockler_Explanations_for_Occluded_Images_ICCV_2021_paper.pdf).
 
+[ECCV2020 Video](https://www.youtube.com/watch?v=vTyfOBAGm_o) [ICCV2021 Video](https://www.cprover.org/deepcover/iccv2021/iccv2021-talk-compatible.mp4) 
+
 # Install and Setup
 #### Pre-Installed: `Conda 4.7.11`
 #### All commands were tested on macOS 10.14.6 and Ubuntu 20.04
@@ -105,4 +107,4 @@ YEAR = { 2020 }
 
 [Photo Bombing Dataset](https://github.com/theyoucheng/deepcover/tree/master/data/photobombing/)
 
-[DeepCover Site] (https://www.cprover.org/deepcover/)
+[DeepCover Site](https://www.cprover.org/deepcover/)
