@@ -17,6 +17,11 @@ def to_explain(eobj):
     os.system('mkdir -p {0}'.format(di))
   except: pass
 
+  if not eobj.boxes is None:
+      f = open(di+"/wsol-results.txt", "a")
+      f.write('input_name   x_method    intersection with groundtruth')
+      f.close()
+
   for i in range(0, len(eobj.inputs)):
     x=eobj.inputs[i]
     res=model.predict(sbfl_preprocess(eobj, np.array([x])))

@@ -61,6 +61,7 @@ def main():
                     help="to control the testgen iteration", metavar="INT")
   parser.add_argument("--causal", dest='causal', help="causal explanation", action="store_true")
   parser.add_argument("--wsol", dest='wsol_file', help="weakly supervised object localization", metavar="FILE")
+  parser.add_argument("--occlusion", dest='occlusion_file', help="to load the occluded images", metavar="FILE")
 
   args=parser.parse_args()
 
@@ -132,6 +133,7 @@ def main():
   eobj.normalized=args.normalized
   eobj.x_verbosity=int(args.x_verbosity)
   eobj.fnames=fnames
+  eobj.occlusion_file=args.occlusion_file
   measures = []
   if not args.measure=='None':
       measures.append(args.measure)

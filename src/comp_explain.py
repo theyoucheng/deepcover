@@ -189,6 +189,11 @@ def comp_explain(eobj):
     #print ('mkdir -p {0}'.format(di))
   except: pass
 
+  if not eobj.occlusion_file is None:
+      f = open(di+"/occlusion-results.txt", "a")
+      f.write('input_name   x_method    [x size, intersection with occlu, iou with occlu]')
+      f.close()
+
   landmark = False
   for index in range(0, len(eobj.inputs)):
     name=eobj.fnames[index]
@@ -254,13 +259,17 @@ def comp_explain(eobj):
         print ('  #### [Saved Heatmap: {0}]'.format(hmap_name))
 
         if not eobj.text_only:
-          selement=sbfl_elementt(x, 0, None, None, model)
+          selement = sbfl_elementt(x, 0, None, None, model)
           selement.y = y
-          ind=np.argsort(res_heatMap, axis=None)
+          ind = np.argsort(res_heatMap, axis=None)
           
           outs_dir = dii+'/iter{0}'.format(i)
           print ('  #### [Saving into {0}]'.format(outs_dir))
-          top_plot(selement, ind, outs_dir, "causal", eobj)
+          ret = top_plot(selement, ind, outs_dir, "causal", eobj)
+          if not eobj.occlusion_file is None:
+              f = open(di+"/occlusion-results.txt", "a")
+              f.write('{0} {1} {2}\n'.format(eobj.fnames[i], 'causal', ret))
+              f.close()
 
           print ('  #### [Done]')
 

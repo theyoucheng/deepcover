@@ -37,6 +37,7 @@ class explain_objectt:
     self.x_verbosity=None
     self.fnames=[]
     self.boxes=None
+    self.occlusion_file=None
     self.min_exp=1.1
 
 
@@ -128,6 +129,18 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
               inter=np.logical_and(im_flag, ref_flag)
               iou=np.count_nonzero(inter)*1./np.count_nonzero(union)
               ret=iou
+          elif not eobj.occlusion_file is None: # occlusion calculation
+                ref_flag=np.zeros(sp, dtype=bool)
+                for i in range(0, sp[0]):
+                    for j in range(0, sp[1]):
+                        if origin_data[i][j][0] == 0 and origin_data[i][j][1] == 0 and origin_data[i][j][2] == 0:
+                            ref_flag[i][j][:] = True
+
+                union=np.logical_or(im_flag, ref_flag)
+                inter=np.logical_and(im_flag, ref_flag)
+                iou=np.count_nonzero(inter)*1./np.count_nonzero(union)
+                intersection=np.count_nonzero(inter)*1./np.count_nonzero(ref_flag)
+                ret=[(count/base)/100., intersection, iou]
 
           if eobj.x_verbosity>0: return ret
 
