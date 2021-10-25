@@ -37,6 +37,14 @@ usage: deepcover.py [-h] [--model MODEL] [--inputs DIR] [--outputs DIR]
 ```
 python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --testgen-size 200
 ```
+`--mobilenet-model`   pre-trained keras model 
+
+`--inputs`            input images folder
+
+`--outputs`           output images folder
+
+`--testgen-size`      the number of input mutants to generate for explaining (by default, it is 2,000) 
+
 
 ## More options
 ```
