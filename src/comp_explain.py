@@ -191,7 +191,7 @@ def comp_explain(eobj):
 
   if not eobj.occlusion_file is None:
       f = open(di+"/occlusion-results.txt", "a")
-      f.write('input_name   x_method    [x size, intersection with occlu, iou with occlu]')
+      f.write('input_name   x_method    [x size, intersection with occlu, iou with occlu]\n')
       f.close()
 
   landmark = False

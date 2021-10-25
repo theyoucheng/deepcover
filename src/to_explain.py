@@ -19,7 +19,7 @@ def to_explain(eobj):
 
   if not eobj.boxes is None:
       f = open(di+"/wsol-results.txt", "a")
-      f.write('input_name   x_method    intersection with groundtruth')
+      f.write('input_name   x_method    intersection_with_groundtruth\n')
       f.close()
 
   for i in range(0, len(eobj.inputs)):
