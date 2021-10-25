@@ -35,15 +35,17 @@ usage: deepcover.py [-h] [--model MODEL] [--inputs DIR] [--outputs DIR]
 
 ## To start running the Statistical Fault Localization (SFL) based explaining:
 ```
-python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs
+python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --testgen-size 200
 ```
 
 ## More options
 ```
-python src/deepcover.py --mobilenet-model --inputs data/panda/ --outputs outs --testgen-size 200 --measures tarantula zoltar --x-verbosity 1 --masking-value 0
+python src/deepcover.py --mobilenet-model --inputs data/panda/ --outputs outs --measures tarantula zoltar --x-verbosity 1 --masking-value 0
 ```
 `--measures`      to specify the SFL measures for explaining: tarantula, zoltar, ochiai, wong-ii
+
 `--x-verbosity`   to control the verbosity level of the explanation results
+
 `--masking-value` to control the masking color for mutating the input image
 
 
@@ -51,6 +53,16 @@ python src/deepcover.py --mobilenet-model --inputs data/panda/ --outputs outs --
 ```
 python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --causal --testgen-iterations 50
 ```
+
+## To load your own model
+```
+python src/deepcover.py --model models/gtsrb_backdoor.h5 --input-rows 32 --input-cols 32 --inputs data/gtsrb/ --outputs outs
+```
+`--input-rows`    row numebr for the input image 
+
+`--input-cols`    column numebr for the input image 
+
+
 
 # Publications
 ```
