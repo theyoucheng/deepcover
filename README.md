@@ -8,13 +8,13 @@ DeepCover explains image classifiers using [statistical fault lolization](https:
 Videos: [ECCV2020](https://www.youtube.com/watch?v=vTyfOBAGm_o), [ICCV2021](https://www.cprover.org/deepcover/iccv2021/iccv2021-talk-compatible.mp4) 
 
 # Install and Setup
-#### Pre-Installed: `Conda 4.7.11`
-#### All commands were tested on macOS 10.14.6 and Ubuntu 20.04
+#### Create a clean Docker container with Ubuntu 20.04
 ```
-conda create --name deepcover-env python==3.7
-conda activate deepcover-env
-conda install opencv matplotlib seaborn
-pip install tensorflow==2.3.0  keras==2.4.3
+docker run -v ${PWD}:/home -it ubuntu:20.04
+```
+#### Commands
+```
+apt-get update && apt-get install pip git ffmpeg libsm6 libxext6 && pip install matplotlib seaborn tensorflow==2.3.0 keras==2.4.3 numpy==1.18.0 scipy==1.4.1 opencv-python && cd home && git clone https://github.com/theyoucheng/deepcover
 ```
 
 # Hello DeepCover
@@ -37,7 +37,7 @@ usage: deepcover.py [-h] [--model MODEL] [--inputs DIR] [--outputs DIR]
 
 ## To start running the Statistical Fault Localization (SFL) based explaining:
 ```
-python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --testgen-size 200
+python ./src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --testgen-size 200
 ```
 `--mobilenet-model`   pre-trained keras model 
 
