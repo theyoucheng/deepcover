@@ -2,7 +2,7 @@
 
 ![alt text](images/deepcover-logo.png)
 
-DeepCover explains image classifiers using [statistical fault lolization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730392.pdf) and 
+DeepCover explains image classifiers using [statistical fault localization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730392.pdf) and 
 [causal theory](https://openaccess.thecvf.com/content/ICCV2021/papers/Chockler_Explanations_for_Occluded_Images_ICCV_2021_paper.pdf).
 
 Videos: [ECCV2020](https://www.youtube.com/watch?v=vTyfOBAGm_o), [ICCV2021](https://www.cprover.org/deepcover/iccv2021/iccv2021-talk-compatible.mp4) 
@@ -71,9 +71,9 @@ python ./sfl-src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --c
 ```
 python src/deepcover.py --model models/gtsrb_backdoor.h5 --input-rows 32 --input-cols 32 --inputs data/gtsrb/ --outputs outs
 ```
-`--input-rows`    row numebr for the input image 
+`--input-rows`    row number for the input image
 
-`--input-cols`    column numebr for the input image 
+`--input-cols`    column number for the input image
 
 
 
