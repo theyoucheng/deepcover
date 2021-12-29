@@ -62,6 +62,7 @@ def main():
   parser.add_argument("--causal", dest='causal', help="causal explanation", action="store_true")
   parser.add_argument("--causal-min", dest='causal_min', help="causal explanation (min variant)", action="store_true")
   parser.add_argument("--causal-max", dest='causal_max', help="causal explanation (max variant)", action="store_true")
+  parser.add_argument("--causal-multiply", dest='causal_multiply', help="causal explanation (multiply variant)", action="store_true")
   parser.add_argument("--wsol", dest='wsol_file', help="weakly supervised object localization", metavar="FILE")
   parser.add_argument("--occlusion", dest='occlusion_file', help="to load the occluded images", metavar="FILE")
 
@@ -139,6 +140,7 @@ def main():
   eobj.causal=args.causal
   eobj.causal_min=args.causal_min
   eobj.causal_max=args.causal_max
+  eobj.causal_mulitply=args.causal_multiply
   measures = []
   if not args.measure=='None':
       measures.append(args.measure)
@@ -155,7 +157,7 @@ def main():
       eobj.boxes=boxes
 
 
-  if args.causal or args.causal_min or args.causal_max:
+  if args.causal or args.causal_min or args.causal_max or args.causal_multiply:
       comp_explain(eobj)
   else: to_explain(eobj)
 

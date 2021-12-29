@@ -118,7 +118,8 @@ def compositional_causal_explain(node, eobj):
         #if early_stop<=2: continue
 
         res=eobj.model.predict(sbfl_preprocess(eobj, np.array([mutant])))
-        y_mutant=np.argsort(res)[0][-1:]
+        #y_mutant=np.argsort(res)[0][-1:]
+        y_mutant=get_prediction(res)#np.argsort(res)[0][-1:]
         if not (y_mutant[0] in outp):
           row.append(False)
         else:
@@ -199,7 +200,8 @@ def comp_explain(eobj):
     name=eobj.fnames[index]
     x=eobj.inputs[index]
     res=model.predict(sbfl_preprocess(eobj, np.array([x])))
-    y=np.argsort(res)[0][-eobj.top_classes:]
+    #y=np.argsort(res)[0][-eobj.top_classes:]
+    y=get_prediction(res)#np.argsort(res)[0][-1:]
     #print ('## Input:', index, name)
     print ('\n[Input {2}: {0} / Output Label (to Explain): {1}]'.format(eobj.fnames[index], y, index))
     #print ('## Output:', y, np.sort(res)[0][-eobj.top_classes:])
@@ -230,6 +232,7 @@ def comp_explain(eobj):
         print ('  #### [Causal Refinement Done... Time: {0:.0f} seconds]'.format(end-start))
 
         ## update res_heatMap
+        res_heatMap = np.array((res_heatMap/res_heatMap.max()))
         hmaps.append(res_heatMap)
         if eobj.causal_min:
             # min

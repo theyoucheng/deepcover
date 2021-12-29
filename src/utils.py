@@ -42,6 +42,7 @@ class explain_objectt:
     self.causal=False
     self.causal_min=False
     self.causal_max=False
+    self.causal_multiply=False
 
 
 class sbfl_elementt:
@@ -90,6 +91,7 @@ def save_an_image(im, title, di='./'):
   save_img((di+title+'.jpg'), im)
 
 def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, online_mark=[255,0,255]):
+  bg=eobj.adv_value
   origin_data=sbfl_element.x
   sp=origin_data.shape
 
@@ -118,7 +120,8 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
       if count%base==0:
         save_an_image(im_o, '{1}-{0}'.format(int(count/base), metric), di)
         res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([im_o])))
-        y=np.argsort(res)[0][-eobj.top_classes:]
+        #y=np.argsort(res)[0][-eobj.top_classes:]
+        y=get_prediction(res)
         #print (int(count/base), '>>>', y, sbfl_element.y, y==sbfl_element.y)
         if y==sbfl_element.y and not found_exp: 
           ret=count/base
@@ -150,4 +153,12 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
 
     pos-=1
   return ret
+
+# Code by Benedicte Legastelois
+def get_prediction(res):
+    if res.shape[1]==1:
+        y=np.where(res>=0.5,1,0)[0]
+    else:
+        y=np.argsort(res)[0][-1:]
+    return y
 
