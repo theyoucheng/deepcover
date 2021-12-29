@@ -229,11 +229,23 @@ def comp_explain(eobj):
         end = time.time()
         print ('  #### [Causal Refinement Done... Time: {0:.0f} seconds]'.format(end-start))
 
-        hmaps.append(res_heatMap)
-        hmap = hmap + res_heatMap
-
         ## update res_heatMap
-        res_heatMap = hmap/len(hmaps)
+        hmaps.append(res_heatMap)
+        if eobj.causal_min:
+            # min
+            heatmap_bk = copy.deepcopy(hmaps[0])
+            hmaps[0] = np.minimum(hmaps[0], res_heatMap)
+            res_heatMap = hmaps[0]
+        elif eobj.causal_max:
+            # max
+            heatmap_bk = copy.deepcopy(hmaps[0])
+            hmaps[0] = np.maximum(hmaps[0], res_heatMap)
+            res_heatMap = hmaps[0]
+        else:
+            # average by default
+            hmap = hmap + res_heatMap
+            res_heatMap = hmap/len(hmaps)
+
         smooth = np.ones(res_heatMap.shape)
         sI = res_heatMap.shape[0]
         sJ = res_heatMap.shape[1]

@@ -60,6 +60,8 @@ def main():
   parser.add_argument("--testgen-iterations", dest="testgen_iter", default="1",
                     help="to control the testgen iteration", metavar="INT")
   parser.add_argument("--causal", dest='causal', help="causal explanation", action="store_true")
+  parser.add_argument("--causal-min", dest='causal_min', help="causal explanation (min variant)", action="store_true")
+  parser.add_argument("--causal-max", dest='causal_max', help="causal explanation (max variant)", action="store_true")
   parser.add_argument("--wsol", dest='wsol_file', help="weakly supervised object localization", metavar="FILE")
   parser.add_argument("--occlusion", dest='occlusion_file', help="to load the occluded images", metavar="FILE")
 
@@ -134,6 +136,9 @@ def main():
   eobj.x_verbosity=int(args.x_verbosity)
   eobj.fnames=fnames
   eobj.occlusion_file=args.occlusion_file
+  eobj.causal=args.causal
+  eobj.causal_min=args.causal_min
+  eobj.causal_max=args.causal_max
   measures = []
   if not args.measure=='None':
       measures.append(args.measure)
@@ -150,7 +155,7 @@ def main():
       eobj.boxes=boxes
 
 
-  if args.causal:
+  if args.causal or args.causal_min or args.causal_max:
       comp_explain(eobj)
   else: to_explain(eobj)
 

@@ -39,6 +39,9 @@ class explain_objectt:
     self.boxes=None
     self.occlusion_file=None
     self.min_exp=1.1
+    self.causal=False
+    self.causal_min=False
+    self.causal_max=False
 
 
 class sbfl_elementt:
@@ -118,6 +121,7 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
         y=np.argsort(res)[0][-eobj.top_classes:]
         #print (int(count/base), '>>>', y, sbfl_element.y, y==sbfl_element.y)
         if y==sbfl_element.y and not found_exp: 
+          ret=count/base
           save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
           found_exp = True
           if not eobj.boxes is None: # wsol calculation
