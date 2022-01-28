@@ -265,7 +265,10 @@ def comp_explain(eobj):
           
           outs_dir = dii+'/iter{0}'.format(i)
           print ('  #### [Saving into {0}]'.format(outs_dir))
-          ret = top_plot(selement, ind, outs_dir, "causal", eobj)
+          #ret = top_plot(selement, ind, outs_dir, "causal", eobj)
+          for tc in range(0, 10): # to exclude top pixels from the explanation
+            top_plot(selement, ind, outs_dir+'-excluding-{0}'.format(tc), "causal", eobj, tc/100.)
+
           if not eobj.occlusion_file is None:
               f = open(di+"/occlusion-results.txt", "a")
               f.write('{0} {1} {2}\n'.format(eobj.fnames[i], 'causal', ret))

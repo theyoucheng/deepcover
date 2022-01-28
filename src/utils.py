@@ -86,7 +86,8 @@ def save_an_image(im, title, di='./'):
     di+='/'
   save_img((di+title+'.jpg'), im)
 
-def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, online_mark=[255,0,255]):
+def top_plot(sbfl_element, ind, di, metric='', eobj=None, top_excluding=0., bg=128, online=False, online_mark=[255,0,255]):
+
   origin_data=sbfl_element.x
   sp=origin_data.shape
 
@@ -108,10 +109,16 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
   while pos>=0:
     ipos=np.unravel_index(ind[pos], sp)
     if not im_flag[ipos]:
+      count+=1
+      for k in range(0,sp[2]):
+        im_flag[ipos[0]][ipos[1]][k]=True
+      # to exclude top pixels for the explanation
+      if (count/base)/100. <= top_excluding: 
+          pos-=1
+          continue
       for k in range(0,sp[2]):
         im_o[ipos[0]][ipos[1]][k]=origin_data[ipos[0]][ipos[1]][k]
-        im_flag[ipos[0]][ipos[1]][k]=True
-      count+=1
+        #im_flag[ipos[0]][ipos[1]][k]=True
       if count%base==0:
         save_an_image(im_o, '{1}-{0}'.format(int(count/base), metric), di)
         res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([im_o])))
