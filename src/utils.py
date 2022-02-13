@@ -77,6 +77,22 @@ def distance(x1,y1,x2,y2):
 def get_angle(ax,ay,bx,by,cx,cy):
     angle = math.degrees(math.atan2(cy-by,cx-bx) - math.atan2(ay-by,ax-bx))
     return angle+360 if angle < 0 else angle
+  
+#using Bretschneider's formula
+def get_area(x1, y1, x2, y2, x3, y3, x4, y4):
+      a = distance(x1, y1, x2, y2)
+      b = distance(x1, y1, x4, y4)
+      c = distance(x4, y4, x3, y3)
+      d = distance(x2, y2, x3, y3)
+      theta1 = get_angle(x4, y4, x1, y1, x2, y2)
+      theta2 = get_angle(x4, y4, x3, y3, x2, y2)
+      s = (a+b+c+d)/2
+      theta = theta1 + theta2
+      midstep = ((s-a)*(s-b)*(s-c)*(s-d))-(a*b*c*d*(math.cos(theta/2)**2))
+      if midstep <= 1:
+          return 1
+      else:
+          return (math.sqrt(midstep))
 
 #return point of intersection (as an integer) of two line segments l1 and l2, where l1 is 
 # defined by distinct points (x1,y1) and (x2,y2) and l2 is defined by distinct points (x3,y3) and (x4,y4)
