@@ -71,7 +71,6 @@ def compositional_causal_explain(node, eobj):
   x1, x2, x3, x4, y1, y2, y3, y4=node.x1, node.x2, node.x3, node.x4, node.y1, node.y2, node.y3, node.y4
   straight_part = eobj
   len_x, len_y = node.heatMap.shape[0], node.heatMap.shape[1]
-  rows, cols = getDist(node.graymap, x1, x2, y1, y3)
   inp=node.inp
   outp=node.outp
   mask_value=node.mask_value
