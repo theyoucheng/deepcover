@@ -13,24 +13,30 @@ import time
 
 ### todo: more subtle approach to distribute the total score
 ### todo: maybe I should put a delta=
+
+#shape of the box
+#points are stored in anti-clockwise order, starting with the 'bottom-left' point
 class boxt:
-  def __init__(self, x1, x2, y1, y2):
-    self.x1, self.x2, self.y1, self.y2=x1, x2, y1, y2
+  def __init__(self, x1, y1, x2, y2, x3, y3, x4, y4):
+    self.x1, self.x2, self.x3, self.x4, self.y1, self.y2, self.y3, self.y4=x1, x2, x3, x4, y1, y2, y3, y4
 
   def area(self):
-      return (self.x2-self.x1)*(self.y2-self.y1)
+    return get_area(x1, y1, x2, y2, x3, y3, x4, y4)
 
+#information about the current state of the focus area
 class nodet:
-  def __init__(self, heatMap, frags, x1, x2, y1, y2, inp, outp, totScore, mask_value, depth):
+  def __init__(self, heatMap, grayMap, frags, x1, x2, x3, x4, y1, y2, y3, y4, inp, outp, totScore, mask_value, depth, part):
     self.heatMap=heatMap
+    self.graymap = grayMap
     self.frags=2 #frags
-    self.x1, self.x2, self.y1, self.y2=x1, x2, y1, y2
+    self.x1, self.x2, self.x3, self.x4, self.y1, self.y2, self.y3, self.y4=x1, x2, x3, x4, y1, y2, y3, y4
     self.inp=inp
     self.outp=outp
     self.totScore=totScore
     self.mask_value=mask_value
-    self.fragSize_lb= 3 
+    self.fragSize_lb= 3
     self.depth = depth
+    self.part = part
 
 def nCr(n,r):
     f = math.factorial
@@ -62,13 +68,15 @@ def compositional_causal_explain(node, eobj):
   tmp = 1
   heatMap=np.zeros(node.heatMap.shape)
   frags=2 #node.frags
-  x1, x2, y1, y2=node.x1, node.x2, node.y1, node.y2
+  x1, x2, x3, x4, y1, y2, y3, y4=node.x1, node.x2, node.x3, node.x4, node.y1, node.y2, node.y3, node.y4
+  straight_part = eobj
+  len_x, len_y = node.heatMap.shape[0], node.heatMap.shape[1]
+  rows, cols = getDist(node.graymap, x1, x2, y1, y3)
   inp=node.inp
   outp=node.outp
   mask_value=node.mask_value
-
-  length=x2-x1+1
-  height=y2-y1+1
+  rng = np.random.default_rng()
+  straight_part = node.part
 
   final_boxes=None
   final_scores=None
@@ -78,24 +86,75 @@ def compositional_causal_explain(node, eobj):
   ave_factor=-1
   area_factor=10000
 
-  #if node.depth>2 or node.totScore<=10 or length<node.fragSize_lb or height<node.fragSize_lb: ## end point
-  if length<node.fragSize_lb or height<node.fragSize_lb: ## end point
-      regionSize=heatMap[x1:x2,y1:y2,:].size #(x2-x1)*(y2-y1)*3
+  if straight_part:
+    length=x2-x1+1
+    height=y3-y1+1
+    #if node.depth>2 or node.totScore<=10 or length<node.fragSize_lb or height<node.fragSize_lb: ## end point
+    if length<node.fragSize_lb or height<node.fragSize_lb or node.depth > 10 or node.totScore <= 10: ## end point
+      regionSize=heatMap[x1:x2,y1:y3,:].size #(x2-x1)*(y2-y1)*3
       heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
       return heatMap
+  else:
+    #length of shortest side
+    min_length = min(distance(x1, y1, x2, y2), distance(x1, y1, x4, y4), distance(x4, y4, x3, y3), distance(x2, y2, x3, y3))+1
+    min_gap = min((x2-x1), (x3-x4), (y4-y1), (y3-y2))
+    #if node.depth>2 or node.totScore<=10 or length<node.fragSize_lb or height<node.fragSize_lb: ## end point
+    if min_length<node.fragSize_lb or min_gap <= 2 or node.depth > 20 or node.totScore <= 10: ## end point
+      regionSize=get_area(x1, y1, x2, y2, x3, y3, x4, y4)*3 #area of shape *3
+      heatMap = fill_map(heatMap.copy(), node.totScore/regionSize, x1, y1, x2, y2, x3, y3, x4, y4)
+      return heatMap
+
   
   for s in range(0, 1): #step):
     boxes=[]
-    xi = np.random.randint(x1+1,x2)
-    yi = np.random.randint(y1+1,y2)
-    box0=boxt(x1, xi, y1, yi)
-    box1=boxt(x1, xi, yi, y2)
-    box2=boxt(xi, x2, y1, yi)
-    box3=boxt(xi, x2, yi, y2)
-    boxes.append(box0)
-    boxes.append(box1)
-    boxes.append(box2)
-    boxes.append(box3)
+
+    if straight_part:
+        xi = np.random.randint(x1+1,x2)
+        yi = np.random.randint(y1+1,y3)
+        #xi = rng.choice(len(rows), 1, p=rows)[0]
+        #yi = rng.choice(len(cols), 1, p=cols)[0]
+        box0=boxt(x1, y1, xi, y1, xi, yi, x1, yi)
+        box1=boxt(x1, yi, xi, yi, xi, y3, x1, y3)
+        box2=boxt(xi, y1, x2, y1, x2, yi, xi, yi)
+        box3=boxt(xi, yi, x2, yi, x2, y3, xi, y3)
+        boxes.append(box0)
+        boxes.append(box1)
+        boxes.append(box2)
+        boxes.append(box3)
+
+    else:
+        found = True
+        while found:
+            xi = np.random.randint(x1+1,x2)
+            #xi = int(rng.choice(len_x, 1, p=rowsi)[0])
+            yi = (xi-x1)*((y2-y1)/(x2-x1)) + y1
+
+            yj = np.random.randint(y1+1,y4)
+            #yj = int(rng.choice(len_y, 1, p=colsj)[0])
+            xj = (yj-y1)*((x4-x1)/(y4-y1)) + x1
+
+            xk = np.random.randint(x4+1,x3)
+            #xk = int(rng.choice(len_x, 1, p=rowsk)[0])
+            yk = (xk-x4)*((y3-y4)/(x3-x4)) + y4
+
+            yl = np.random.randint(y2+1,y3)
+            #yl = int(rng.choice(len_y, 1, p=colsl)[0])
+            xl = (yl-y2)*((x3-x2)/(y3-y2)) + x2
+
+            (xmid, ymid) = get_intersection(xi,yi,xk,yk,xj,yj,xl,yl)
+            if (xmid, ymid) != (0,0):
+                found = False
+
+        yi, xj, yk, xl = int(yi), int(xj), int(yk), int(xl)
+        # stored anti-clockwise, from bottom left
+        box0=boxt(x1,y1,xi,yi,xmid,ymid,xj,yj)
+        box1=boxt(xi,yi,x2,y2,xl,yl,xmid,ymid)
+        box2=boxt(xmid,ymid,xl,yl,x3,y3,xk,yk)
+        box3=boxt(xj,yj,xmid,ymid,xk,yk,x4,y4)
+        boxes.append(box0)
+        boxes.append(box1)
+        boxes.append(box2)
+        boxes.append(box3)
   
     # to build the truth table
     truthTable=[]
@@ -111,7 +170,8 @@ def compositional_causal_explain(node, eobj):
         for index in indices:
           if index in comb:
             row.append(False)
-            mutant[boxes[index].x1:boxes[index].x2, boxes[index].y1:boxes[index].y2, :]=mask_value
+            if straight_part: mutant[boxes[index].x1:boxes[index].x2, boxes[index].y1:boxes[index].y3, :]=mask_value
+            else: mutant = fill_map(mutant.copy(), mask_value, boxes[index].x1, boxes[index].y1, boxes[index].x2, boxes[index].y2, boxes[index].x3, boxes[index].y3, boxes[index].x4, boxes[index].y4)
             early_stop = early_stop + 1
           else: row.append(True)
         
@@ -154,27 +214,38 @@ def compositional_causal_explain(node, eobj):
     if norm_sum>0:
       final_scores=(final_scores/norm_sum)*node.totScore
     else:
-        regionSize=heatMap[x1:x2,y1:y2,:].size 
-        heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
+        regionSize=get_area(x1, y1, x2, y2, x3, y3, x4, y4)*3 #area of shape *3
+        heatMap = fill_map(heatMap.copy(), node.totScore/regionSize, x1, y1, x2, y2, x3, y3, x4, y4)
         return heatMap
 
-  if final_scores is None: 
-      regionSize=heatMap[x1:x2,y1:y2,:].size 
-      heatMap[x1:x2,y1:y2,:]=node.totScore/regionSize
+  if final_scores is None:
+      regionSize=get_area(x1, y1, x2, y2, x3, y3, x4, y4)*3 #area of shape *3
+      heatMap = fill_map(heatMap.copy(), node.totScore/regionSize, x1, y1, x2, y2, x3, y3, x4, y4)
       return heatMap
   else:
-      for i in range(0, len(final_boxes)):
-          box=final_boxes[i]
-          uIndex=np.unravel_index(i, (2,2))
-          if final_scores[uIndex]<0.0001:
-            heatMap[box.x1:box.x2,box.y1:box.y2,:]=0
-            continue
-          child_inp=inp.copy()
-              
-          child_node=nodet(heatMap, frags, box.x1, box.x2, box.y1, box.y2, child_inp, node.outp, final_scores[uIndex], node.mask_value, node.depth+1)
-          child_heatMap=compositional_causal_explain(child_node, eobj)
-          heatMap[box.x1:box.x2,box.y1:box.y2,:]=child_heatMap[box.x1:box.x2,box.y1:box.y2,:]
-                
+      if straight_part:
+          for i in range(0, len(final_boxes)):
+              box=final_boxes[i]
+              uIndex=np.unravel_index(i, (2,2))
+              if final_scores[uIndex]<0.0001:
+                heatMap[box.x1:box.x2,box.y1:box.y3,:]=0
+                continue
+              child_inp=inp.copy()
+
+              child_node=nodet(heatMap, node.graymap, frags, box.x1, box.x2, box.x1, box.x2, box.y1, box.y3, box.y1, box.y3, child_inp, node.outp, final_scores[uIndex], node.mask_value, node.depth+1, straight_part)
+              child_heatMap=compositional_causal_explain(child_node, eobj)
+              heatMap[box.x1:box.x2,box.y1:box.y3,:]=child_heatMap[box.x1:box.x2,box.y1:box.y3,:]
+      else:
+          for i in range(0, len(final_boxes)):
+              box=final_boxes[i]
+              uIndex=np.unravel_index(i, (2,2))
+              if final_scores[uIndex]<0.0001:
+                  heatMap = fill_map(heatMap.copy(), 0, box.x1, box.y1, box.x2, box.y2, box.x3, box.y3, box.x4, box.y4)
+                  continue
+              child_inp=inp.copy()
+              child_node=nodet(heatMap, node.graymap, frags, box.x1, box.x2, box.x3, box.x4, box.y1, box.y2, box.y3, box.y4, child_inp, node.outp, final_scores[uIndex], node.mask_value, node.depth+1, straight_part)
+              child_heatMap=compositional_causal_explain(child_node, eobj)
+              heatMap = copy_map(heatMap.copy(), child_heatMap, box.x1, box.y1, box.x2, box.y2, box.x3, box.y3, box.x4, box.y4)
 
   return heatMap
 
@@ -222,7 +293,7 @@ def comp_explain(eobj):
         x1, x2, y1, y2=0, int(x.shape[0]), 0, int(x.shape[1])
         totScore = 10000.
         #heatMap=np.ones(x.shape) * (totScore / heatMap.size)
-        node=nodet(heatMap, frags, x1, x2, y1, y2, x, y, totScore, mask_value=eobj.adv_value, depth=0)
+        node=nodet(heatMap, gray_img, frags, x1, x2, x2, x1, y1, y1, y2, y2, x, y, totScore, mask_value=eobj.adv_value, depth=0, part=eobj.straight_part)
         # to call the recursive 'explain' method
         start = time.time()
         res_heatMap=compositional_causal_explain(node, eobj)
