@@ -65,6 +65,77 @@ def arr_to_str(inp):
     ret+=inp[i]
   return ret
 
+#returns distance between (x1, y1) and (x2,y2)
+def distance(x1,y1,x2,y2):
+    temp = (x2-x1)**2 + (y2-y1)**2
+    if temp <= 0:
+        return 0
+    else:
+        return math.sqrt(temp)
+
+#returns angle from a to c around b counterclockwise
+def get_angle(ax,ay,bx,by,cx,cy):
+    angle = math.degrees(math.atan2(cy-by,cx-bx) - math.atan2(ay-by,ax-bx))
+    return angle+360 if angle < 0 else angle
+
+#return point of intersection (as an integer) of two line segments l1 and l2, where l1 is 
+# defined by distinct points (x1,y1) and (x2,y2) and l2 is defined by distinct points (x3,y3) and (x4,y4)
+def get_intersection(x1,y1,x2,y2,x3,y3,x4,y4):
+    denom = ((x1-x2)*(y3-y4))-((y1-y2)*(x3-x4))
+    if denom == 0:
+        return (0,0)
+    return (int(((x1*y2-y1*x2)*(x3-x4)-(x1-x2)*(x3*y4-y3*x4))/denom),int(((x1*y2-y1*x2)*(y3-y4)-(y1-y2)*(x3*y4-y3*x4))/denom))
+
+#used in in_shape
+def in_shape_sign(x1, y1, x2, y2, x3, y3):
+    return((x1-x3)*(y2-y3) - (x2-x3)*(y1-y3))
+
+#returns True if a point (x,y) is in a shape
+def in_shape(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
+    d1 = in_shape_sign(x, y, x1, y1, x2, y2)
+    d2 = in_shape_sign(x, y, x2, y2, x3, y3)
+    d3 = in_shape_sign(x, y, x3, y3, x4, y4)
+    d4 = in_shape_sign(x, y, x4, y4, x1, y1)
+    if (((d1 >= 0) and (d2 >=0) and (d3 >= 0) and (d4 >= 0)) or ((d1 <= 0) and (d2 <=0) and (d3 <= 0) and (d4 <= 0))):
+        return True
+    else:
+        return False
+
+#fills a (potentially non-rectangular) mao with a given score
+def fill_map(heatMap, score, x1, y1, x2, y2, x3, y3, x4, y4):
+    x_min = min(x1,x2,x3,x4)
+    x_max = max(x1,x2,x3,x4)
+    y_min = min(y1,y2,y3,y4)
+    y_max = max(y1,y2,y3,y4)
+    for x in range(x_min, x_max):
+        for y in range(y_min, y_max):
+            if in_shape(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
+                heatMap[x,y,:] = score
+    return heatMap
+
+#copies the value of heatMap2 into heatMap1 over a given area
+def copy_map(heatMap1, heatMap2, x1, y1, x2, y2, x3, y3, x4, y4):
+    x_min = min(x1,x2,x3,x4)
+    x_max = max(x1,x2,x3,x4)
+    y_min = min(y1,y2,y3,y4)
+    y_max = max(y1,y2,y3,y4)
+    for x in range(x_min, x_max):
+        for y in range(y_min, y_max):
+            if in_shape(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
+                heatMap1[x,y,:] = heatMap2[x,y,:]
+    return heatMap1
+
+#counts the number of changed pixels from the original to the masked image
+#returned as a percentage
+def mask_count(image, original):
+    count = 0
+    x, y = int(image.shape[0]), int(image.shape[1])
+    for i in range(x):
+        for j in range(y):
+            if not(np.array_equal(image[i, j, :],original[i, j, :])):
+                count += 1
+    return round((count*100/(x*y)),2)
+
 def sbfl_preprocess(eobj, chunk):
   x=chunk.copy()
   if eobj.vgg16 is True:
