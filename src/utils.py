@@ -39,7 +39,7 @@ class explain_objectt:
     self.boxes=None
     self.occlusion_file=None
     self.min_exp=1.1
-
+    self.straight_part=True
 
 class sbfl_elementt:
   def __init__(self, x, y, xs, ys, model, fname=None, adv_part=None):
