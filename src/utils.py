@@ -6,6 +6,7 @@ from PIL import Image
 import copy
 import sys, os
 import cv2
+import csv
 import matplotlib
 import matplotlib.pyplot as plt
 from keras.preprocessing.image import save_img
@@ -173,7 +174,11 @@ def save_an_image(im, title, di='./'):
     di+='/'
   save_img((di+title+'.jpg'), im)
 
-def top_plot(sbfl_element, ind, di, metric='', eobj=None, top_excluding=0., bg=128, online=False, online_mark=[255,0,255]):
+def top_plot(sbfl_element, ind, di, metric='', eobj=None, top_excluding=0., bg=128, online=False, online_mark=[255,0,255], timer=0, res_path = '', index = 0, iterations=0, version=False):
+  if version:
+      tag = 'irreg'
+  else:
+      tag = ''
 
   origin_data=sbfl_element.x
   sp=origin_data.shape
@@ -212,7 +217,12 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, top_excluding=0., bg=1
         y=np.argsort(res)[0][-eobj.top_classes:]
         #print (int(count/base), '>>>', y, sbfl_element.y, y==sbfl_element.y)
         if y==sbfl_element.y and not found_exp: 
-          save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
+          with open(os.path.join(res_path, "results"+tag+'.csv'), 'a', newline='\n') as csvfile:
+              csvwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+              csvwriter.writerow([index, iterations, timer, mask_count(im_o, origin_data)])
+              csvfile.write('\n')
+              csvfile.close()
+          save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric)+tag+str(index)+'-iter'+str(iterations), di)
           found_exp = True
           if not eobj.boxes is None: # wsol calculation
               vect=eobj.boxes[sbfl_element.fname.split('/')[-1]]
