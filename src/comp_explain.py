@@ -265,6 +265,10 @@ def comp_explain(eobj):
       f.close()
 
   landmark = False
+  dii=di+'/{1}-{0}'.format(str(datetime.now()).replace(' ', '-'), "causal")
+  dii=dii.replace(':', '-')
+  os.system('mkdir -p {0}'.format(dii))
+  
   for index in range(0, len(eobj.inputs)):
     name=eobj.fnames[index]
     x=eobj.inputs[index]
@@ -275,13 +279,14 @@ def comp_explain(eobj):
     #print ('## Output:', y, np.sort(res)[0][-eobj.top_classes:])
     #print ('## Output:', np.argsort(res)[0][-5:])
     #print (x.shape)
-    #continue
+    
+    diii=dii+'/input_{0}'.format(str(index))
+    os.system('mkdir -p {0}'.format(diii))
 
-    dii=di+'/{1}-{0}'.format(str(datetime.now()).replace(' ', '-'), "causal")
-    dii=dii.replace(':', '-')
-    os.system('mkdir -p {0}'.format(dii))
+   
     hmaps = []
     hmap = np.zeros(x.shape)
+    gray_img = rng.random((x.shape[0], x.shape[1]))
     iou_min = 1
     exp_min = 1
     intersection_min = 1
@@ -323,7 +328,7 @@ def comp_explain(eobj):
         plt.rcParams["axes.grid"] = False
         plt.imshow(cv2.cvtColor(fin, cv2.COLOR_BGR2RGB))
 
-        hmap_name = (dii+'/heatmap_iter{0}.png'.format(i))
+        hmap_name = (diii+'/heatmap_iter{0}.png'.format(i))
         plt.axis('off')
         plt.savefig(hmap_name, bbox_inches='tight', pad_inches=0)
         print ('  #### [Saved Heatmap: {0}]'.format(hmap_name))
@@ -333,11 +338,11 @@ def comp_explain(eobj):
           selement.y = y
           ind = np.argsort(res_heatMap, axis=None)
           
-          outs_dir = dii+'/iter{0}'.format(i)
+          outs_dir = diii+'/iter{0}'.format(i)
           print ('  #### [Saving into {0}]'.format(outs_dir))
           #ret = top_plot(selement, ind, outs_dir, "causal", eobj)
           for tc in range(0, 10): # to exclude top pixels from the explanation
-            top_plot(selement, ind, outs_dir+'-excluding-{0}'.format(tc), "causal", eobj, tc/100.)
+            top_plot(selement, ind, outs_dir+'-excluding-{0}'.format(tc), "causal", eobj, timer=end-start, res_path=dii, index=index, iterations=i, version=eobj.straight_part, tc/100.)
 
           if not eobj.occlusion_file is None:
               f = open(di+"/occlusion-results.txt", "a")
