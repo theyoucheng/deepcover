@@ -69,7 +69,7 @@ def compositional_causal_explain(node, eobj):
   heatMap=np.zeros(node.heatMap.shape)
   frags=2 #node.frags
   x1, x2, x3, x4, y1, y2, y3, y4=node.x1, node.x2, node.x3, node.x4, node.y1, node.y2, node.y3, node.y4
-  straight_part = eobj
+  straight_part = eobj.straight_part
   len_x, len_y = node.heatMap.shape[0], node.heatMap.shape[1]
   inp=node.inp
   outp=node.outp
