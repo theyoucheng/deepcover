@@ -20,6 +20,26 @@ class boxt:
   def area(self):
       return (self.x2-self.x1)*(self.y2-self.y1)
 
+  # to check if current box includes param box
+  def include(self, box):
+      #print( self.x1, box.x1, self.x2, box.x2, self.y1, box.y1, self.y2, box.y2)
+      #print( self.x1<=box.x1 and self.x2>=box.x2 and self.y1<=box.y1 and self.y2>=box.y2)
+      return self.x1<=box.x1 and self.x2>=box.x2 and self.y1<=box.y1 and self.y2>=box.y2
+
+# remove redundent box-es from a list of boxes
+def clean_boxes(boxes):
+    new_boxes = []
+    for i in range(0, len(boxes)):
+        min_flag = True # is min box
+        for j in range(0, len(boxes)):
+            if i==j: continue
+            if boxes[i].include(boxes[j]):
+                min_flag = False
+                break
+        if min_flag:
+            new_boxes.append(boxes[i])
+    return new_boxes
+
 class nodet:
   def __init__(self, heatMap, frags, x1, x2, y1, y2, inp, outp, totScore, mask_value, depth):
     self.heatMap=heatMap
@@ -57,8 +77,8 @@ def causal_search(i_feature, truthTable):
         return row[:-1], row2[:-1]
   return None, None
 
-
-def compositional_causal_explain(node, eobj):
+# approximate_exps: Bouding BOXes of EXPlanations
+def compositional_causal_explain(node, eobj, bbox_exps):
   tmp = 1
   heatMap=np.zeros(node.heatMap.shape)
   frags=2 #node.frags
@@ -124,6 +144,17 @@ def compositional_causal_explain(node, eobj):
           row.append(False)
         else:
           row.append(True)
+          # an explanation can be found by only using 1 (out of n=4) superpixel
+          if r == 3:
+              mutant = np.ones(inp.shape) * mask_value
+              for index in indices:
+                  if not index in comb:
+                        mutant[boxes[index].x1:boxes[index].x2, boxes[index].y1:boxes[index].y2, :]=inp[boxes[index].x1:boxes[index].x2, boxes[index].y1:boxes[index].y2, :]
+                        res=eobj.model.predict(sbfl_preprocess(eobj, np.array([mutant])))
+                        y_mutant=get_prediction(res)
+                        if (y_mutant[0] in outp):
+                            bbox_exps.append(boxes[index])
+                        break
         rows_r.append(np.array(row))
       ##
       truthTable.append(np.array(rows_r))
@@ -173,7 +204,7 @@ def compositional_causal_explain(node, eobj):
           child_inp=inp.copy()
               
           child_node=nodet(heatMap, frags, box.x1, box.x2, box.y1, box.y2, child_inp, node.outp, final_scores[uIndex], node.mask_value, node.depth+1)
-          child_heatMap=compositional_causal_explain(child_node, eobj)
+          child_heatMap=compositional_causal_explain(child_node, eobj, bbox_exps)
           heatMap[box.x1:box.x2,box.y1:box.y2,:]=child_heatMap[box.x1:box.x2,box.y1:box.y2,:]
                 
 
@@ -217,6 +248,7 @@ def comp_explain(eobj):
     iou_min = 1
     exp_min = 1
     intersection_min = 1
+    bbox_exps = [boxt(0, int(x.shape[0]), 0, int(x.shape[1]))]
     for i in range(0,eobj.testgen_iter):
         print ('  #### [Iter {0}: Start Causal Refinement...]'.format(i))
         heatMap=np.zeros(x.shape) # initialise an all-zero heatmap
@@ -227,7 +259,14 @@ def comp_explain(eobj):
         node=nodet(heatMap, frags, x1, x2, y1, y2, x, y, totScore, mask_value=eobj.adv_value, depth=0)
         # to call the recursive 'explain' method
         start = time.time()
-        res_heatMap=compositional_causal_explain(node, eobj)
+        res_heatMap=compositional_causal_explain(node, eobj, bbox_exps)
+        bbox_exps = clean_boxes(bbox_exps)
+        print ("  #### bbox for exps: {0}".format(len(bbox_exps)))
+        for bindex, bbox_exp in enumerate(bbox_exps):
+            #print(bbox_exp.x1, bbox_exp.x2, bbox_exp.y1, bbox_exp.y2)
+            mutant = np.ones(x.shape) * eobj.adv_value
+            mutant[bbox_exp.x1:bbox_exp.x2, bbox_exp.y1:bbox_exp.y2, :]=x[bbox_exp.x1:bbox_exp.x2, bbox_exp.y1:bbox_exp.y2, :]
+            save_an_image(mutant, 'bbox{0}'.format(bindex), dii)
         end = time.time()
         print ('  #### [Causal Refinement Done... Time: {0:.0f} seconds]'.format(end-start))
 
@@ -281,6 +320,10 @@ def comp_explain(eobj):
           outs_dir = dii+'/iter{0}'.format(i)
           print ('  #### [Saving into {0}]'.format(outs_dir))
           ret = top_plot(selement, ind, outs_dir, "causal", eobj)
+
+          # In addition, we draw explanations inside each bbox
+          top_plot_exps(selement, ind, dii, "causal", eobj, bbox_exps)
+
           if not eobj.occlusion_file is None:
               f = open(di+"/occlusion-results.txt", "a")
               f.write('{0} {1} {2}\n'.format(eobj.fnames[i], 'causal', ret))
