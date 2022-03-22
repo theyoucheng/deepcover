@@ -8,6 +8,8 @@ import sys, os
 import cv2
 import matplotlib
 import matplotlib.pyplot as plt
+import scipy.ndimage as ndimage
+from scipy.ndimage import gaussian_filter
 from keras.preprocessing.image import save_img
 from keras.applications import vgg16
 from keras.applications import inception_v3, mobilenet, xception
@@ -89,8 +91,20 @@ def save_an_image(im, title, di='./'):
   if not di.endswith('/'):
     di+='/'
   save_img((di+title+'.jpg'), im)
+  
+def gaus(image, original, mask_value, di):
+    blurred = gaussian_filter(image, sigma=(5, 5, 0))
+    x, y = int(image.shape[0]), int(image.shape[1])
+    for i in range(x):
+        for j in range(y):
+            if not(np.array_equal(image[i, j, :],original[i, j, :])):
+                image[i,j,:] = blurred[i,j,:]
+    return image
 
 def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, online_mark=[255,0,255]):
+  #set to true to use gaussian blur
+  gaus_blur = False
+  
   bg=eobj.adv_value
   origin_data=sbfl_element.x
   sp=origin_data.shape
@@ -118,14 +132,19 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
         im_flag[ipos[0]][ipos[1]][k]=True
       count+=1
       if count%base==0:
-        save_an_image(im_o, '{1}-{0}'.format(int(count/base), metric), di)
-        res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([im_o])))
+        if gaus_blur:
+          save_an_image(gaus(im_o, origin_data, eobj.adv_value, di), '{1}-{0}'.format(int(count/base), metric), di)
+          res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([gaus(im_o, origin_data, eobj.adv_value, di)])))
+        else: 
+          save_an_image(im_o, '{1}-{0}'.format(int(count/base), metric), di)
+          res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([im_o])))
         #y=np.argsort(res)[0][-eobj.top_classes:]
         y=get_prediction(res)
         #print (int(count/base), '>>>', y, sbfl_element.y, y==sbfl_element.y)
         if y==sbfl_element.y and not found_exp: 
           ret=count/base
-          save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
+          if gaus_blur: save_an_image(gaus(im_o, origin_data, eobj.adv_value, di), 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
+          else: save_an_image(im_o, 'explanation-found-{1}-{0}'.format(int(count/base), metric), di)
           found_exp = True
           if not eobj.boxes is None: # wsol calculation
               vect=eobj.boxes[sbfl_element.fname.split('/')[-1]]
@@ -155,7 +174,9 @@ def top_plot(sbfl_element, ind, di, metric='', eobj=None, bg=128, online=False, 
   return ret
 
 def top_plot_exps(sbfl_element, ind, di_, metric='', eobj=None, bbox_exps=[], bg=128, online=False, online_mark=[255,0,255]):
-
+  #set to true to use gaussian blur
+  gaus_blur = False
+  
   for xindex, bbox_exp in enumerate(bbox_exps):
     bg=eobj.adv_value
     origin_data=sbfl_element.x
@@ -183,13 +204,15 @@ def top_plot_exps(sbfl_element, ind, di_, metric='', eobj=None, bbox_exps=[], bg
         if count%base==0:
           #print ('>>>>>>>>>>>', count/base)
           #save_an_image(im_o, '{1}-{0}'.format(int(count/base), metric), di)
-          res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([im_o])))
+          if gaus_blur: res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([gaus(im_o, origin_data, eobj.adv_value, di)])))
+          else: res=sbfl_element.model.predict(sbfl_preprocess(eobj, np.array([im_o])))
           #y=np.argsort(res)[0][-eobj.top_classes:]
           y=get_prediction(res)
           #print (int(count/base), '>>>', y, sbfl_element.y, y==sbfl_element.y)
           if y==sbfl_element.y and not found_exp: 
             ret=count/base
-            save_an_image(im_o, 'exp{0}'.format(xindex), di)
+            if gaus_blur: save_an_image(gaus(im_o, origin_data, eobj.adv_value, di), 'exp{0}'.format(xindex), di)
+            else: save_an_image(im_o, 'exp{0}'.format(xindex), di)
             #print('exp{0}-size{1}'.format(xindex, int(count/base)), di)
             found_exp = True
 
