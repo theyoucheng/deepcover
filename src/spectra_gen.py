@@ -34,7 +34,7 @@ def spectra_sym_gen(eobj, x, y, adv_value=1, testgen_factor=.2, testgen_size=0):
     else:
       np.put(t, L, adv_value)
     x_flag.flat[L]=True #np.put(x, L, True)
-    new_y=np.argsort(model.predict(sbfl_preprocess(eobj, np.array([t]))))[0][-eobj.top_classes:]
+    new_y=np.argsort(model.predict(sbfl_preprocess(eobj, np.array([t])), verbose=10))[0][-eobj.top_classes:]
     is_adv=(len(np.intersect1d(y, new_y))==0)
 
     if is_adv:
@@ -54,7 +54,7 @@ def spectra_sym_gen(eobj, x, y, adv_value=1, testgen_factor=.2, testgen_size=0):
         else:
           np.put(t, L, adv_value)
         x_flag.flat[L]=True #np.put(x, L, True)
-        new_y=np.argsort(model.predict(sbfl_preprocess(eobj, np.array([t]))))[0][-eobj.top_classes:]
+        new_y=np.argsort(model.predict(sbfl_preprocess(eobj, np.array([t])), verbose=10))[0][-eobj.top_classes:]
         #is_adv=(len(np.intersect1d(y, new_y))==0)
         #ite-=0.01
         #L2=L0[0:int(ite/testgen_factor*portion)]
@@ -85,7 +85,7 @@ def spectra_sym_gen(eobj, x, y, adv_value=1, testgen_factor=.2, testgen_size=0):
         else:
           np.put(t, L, adv_value)
         x_flag.flat[L]=True #np.put(x, L, True)
-        new_y=np.argsort(model.predict(sbfl_preprocess(eobj, np.array([t]))))[0][-eobj.top_classes:]
+        new_y=np.argsort(model.predict(sbfl_preprocess(eobj, np.array([t])), verbose=10))[0][-eobj.top_classes:]
         #t2=x.copy()
         #ite=(ite+1)/2
         ##ite+=0.01

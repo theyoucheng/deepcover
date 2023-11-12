@@ -24,7 +24,7 @@ def to_explain(eobj):
 
   for i in range(0, len(eobj.inputs)):
     x=eobj.inputs[i]
-    res=model.predict(sbfl_preprocess(eobj, np.array([x])))
+    res=model.predict(sbfl_preprocess(eobj, np.array([x])), verbose=10)
     y=np.argsort(res)[0][-eobj.top_classes:]
 
     print ('\n[Input {2}: {0} / Output Label (to Explain): {1}]'.format(eobj.fnames[i], y, i))
