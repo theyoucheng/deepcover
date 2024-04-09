@@ -37,7 +37,7 @@ usage: deepcover.py [-h] [--model MODEL] [--inputs DIR] [--outputs DIR]
 
 ## To start running the Statistical Fault Localization (SFL) based explaining:
 ```
-python ./src/sfl.py --mobilenet-model --inputs data/panda --outputs outs --testgen-size 200
+python ./src/deepcover.py --mobilenet-model --inputs data/panda --outputs outs --testgen-size 200
 ```
 `--mobilenet-model`   pre-trained keras model 
 
